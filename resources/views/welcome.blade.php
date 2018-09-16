@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,19 +8,19 @@
     <title>Grand - Event and Conference Template</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
     <!-- Icon -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <link rel="stylesheet" type="text/css" href="fonts/line-icons.css">
     <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <link rel="stylesheet" type="text/css" href="css/slicknav.css">
     <!-- Nivo Lightbox -->
-    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox.css" >
     <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
   </head>
   <body>
@@ -38,13 +38,13 @@
               <span class="icon-menu"></span>
               <span class="icon-menu"></span>
             </button>
-            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+            <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item active">
                 <a class="nav-link" href="#header-wrap">
-                  Home
+                @lang('home.home')
                 </a>
               </li>
               <li class="nav-item">
@@ -57,14 +57,14 @@
                   schedules
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#team">
                   Speakers
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#gallery">
-                  Gallery
+                @lang('home.appartments')
                 </a>
               </li>
               <li class="nav-item">
@@ -84,7 +84,17 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#google-map-area">
-                  Contact
+                @lang('home.contacts')
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="locale/en">
+                English
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locale/bg"   >
+                Bulgarian
                 </a>
               </li>
             </ul>
@@ -102,9 +112,9 @@
           <li>
              <a class="page-scroll" href="#schedules">schedules</a>
           </li>
-          <li>
+          <!-- <li>
             <a class="page-scroll" href="#team">Speakers</a>
-          </li>
+          </li> -->
           <li>
             <a class="page-scroll" href="#gallery">Gallery</a>
           </li>
@@ -135,7 +145,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="assets/img/slider/slide1.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/slider/slide1.jpg" alt="First slide">
             <div class="carousel-caption d-md-block">
               <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
               <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Design Thinking Conference</h1>
@@ -144,7 +154,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/slider/slide2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="img/slider/slide2.jpg" alt="Second slide">
             <div class="carousel-caption d-md-block">
               <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
               <h1 class="wow bounceIn heading" data-wow-delay=".7s">22 Amazing Speakers</h1>
@@ -152,7 +162,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="assets/img/slider/slide3.jpg" alt="Third slide">
+            <img class="d-block w-100" src="img/slider/slide3.jpg" alt="Third slide">
             <div class="carousel-caption d-md-block">
               <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
               <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Book Your Seat Now!</h1>
@@ -282,7 +292,7 @@
       </div>
     </section>
     <!-- Services Section End -->
-    
+
 
     <!-- About Section Start -->
     <section id="about" class="section-padding">
@@ -298,7 +308,7 @@
         <div class="row">
           <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="about-item">
-              <img class="img-fluid" src="assets/img/about/img1.jpg" alt="">
+              <img class="img-fluid" src="img/about/img1.jpg" alt="">
               <div class="about-text">
                 <h3><a href="#">Wanna Know Our Mission?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
@@ -308,7 +318,7 @@
           </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="about-item">
-              <img class="img-fluid" src="assets/img/about/img2.jpg" alt="">
+              <img class="img-fluid" src="img/about/img2.jpg" alt="">
               <div class="about-text">
                 <h3><a href="#">What you will learn?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
@@ -318,7 +328,7 @@
           </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="about-item">
-              <img class="img-fluid" src="assets/img/about/img3.jpg" alt="">
+              <img class="img-fluid" src="img/about/img3.jpg" alt="">
               <div class="about-text">
                 <h3><a href="#">What are the benifits?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
@@ -355,7 +365,7 @@
           <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div class="counter wow fadeInRight" data-wow-delay="0.9s">
               <div class="icon"><i class="lni-users"></i></div>
-              <p>343 Available Seats</p>       
+              <p>343 Available Seats</p>
               <span>Hurryup! few tickets are left</span>
             </div>
           </div>
@@ -430,16 +440,16 @@
                     <div id="headingOne">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h5 class="name">Veselin Kichukov</h5>
                       </div>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>@lang('home.sinemorets')</p>
                         <div class="location">
                           <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
@@ -450,8 +460,8 @@
                     <div id="headingTwo">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>15 Free Productive Design Tools</h4>
                         <h5 class="name">David Warner</h5>
@@ -470,8 +480,8 @@
                     <div id="headingThree">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-3.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Getting Started With SketchApp</h4>
                         <h5 class="name">David Warner</h5>
@@ -494,8 +504,8 @@
                     <div id="headingOne1">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -514,8 +524,8 @@
                     <div id="headingTwo2">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -538,8 +548,8 @@
                     <div id="headingOne3">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -558,8 +568,8 @@
                     <div id="headingTwo3">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -578,8 +588,8 @@
                     <div id="headingThree3">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-3.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -602,8 +612,8 @@
                     <div id="headingOne">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -622,8 +632,8 @@
                     <div id="headingTwo">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -642,8 +652,8 @@
                     <div id="headingThree4">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-3.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -666,8 +676,8 @@
                     <div id="headingOne">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -686,8 +696,8 @@
                     <div id="headingTwo">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -706,8 +716,8 @@
                     <div id="headingThree">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
-                        </div>                     
+                          <img class="img-fluid" src="img/speaker/speakers-3.jpg" alt="">
+                        </div>
                         <span class="time">10am - 12:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 class="name">David Warner</h5>
@@ -732,7 +742,8 @@
     <!-- Schedule Section End -->
 
     <!-- Team Section Start -->
-    <section id="team" class="section-padding text-center">
+
+    <!-- <section id="team" class="section-padding text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -743,11 +754,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="col-sm-6 col-md-6 col-lg-4"> -->
+
             <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
+            <!-- <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
               <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
+                <img class="img-fluid" src="img/team/team-01.jpg" alt="">
                 <div class="team-overlay">
                   <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
@@ -763,14 +775,18 @@
                 <h3><a href="#">JONATHON DOE</a></h3>
                 <p>Product Designer, Tesla</p>
               </div>
-            </div>
+            </div> -->
+
             <!-- Team Item Ends -->
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
+
+          <!-- </div>
+          <div class="col-sm-6 col-md-6 col-lg-4"> -->
+
             <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
+
+            <!-- <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
               <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
+                <img class="img-fluid" src="img/team/team-02.jpg" alt="">
                 <div class="team-overlay">
                   <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
@@ -786,15 +802,19 @@
                 <h3><a href="#">Patric Green</a></h3>
                 <p>Front-end Developer, Dropbox</p>
               </div>
-            </div>
-            <!-- Team Item Ends -->
-          </div>
+            </div> -->
 
-          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Ends -->
+
+          <!-- </div> -->
+
+          <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+
             <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
+
+            <!-- <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
               <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
+                <img class="img-fluid" src="img/team/team-03.jpg" alt="">
                 <div class="team-overlay">
                   <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
@@ -810,15 +830,19 @@
                 <h3><a href="#">Paul Kowalsy</a></h3>
                 <p>Lead Designer, TNW</p>
               </div>
-            </div>
-            <!-- Team Item Ends -->
-          </div>
+            </div> -->
 
-          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Ends -->
+
+          <!-- </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4"> -->
+
             <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="0.8s">
+
+            <!-- <div class="team-item wow fadeInUp" data-wow-delay="0.8s">
               <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-04.jpg" alt="">
+                <img class="img-fluid" src="img/team/team-04.jpg" alt="">
                 <div class="team-overlay">
                   <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
@@ -834,14 +858,18 @@
                 <h3><a href="#">Jhon Doe</a></h3>
                 <p>Back-end Developer, ASUS</p>
               </div>
-            </div>
+            </div> -->
+
             <!-- Team Item Ends -->
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
+
+          <!-- </div>
+          <div class="col-sm-6 col-md-6 col-lg-4"> -->
+
             <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="1s">
+
+            <!-- <div class="team-item wow fadeInUp" data-wow-delay="1s">
               <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-05.jpg" alt="">
+                <img class="img-fluid" src="img/team/team-05.jpg" alt="">
                 <div class="team-overlay">
                   <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
@@ -857,14 +885,18 @@
                 <h3><a href="#">Daryl Dixon</a></h3>
                 <p>Full-stack Developer, Google</p>
               </div>
-            </div>
+            </div> -->
+
             <!-- Team Item Ends -->
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-4">
+
+          <!-- </div>
+          <div class="col-sm-6 col-md-6 col-lg-4"> -->
+
             <!-- Team Item Starts -->
-            <div class="team-item wow fadeInUp" data-wow-delay="1.2s">
+
+            <!-- <div class="team-item wow fadeInUp" data-wow-delay="1.2s">
               <div class="team-img">
-                <img class="img-fluid" src="assets/img/team/team-06.jpg" alt="">
+                <img class="img-fluid" src="img/team/team-06.jpg" alt="">
                 <div class="team-overlay">
                   <div class="overlay-social-icon text-center">
                     <ul class="social-icons">
@@ -880,13 +912,16 @@
                 <h3><a href="#">Chris Adams</a></h3>
                 <p>UI Designer, Apple</p>
               </div>
-            </div>
+            </div> -->
+            
             <!-- Team Item Ends -->
-          </div>
+
+          <!-- </div>
         </div>
         <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a>
       </div>
-    </section>
+    </section> -->
+
     <!-- Team Section End -->
 
     <!-- Gallary Section Start -->
@@ -898,16 +933,16 @@
               <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">our event gallery</h1>
               <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
             </div>
-          </div> 
+          </div>
         </div>
         <div class="row">
           <div class="col-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-1.jpg" alt="">
+                <img class="img-fluid" src="img/gallery/img-1.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-1.jpg">
+                <a class="lightbox" href="img/gallery/img-1.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -916,10 +951,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-2.jpg" alt="">
+                <img class="img-fluid" src="img/gallery/img-2.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-2.jpg">
+                <a class="lightbox" href="img/gallery/img-2.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -928,10 +963,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-3.jpg" alt="">
+                <img class="img-fluid" src="img/gallery/img-3.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-3.jpg">
+                <a class="lightbox" href="img/gallery/img-3.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -940,10 +975,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-4.jpg" alt="">
+                <img class="img-fluid" src="img/gallery/img-4.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-4.jpg">
+                <a class="lightbox" href="img/gallery/img-4.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -952,10 +987,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-5.jpg" alt="">
+                <img class="img-fluid" src="img/gallery/img-5.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-5.jpg">
+                <a class="lightbox" href="img/gallery/img-5.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -964,10 +999,10 @@
           <div class="ccol-md-6 col-sm-6 col-lg-4">
             <div class="gallery-box">
               <div class="img-thumb">
-                <img class="img-fluid" src="assets/img/gallery/img-6.jpg" alt="">
+                <img class="img-fluid" src="img/gallery/img-6.jpg" alt="">
               </div>
               <div class="overlay-box text-center">
-                <a class="lightbox" href="assets/img/gallery/img-6.jpg">
+                <a class="lightbox" href="img/gallery/img-6.jpg">
                   <i class="lni-plus"></i>
                 </a>
               </div>
@@ -1012,7 +1047,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwo">
                     <div class="header-title" data-toggle="collapse" data-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
-                      <i class="lni-pencil"></i>  Which payment methods do you accept? 
+                      <i class="lni-pencil"></i>  Which payment methods do you accept?
                     </div>
                 </div>
                 <div id="questionTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
@@ -1024,7 +1059,7 @@
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <div class="header-title" data-toggle="collapse" data-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
-                    <i class="lni-pencil"></i>  Which document can i bring to meeting?   
+                    <i class="lni-pencil"></i>  Which document can i bring to meeting?
                   </div>
                 </div>
                 <div id="questionThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
@@ -1064,7 +1099,7 @@
               <div class="card">
                 <div class="card-header" id="headingTwo2">
                     <div class="header-title" data-toggle="collapse" data-target="#questionTwo2" aria-expanded="false" aria-controls="questionTwo">
-                      <i class="lni-pencil"></i>  Which payment methods do you accept? 
+                      <i class="lni-pencil"></i>  Which payment methods do you accept?
                     </div>
                 </div>
                 <div id="questionTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
@@ -1076,7 +1111,7 @@
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <div class="header-title" data-toggle="collapse" data-target="#questionFive" aria-expanded="false" aria-controls="questionFive">
-                    <i class="lni-pencil"></i>How to set price? 
+                    <i class="lni-pencil"></i>How to set price?
                   </div>
                 </div>
                 <div id="questionFive" class="collapse" aria-labelledby="headingThree" data-parent="#question">
@@ -1088,7 +1123,7 @@
               <div class="card">
                 <div class="card-header" id="headingThree">
                   <div class="header-title" data-toggle="collapse" data-target="#questionSix" aria-expanded="false" aria-controls="questionSix">
-                    <i class="lni-pencil"></i>  What our price list? 
+                    <i class="lni-pencil"></i>  What our price list?
                   </div>
                 </div>
                 <div id="questionSix" class="collapse" aria-labelledby="headingThree" data-parent="#question">
@@ -1118,22 +1153,22 @@
         <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="spnsors-logo">
-              <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""></a>
+              <a href="#"><img class="img-fluid" src="img/sponsors/logo-01.png" alt=""></a>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="spnsors-logo">
-              <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-02.png" alt=""></a>
+              <a href="#"><img class="img-fluid" src="img/sponsors/logo-02.png" alt=""></a>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="spnsors-logo">
-              <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-03.png" alt=""></a>
+              <a href="#"><img class="img-fluid" src="img/sponsors/logo-03.png" alt=""></a>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="spnsors-logo">
-              <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""></a>
+              <a href="#"><img class="img-fluid" src="img/sponsors/logo-04.png" alt=""></a>
             </div>
           </div>
           <div class="col-12 text-center">
@@ -1248,7 +1283,7 @@
           </div>
           <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
             <div class="video">
-              <img class="img-fluid" src="assets/img/about/about.jpg" alt="">
+              <img class="img-fluid" src="img/about/about.jpg" alt="">
             </div>
           </div>
           <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
@@ -1259,7 +1294,7 @@
               <li><i class="lni-check-mark-circle"></i> Lorem Ipsum is simply dummy</li>
               <li><i class="lni-check-mark-circle"></i> Ipsum passages, and more recently</li>
               <li><i class="lni-check-mark-circle"></i> PageMaker including versions</li>
-              <li><i class="lni-check-mark-circle"></i> Lorem Ipsum is simply dummy</li> 
+              <li><i class="lni-check-mark-circle"></i> Lorem Ipsum is simply dummy</li>
             </ul>
           </div>
         </div>
@@ -1281,7 +1316,7 @@
             <div class="blog-item">
               <div class="blog-image">
                 <a href="#">
-                  <img class="img-fluid" src="assets/img/blog/img-1.jpg" alt="">
+                  <img class="img-fluid" src="img/blog/img-1.jpg" alt="">
                 </a>
               </div>
               <div class="descr">
@@ -1302,7 +1337,7 @@
             <div class="blog-item">
               <div class="blog-image">
                 <a href="#">
-                  <img class="img-fluid" src="assets/img/blog/img-2.jpg" alt="">
+                  <img class="img-fluid" src="img/blog/img-2.jpg" alt="">
                 </a>
               </div>
               <div class="descr">
@@ -1323,7 +1358,7 @@
             <div class="blog-item">
               <div class="blog-image">
                 <a href="#">
-                  <img class="img-fluid" src="assets/img/blog/img-3.jpg" alt="">
+                  <img class="img-fluid" src="img/blog/img-3.jpg" alt="">
                 </a>
               </div>
               <div class="descr">
@@ -1334,7 +1369,7 @@
                   </a>
                 </h3>
                 <div class="meta-tags">
-                  <span class="date">Jan 20, 2018</span> 
+                  <span class="date">Jan 20, 2018</span>
                   <span class="comments">| <a href="#"> by Cindy Jefferson</a></span>
                 </div>
               </div>
@@ -1405,7 +1440,7 @@
                       <div class="form-group">
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required data-error="Please enter your Email">
                         <div class="help-block with-errors"></div>
-                      </div> 
+                      </div>
                     </div>
                     <div class="col-md-12 form-line">
                       <div class="form-group">
@@ -1437,7 +1472,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-            <h3><img src="assets/img/logo.png" alt=""></h3>
+            <h3><img src="img/logo.png" alt=""></h3>
             <p>
               Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis nostrud ncididunt.
             </p>
@@ -1457,7 +1492,7 @@
             <ul class="image-list">
               <li>
                 <figure class="overlay">
-                  <img class="img-fluid" src="assets/img/art/a1.jpg" alt="">
+                  <img class="img-fluid" src="img/art/a1.jpg" alt="">
                 </figure>
                 <div class="post-content">
                   <h6 class="post-title"> <a href="blog-single.html">Lorem ipsm dolor sumit.</a> </h6>
@@ -1466,7 +1501,7 @@
               </li>
               <li>
                 <figure class="overlay">
-                  <img class="img-fluid" src="assets/img/art/a2.jpg" alt="">
+                  <img class="img-fluid" src="img/art/a2.jpg" alt="">
                 </figure>
                 <div class="post-content">
                   <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
@@ -1510,7 +1545,7 @@
           <div class="col-md-12">
             <div class="site-info">
               <p>© Designed and Developed by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
-            </div>      
+            </div>
           </div>
         </div>
       </div>
@@ -1539,20 +1574,20 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/nivo-lightbox.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
-    <script src="assets/js/map.js"></script>
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/nivo-lightbox.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.min.js"></script>
+    <script src="js/map.js"></script>
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
-      
+
   </body>
 </html>
