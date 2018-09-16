@@ -54,7 +54,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#schedules">
-                  schedules
+                  @lang('home.rules')
                 </a>
               </li>
               <!-- <li class="nav-item">
@@ -69,14 +69,14 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#faq">
-                  Faq
+                @lang('home.faq')
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#sponsors">
                   Sponsors
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#pricing">
                   pricing
@@ -121,9 +121,9 @@
           <li>
             <a class="page-scroll" href="#faq">Faq</a>
           </li>
-          <li>
+          <!-- <li>
             <a class="page-scroll" href="#sponsors">Sponsors</a>
-          </li>
+          </li> -->
           <li>
             <a class="page-scroll" href="#pricing">pricing</a>
           </li>
@@ -190,7 +190,7 @@
         <div class="row text-center">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="heading-count">
-              <h2 class="wow fadeInDown" data-wow-delay="0.2s">Event Will Start In</h2>
+              <h2 class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.offer_title')</h2>
             </div>
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -388,7 +388,7 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedules</h1>
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">@lang('home.rules_heading')</h1>
               <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor</p>
             </div>
           </div>
@@ -400,8 +400,8 @@
                 <li class="nav-item">
                   <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-expanded="true">
                     <div class="item-text">
-                      <h4>Monday</h4>
-                      <h5>14 February</h5>
+                      <h4>@lang('home.pomorie_name')</h4>
+                      <h5>@lang('home.pomorie_house_name')</h5>
                     </div>
                   </a>
                 </li>
@@ -1140,7 +1140,8 @@
     <!-- Ask Question Section End -->
 
     <!-- Sponsors Section Start -->
-    <section id="sponsors" class="section-padding">
+
+    <!-- <section id="sponsors" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -1176,7 +1177,8 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
     <!-- Sponsors Section End -->
 
     <!-- Ticket Pricing Area Start -->

@@ -5,6 +5,17 @@ return [
 	'home' => 'Home',
     'appartments' => 'Appartments',
     'contacts' => 'Contacts',
+    'faq' => 'FAQ',
+
+    'offer_title' => 'What we offer ?',
+
+    'rules_heading' => 'Properties rules !',
+
+    'rules' => 'Rules',
+
+    'pomorie_name' => 'Pomorie',
+
+    'pomorie_house_name' => 'Tiffany Joy Apartments',
 
 
     'sinemorets' => 'This property is 5 minutes walk from the beach. Located in Sinemorets, Casa Di Angel provides a seasonal outdoor swimming pool and fitness centre. 1.2 km from Veleka Beach, the hotel features a garden and a terrace. Guests can have a cocktail at the bar.
