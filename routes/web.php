@@ -19,3 +19,6 @@ Route::get('locale/{locale}', function ($locale) {
 Route::get('/home', function () {
     return view('welcome');
 });
+
+// contact form
+Route::post('/home', 'ContactController@mailToAdmin');
