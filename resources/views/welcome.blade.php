@@ -393,6 +393,7 @@
             </div>
           </div>
         </div>
+    <!-- Pomorie -->
         <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
           <div class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
             <div class="table-responsive">
@@ -408,27 +409,27 @@
                 <li class="nav-item">
                   <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday">
                     <div class="item-text">
-                      <h4>Tuesday</h4>
-                      <h5>15 February</h5>
+                      <h4>@lang('home.sinemorets_name')</h4>
+                      <h5>@lang('home.sinemorets_house_name')</h5>
                     </div>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
                     <div class="item-text">
-                      <h4>Wednesday</h4>
-                      <h5>16 February</h5>
+                      <h4>@lang('home.primorsko_name')</h4>
+                      <h5>@lang('home.primorsko_house_name')</h5>
                     </div>
                   </a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#thursday" role="tab" aria-controls="thursday">
                     <div class="item-text">
                       <h4>Thursday</h4>
                       <h5>17 February</h5>
                     </div>
                   </a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -443,15 +444,15 @@
                           <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
                         </div>
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
+                        <h4>@lang('home.checkin_checkout_header')</h4>
                         <h5 class="name">Veselin Kichukov</h5>
                       </div>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                       <div class="card-body">
-                        <p>@lang('home.sinemorets')</p>
+                        <p>@lang('home.checkin_checkout_message')</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>@lang('home.important')</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
                       </div>
                     </div>
@@ -498,6 +499,8 @@
                   </div>
                 </div>
               </div>
+
+              <!-- Sinemorets -->
               <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
                 <div id="accordion2">
                   <div class="card">
@@ -507,15 +510,15 @@
                           <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
                         </div>
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
+                        <h4>@lang('home.checkin_checkout_header')</h4>
                         <h5 class="name">David Warner</h5>
                       </div>
                     </div>
                     <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordion2">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>@lang('home.checkin_checkout_message')</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>@lang('home.important')</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
                       </div>
                     </div>
@@ -542,6 +545,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Primorsko -->
               <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
                 <div id="accordion3">
                   <div class="card">
@@ -551,15 +555,15 @@
                           <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
                         </div>
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
+                        <h4>@lang('home.checkin_checkout_header')</h4>
                         <h5 class="name">David Warner</h5>
                       </div>
                     </div>
                     <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>@lang('home.checkin_checkout_message')</p>
                         <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                          <span>@lang('home.important')</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
                       </div>
                     </div>
@@ -606,7 +610,7 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
+              <!-- <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
                 <div id="accordion4">
                   <div class="card">
                     <div id="headingOne">
@@ -669,7 +673,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
                 <div id="accordion">
                   <div class="card">
