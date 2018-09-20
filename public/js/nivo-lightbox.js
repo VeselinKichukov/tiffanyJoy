@@ -50,9 +50,9 @@
 			if('ontouchstart' in document) $('html').removeClass('nivo-lightbox-notouch');
 
 			// Setup the click
-            this.$el.on('click', function(e){
-                $this.showLightbox(e);
-            });
+            // this.$el.on('click', function(e){
+             //    $this.showLightbox(e);
+            // });
 
             // keyboardNav
             if(this.options.keyboardNav){
