@@ -20,11 +20,17 @@ class ContactsFormMail extends Mailable
      *
      * @return void
      */
-    public function __construct($address, $name, $messageContent)
+    public function __construct($data)
     {
-        $this->address = $address;
-        $this->name = $name;
-        $this->messageContent = $messageContent;
+        $this->firstName = $data['firstName'];
+        $this->lastName = $data['lastName'];
+        $this->email = $data['email'];
+        $this->phoneNumber = null;
+        if (isset($data['phoneNumber'])) {
+          $this->phoneNumber = $data['phoneNumber'];
+        }
+        $this->subject = $data['subject'];
+        $this->messageContent = $data['messageContent'];
     }
 
     /**
@@ -36,8 +42,11 @@ class ContactsFormMail extends Mailable
     {
         $subject = "NEW message from TiffanyApart";
 
-        $data = ['address'=>$this->address,
-                  'name'=>$this->name,
+        $data = ['firstName'=>$this->firstName,
+                  'lastName'=>$this->lastName,
+                  'email'=>$this->email,
+                  'phoneNumber'=>$this->phoneNumber,
+                  'subject'=>$this->subject,
                   'messageContent'=>$this->messageContent];
 
         return $this

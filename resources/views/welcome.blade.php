@@ -1434,7 +1434,13 @@
                   <div class="row">
                     <div class="col-md-6 form-line">
                       <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="First Name" required data-error="Please enter your name">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 form-line">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required data-error="Please enter your Last Name">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -1444,15 +1450,21 @@
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
+                    <div class="col-md-6 form-line">
+                      <div class="form-group">
+                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="tel" class="form-control" id="msg_subject" name="subject" placeholder="Subject" required data-error="Please enter your message subject">
+                        <input type="text" class="form-control" id="msg_subject" name="subject" placeholder="Subject" required data-error="Please enter your message subject">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="form-group">
-                        <textarea class="form-control" rows="4" id="message" name="message" required data-error="Write your message"></textarea>
+                        <textarea class="form-control" rows="4" id="messageContent" name="messageContent" required data-error="Write your message"></textarea>
                       </div>
                       <div class="form-submit">
                         <button type="submit" class="btn btn-common" value="Send"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>

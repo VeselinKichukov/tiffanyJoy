@@ -24,7 +24,7 @@ class ContactController extends Controller
       // get data from the Request
       $data = $request->all();
 
-      $email = new ContactsFormMail($data['email'], $data['name'], $data['message']);
+      $email = new ContactsFormMail($data);
 
       Mail::to(env('MAIL_TO'))->send($email);
 
