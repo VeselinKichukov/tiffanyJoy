@@ -20,10 +20,13 @@ return [
     'offer_title' => 'What we offer ?',
     'rules_heading' => 'Properties rules !',
     'rules' => 'Rules',
+    'important' => 'Important:', 
     'checkin_checkout_header' => 'Checkin and Checkout Policies !',
     'checkin_checkout_message' => 'The checkin needs to take place between 14:00 and 20:00. The checkout needs to take
-    place between 10:00 and 11:00 in the morning.',
-    'important' => 'Important:', 
+     place between 10:00 and 11:00 in the morning.',
+     'cansel_payment_header' => 'Cancellation/prepayment',
+    'cansel_payment_message' => 'Needs to be discussed',
+   
 
 
     //Sinemorets
@@ -42,10 +45,33 @@ return [
     We speak your language!',
     
     // Primorsko
+    'primorsko' => 'This property is 5 minutes walk from the beach. Situated in Primorsko, Tiffany Joy Apartments provides accommodation with free WiFi and seating area.
 
+    All units have a kitchenette, a private bathroom and a terrace or balcony with views of sea. A fridge and kettle are also offered.
+    
+    Primorsko Municipality is a 2-minute walk from the apartment, while Aquapark Primorsko is 800 m away. The nearest airport is Burgas Airport, 39 km from Tiffany Joy Apartments. 
+    
+    This is our guests favourite part of Primorsko, according to independent reviews.
+    
+    This property also has one of the best-rated locations in Primorsko! Guests are happier about it compared to other properties in the area.
+    
+    This property is also rated for the best value in Primorsko! Guests are getting more for their money when compared to other properties in this city.
+    
+    We speak your language!',
 
     // Pomorie
+    'pomorie' => 'This property is 2 minutes walk from the beach. Guest House More is set in a 3-floor building in the centre of Pomorie and only 50 m away from the beach. Free WiFi is available throughout the property.
 
+    Certain units include a seating area where you can relax. You will find a kettle in the room. Each room includes a private bathroom. A TV is provided.
     
+    You will find a tour desk at the property.
+    
+    Burgas City is 16 km from Guest House More, while Obzor is 35 km from the property. The nearest airport is Burgas Airport, 11 km from Guest House More.
+    
+    This is our guests favourite part of Pomorie, according to independent reviews.
+    
+    We speak your language!'
+
+
  
 ];

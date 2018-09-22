@@ -464,13 +464,13 @@
                           <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
                         </div>
                         <span class="time">10am - 12:30pm</span>
-                        <h4>15 Free Productive Design Tools</h4>
+                        <h4>@lang('home.cansel_payment_message')</h4>
                         <h5 class="name">David Warner</h5>
                       </div>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>@lang('home.cansel_payment_message')</p>
                         <div class="location">
                           <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
@@ -530,13 +530,13 @@
                           <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
                         </div>
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
+                        <h4>@lang('home.cansel_payment_header')</h4>
                         <h5 class="name">David Warner</h5>
                       </div>
                     </div>
                     <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordion2">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>@lang('home.cansel_payment_message')</p>
                         <div class="location">
                           <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
@@ -575,13 +575,13 @@
                           <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
                         </div>
                         <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
+                        <h4>@lang('home.cansel_payment_header')</h4>
                         <h5 class="name">David Warner</h5>
                       </div>
                     </div>
                     <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordion3">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p><@lang('home.cansel_payment_message')/p>
                         <div class="location">
                           <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
