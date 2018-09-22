@@ -917,7 +917,7 @@
                 <p>UI Designer, Apple</p>
               </div>
             </div> -->
-            
+
             <!-- Team Item Ends -->
 
           <!-- </div>
@@ -1434,11 +1434,17 @@
           <div class="col-lg-7 col-md-12 col-xs-12">
             <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
               <div class="form-wrapper">
-                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                <form role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator", action='/home'>
                   <div class="row">
                     <div class="col-md-6 form-line">
                       <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="email" placeholder="First Name" required data-error="Please enter your name">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 form-line">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required data-error="Please enter your Last Name">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -1448,19 +1454,30 @@
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
+                    <div class="col-md-6 form-line">
+                      <div class="form-group">
+                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
                     <div class="col-md-12 form-line">
                       <div class="form-group">
-                        <input type="tel" class="form-control" id="msg_subject" name="subject" placeholder="Subject" required data-error="Please enter your message subject">
+                        <input type="text" class="form-control" id="msg_subject" name="subject" placeholder="Subject" required data-error="Please enter your message subject">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="form-group">
-                        <textarea class="form-control" rows="4" id="message" name="message" required data-error="Write your message"></textarea>
+                        <textarea class="form-control" rows="4" id="messageContent" name="messageContent" required data-error="Write your message"></textarea>
                       </div>
                       <div class="form-submit">
-                        <button type="submit" class="btn btn-common" id="form-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>
-                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <button type="submit" class="btn btn-common" value="Send"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>
+                        @if(session()->has('msgSubmit'))
+                          <div id="msgSubmit" class="h3 text-center hidden">
+                            {{ session()->get('msgSubmit') }}
+                          </div>
+                        @endif
+                        <!-- <div id="msgSubmit" class="h3 text-center hidden"></div> -->
                       </div>
                     </div>
                   </div>
