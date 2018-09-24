@@ -1405,18 +1405,6 @@
     </div>
     <!-- Subscribe Area End -->
 
-    <!-- Map Section Start -->
-    <section id="google-map-area">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div id="conatiner-map"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Map Section End -->
-
     <!-- Contact Us Section -->
     <section id="contact-map" class="section-padding">
       <div class="container">
@@ -1473,7 +1461,6 @@
                             {{ session()->get('msgSubmit') }}
                           </div>
                         @endif
-                        <!-- <div id="msgSubmit" class="h3 text-center hidden"></div> -->
                       </div>
                     </div>
                   </div>
@@ -1485,6 +1472,18 @@
       </div>
     </section>
     <!-- Contact Us Section End -->
+
+    <!-- Map Section Start -->
+    <section id="google-map-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div id="conatiner-map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- Map Section End -->
 
     <!-- Footer Section Start -->
     <footer class="footer-area section-padding">
@@ -1606,7 +1605,7 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.min.js"></script>
     <script src="js/map.js"></script>
-    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBW1SG6YPFqZAoTEJRnFL-U0cyJWANQ9oA&callback=initMap"></script>
 
   </body>
 </html>
