@@ -1,6 +1,6 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
@@ -45,17 +45,17 @@
     });
     wow.init();
 
-    /* Nivo Lightbox 
+    /* Nivo Lightbox
     ========================================================*/
     $('.lightbox').nivoLightbox({
         effect: 'fadeScale',
         keyboardNav: true,
       });
 
-    // one page navigation 
+    // one page navigation
     $('.navbar-nav').onePageNav({
             currentClass: 'active'
-    }); 
+    });
 
     /* Back Top Link active
     ========================================================*/
@@ -77,6 +77,6 @@
         return false;
       });
 
-  });      
+  });
 
 }(jQuery));
