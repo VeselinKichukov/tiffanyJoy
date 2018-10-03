@@ -21,6 +21,8 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   </head>
   <body>
@@ -220,11 +222,11 @@
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
               <div class="icon">
-                <i class="lni-heart"></i>
+                <i class="fas fa-wifi"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Get Inspired</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <h3><a href="#">WiFi</a></h3>
+                <p>WiFi is available and is free of charge!</p>
               </div>
             </div>
           </div>
@@ -232,11 +234,11 @@
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
               <div class="icon">
-                <i class="lni-gallery"></i>
+                <i class="far fa-snowflake"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Meet New Faces</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <h3><a href="#">Air Condition</a></h3>
+                <p>All of our appartments are equiped with air conditioning, so you could avoid the heat during the summer.</p>
               </div>
             </div>
           </div>
@@ -244,11 +246,11 @@
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon">
-                <i class="lni-envelope"></i>
+                <i class="fas fa-umbrella-beach"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Fresh Tech Insights</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <h3><a href="#">Beach Nearby</a></h3>
+                <p>Our appartments are located in walking distance to the beach.</p>
               </div>
             </div>
           </div>
@@ -256,11 +258,11 @@
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.8s">
               <div class="icon">
-                <i class="lni-cup"></i>
+                <i class="fas fa-star"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Networking Session</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <h3><a href="#">8.7 Rating</a></h3>
+                <p>On average, our customers have graded us with high location rating, based from Booking.com </p>
               </div>
             </div>
           </div>
@@ -268,11 +270,11 @@
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="1s">
               <div class="icon">
-                <i class="lni-user"></i>
+                <i class="fas fa-door-open"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Global Event</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <h3><a href="#">Various Rooms</a></h3>
+                <p>We offer rooms of various sizes with up to 3 beds per room, where 5 people could easily fit.</p>
               </div>
             </div>
           </div>
@@ -280,11 +282,11 @@
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
-                <i class="lni-bubble"></i>
+                <i class="fas fa-utensils"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Free Swags</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <h3><a href="#">Restaurants Nearby</a></h3>
+                <p>There are plenty of various restaurant nearby our locations.</p>
               </div>
             </div>
           </div>
@@ -1577,18 +1579,6 @@
     </div>
     <!-- Subscribe Area End -->
 
-    <!-- Map Section Start -->
-    <section id="google-map-area">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div id="conatiner-map"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Map Section End -->
-
     <!-- Contact Us Section -->
     <section id="contact-map" class="section-padding">
       <div class="container">
@@ -1645,7 +1635,6 @@
                             {{ session()->get('msgSubmit') }}
                           </div>
                         @endif
-                        <!-- <div id="msgSubmit" class="h3 text-center hidden"></div> -->
                       </div>
                     </div>
                   </div>
@@ -1657,6 +1646,18 @@
       </div>
     </section>
     <!-- Contact Us Section End -->
+
+    <!-- Map Section Start -->
+    <section id="google-map-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div id="conatiner-map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- Map Section End -->
 
     <!-- Footer Section Start -->
     <footer class="footer-area section-padding">
@@ -1778,7 +1779,7 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.min.js"></script>
     <script src="js/map.js"></script>
-    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBW1SG6YPFqZAoTEJRnFL-U0cyJWANQ9oA&callback=initMap"></script>
 
   </body>
 </html>
