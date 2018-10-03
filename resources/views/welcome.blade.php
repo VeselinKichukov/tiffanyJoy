@@ -389,7 +389,7 @@
           <div class="col-12">
             <div class="section-title-header text-center">
               <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">@lang('home.rules_heading')</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor</p>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.rules_message') <br> </p>
             </div>
           </div>
         </div>
@@ -441,11 +441,11 @@
                     <div id="headingOne">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-1.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
+                        <span class="time"></span>
                         <h4>@lang('home.checkin_checkout_header')</h4>
-                        <h5 class="name">Veselin Kichukov</h5>
+                        <h5 class="name">@lang('home.pomorie_house_name')</h5>
                       </div>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
@@ -461,11 +461,11 @@
                     <div id="headingTwo">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-2.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>@lang('home.cansel_payment_message')</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time"></span>
+                        <h4>@lang('home.cansel_payment_header')</h4>
+                        <h5 class="name">@lang('home.pomorie_house_name')</h5>
                       </div>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -481,22 +481,67 @@
                     <div id="headingThree">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-3.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-3.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Getting Started With SketchApp</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time"></span>
+                        <h4>@lang('home.children_beds_header')</h4>
+                        <h5 class="name">@lang('home.pomorie_house_name')</h5>
                       </div>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>@lang('home.children_beds_pomorie_message')</p>
                         <div class="location">
                           <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
                       </div>
                     </div>
                   </div>
+                   <div class="card">
+                    <div id="headingFour">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="images-box">
+                          <img class="img-fluid" src="img/speaker/speakers-4.png" alt="">
+                        </div>
+                        <span class="time"></span>
+                        <h4>@lang('home.pets_header')</h4>
+                        <h5 class="name">@lang('home.pomorie_house_name')</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>@lang('home.pets_message')</p>
+                        <div class="location">
+                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div id="headingFive">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="images-box">
+                          <img class="img-fluid" src="img/speaker/speakers-5.png" alt="">
+                        </div>
+                        <span class="time"></span>
+                        <h4>@lang('home.cash_header')</h4>
+                        <h5 class="name">@lang('home.pomorie_house_name')</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>@lang('home.cash_message')</p>
+                        <div class="location">
+                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
                 </div>
               </div>
 
@@ -504,17 +549,17 @@
               <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
                 <div id="accordion2">
                   <div class="card">
-                    <div id="headingOne1">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+                    <div id="headingOne2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-1.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
+                        <span class="time"></span>
                         <h4>@lang('home.checkin_checkout_header')</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h5 class="name">@lang('home.sinemorets_house_name')</h5>
                       </div>
                     </div>
-                    <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordion2">
+                    <div id="collapseOne2" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
                       <div class="card-body">
                         <p>@lang('home.checkin_checkout_message')</p>
                         <div class="location">
@@ -527,11 +572,11 @@
                     <div id="headingTwo2">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-2.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
+                        <span class="time"></span>
                         <h4>@lang('home.cansel_payment_header')</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h5 class="name">@lang('home.sinemorets_house_name')</h5>
                       </div>
                     </div>
                     <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordion2">
@@ -543,20 +588,86 @@
                       </div>
                     </div>
                   </div>
+                  <div class="card">
+                    <div id="headingThree2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                        <div class="images-box">
+                          <img class="img-fluid" src="img/speaker/speakers-3.png" alt="">
+                        </div>
+                        <span class="time"></span>
+                        <h4>@lang('home.children_beds_header')</h4>
+                        <h5 class="name">@lang('home.sinemorets_house_name')</h5>
+                      </div>
+                    </div>
+                    <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordion2">
+                      <div class="card-body">
+                        <p>@lang('home.children_beds_pomorie_message')</p>
+                        <div class="location">
+                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingFour2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour2" aria-expanded="false" aria-controls="collapseFour2">
+                        <div class="images-box">
+                          <img class="img-fluid" src="img/speaker/speakers-4.png" alt="">
+                        </div>
+                        <span class="time"></span>
+                        <h4>@lang('home.pets_header')</h4>
+                        <h5 class="name">@lang('home.sinemorets_house_name')</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFour2" class="collapse" aria-labelledby="headingFour2" data-parent="#accordion3">
+                      <div class="card-body">
+                        <p>@lang('home.pets_message')</p>
+                        <div class="location">
+                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div id="headingFive2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFive2" aria-expanded="false" aria-controls="collapseFive2">
+                        <div class="images-box">
+                          <img class="img-fluid" src="img/speaker/speakers-5.png" alt="">
+                        </div>
+                        <span class="time"></span>
+                        <h4>@lang('home.cash_header')</h4>
+                        <h5 class="name">@lang('home.sinemorets_house_name')</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFive2" class="collapse" aria-labelledby="headingFive2" data-parent="#accordion3">
+                      <div class="card-body">
+                        <p>@lang('home.cash_message')</p>
+                        <div class="location">
+                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
                 </div>
               </div>
               <!-- Primorsko -->
+              <!-- headingTwo3 and collapseTwo3 are not working corectly due to some css or javascript. So the order would be 1,3,4,5 ... -->
               <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
                 <div id="accordion3">
                   <div class="card">
                     <div id="headingOne3">
                       <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-1.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
+                        <span class="time"></span>
                         <h4>@lang('home.checkin_checkout_header')</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h5 class="name">@lang('home.primorsko_house_name')</h5>
                       </div>
                     </div>
                     <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
@@ -569,19 +680,19 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div id="headingTwo3">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
+                    <div id="headingThree3">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-2.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
+                        <span class="time"></span>
                         <h4>@lang('home.cansel_payment_header')</h4>
-                        <h5 class="name">David Warner</h5>
+                        <h5 class="name">@lang('home.primorsko_house_name')</h5>
                       </div>
                     </div>
-                    <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordion3">
+                    <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion3">
                       <div class="card-body">
-                        <p><@lang('home.cansel_payment_message')/p>
+                        <p>@lang('home.cansel_payment_message')</p>
                         <div class="location">
                           <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
@@ -589,25 +700,69 @@
                     </div>
                   </div>
                   <div class="card">
-                    <div id="headingThree3">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                    <div id="headingFour3">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour3" aria-expanded="false" aria-controls="collapseFour3">
                         <div class="images-box">
-                          <img class="img-fluid" src="img/speaker/speakers-3.jpg" alt="">
+                          <img class="img-fluid" src="img/speaker/speakers-3.png" alt="">
                         </div>
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                        <span class="time"></span>
+                        <h4>@lang('home.children_beds_header')</h4>
+                        <h5 class="name">@lang('home.primorsko_house_name')</h5>
                       </div>
                     </div>
-                    <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion3">
+                    <div id="collapseFour3" class="collapse" aria-labelledby="headingFour3" data-parent="#accordion3">
                       <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
+                        <p>@lang('home.children_beds_pomorie_message')</p>
                         <div class="location">
                           <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
                         </div>
                       </div>
                     </div>
                   </div>
+                  <div class="card">
+                    <div id="headingFive3">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFive3" aria-expanded="false" aria-controls="collapseFive3">
+                        <div class="images-box">
+                          <img class="img-fluid" src="img/speaker/speakers-4.png" alt="">
+                        </div>
+                        <span class="time"></span>
+                        <h4>@lang('home.pets_header')</h4>
+                        <h5 class="name">@lang('home.primorsko_house_name')</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFive3" class="collapse" aria-labelledby="headingFive3" data-parent="#accordion3">
+                      <div class="card-body">
+                        <p>@lang('home.pets_message')</p>
+                        <div class="location">
+                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <div id="headingSix3">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseSix3" aria-expanded="false" aria-controls="collapseSix3">
+                        <div class="images-box">
+                          <img class="img-fluid" src="img/speaker/speakers-5.png" alt="">
+                        </div>
+                        <span class="time"></span>
+                        <h4>@lang('home.cash_header')</h4>
+                        <h5 class="name">@lang('home.primorsko_house_name')</h5>
+                      </div>
+                    </div>
+                    <div id="collapseSix3" class="collapse" aria-labelledby="headingSix3" data-parent="#accordion3">
+                      <div class="card-body">
+                        <p>@lang('home.cash_message')</p>
+                        <div class="location">
+                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
               <!-- <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
@@ -1033,6 +1188,10 @@
             </div>
           </div>
         </div>
+
+
+
+        
         <div class="row">
           <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
             <div class="accordion">
@@ -1138,6 +1297,15 @@
               </div>
             </div>
           </div>
+       
+       
+       
+
+       
+       
+       
+       
+       
         </div>
       </div>
     </section>
