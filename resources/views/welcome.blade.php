@@ -7,6 +7,18 @@
 
     <title>Grand - Event and Conference Template</title>
 
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
     <!-- Icon -->
@@ -1022,14 +1034,15 @@
     </section>
     <!-- Gallary Section End -->
 
-    <!-- Ask Question Section Start -->
+    <!-- Ask Question Section Start 1-->
+    <!-- Property Pomorie-->
     <section id="faq" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Ask Question?</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">@lang('home.pomorie_house_name')</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.pomorie_name')</p>
             </div>
           </div>
         </div>
@@ -1039,22 +1052,215 @@
               <div class="card">
                 <div class="card-header" id="headingOne">
                   <div class="header-title" data-toggle="collapse" data-target="#questionOne" aria-expanded="true" aria-controls="collapseOne">
-                    <i class="lni-pencil"></i> How to make a new event?
+                  <i class="lni-pencil"></i> 
+                  <a href="#" > <font color="#E91E63">@lang('home.tripple_room') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> 
+                 
+                  <!-- style='color:red; -->
+                 
+                  <!-- Click <a href="http://www.yahoo.com"><font color="FF00CC">here</font></a> to go to yahoo. -->
+
+                  <!-- working nice
+                  <a href="#" > <font color="#E91E63">Tripple Room with Sea View: </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span>   -->
+
                   </div>
                 </div>
                 <div id="questionOne" class="collapse" aria-labelledby="headingOne" data-parent="#question">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                      {!! trans('home.tripple_room_pomorie_beds') !!}
+                      <!-- {!! trans('nav.find') !!} -->
+                    <!-- Anim pariatur <i class="fa fa-bed"></i>
+                    3 twin beds  or 1 twin bed  and  1 full bed  -->
+                    <!-- <i class="glyphicon glyphicon-bed"></i> -->
+                    <!-- <i class="fa fa-bed"></i> -->
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card-header" id="headingTwo">
                     <div class="header-title" data-toggle="collapse" data-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
-                      <i class="lni-pencil"></i>  Which payment methods do you accept?
+                      <i class="lni-pencil"></i>
+                      <a href="#" > <font color="#E91E63">@lang('home.double_room') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> </span> 
                     </div>
                 </div>
                 <div id="questionTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
+                  <div class="card-body">
+                      {!! trans('home.double_room_pomorie_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
+                    <i class="lni-pencil"></i>  
+                    <a href="#" > <font color="#E91E63">@lang('home.four_room') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> </span> 
+                  </div>
+                </div>
+                <div id="questionThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                      {!! trans('home.four_room_pomorie_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionFour" aria-expanded="false" aria-controls="questionFour">
+                   <i class="lni-pencil"></i>
+                   <a href="#" > <font color="#E91E63">@lang('home.five_room') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span> X 5 </span> 
+                  </div>
+                </div>
+                <div id="questionFour" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                      {!! trans('home.five_room_pomorie_beds') !!}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionOne2" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> 
+                    <a href="#" > <font color="#E91E63">@lang('home.studio_balcony') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> </span> 
+                  </div>
+                </div>
+                <div id="questionOne2" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                  <div class="card-body">
+                      {!! trans('home.studio_balcony_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionTwo2" aria-expanded="false" aria-controls="questionTwo">
+                      <i class="lni-pencil"></i>
+                      <a href="#" > <font color="#E91E63">@lang('home.double_room_balcony') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> </span> 
+                    </div>
+                </div>
+                <div id="questionTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
+                  <div class="card-body">
+                      {!! trans('home.double_room_balcony_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionFive" aria-expanded="false" aria-controls="questionFive">
+                    <i class="lni-pencil"></i>
+                    <a href="#" > <font color="#E91E63">@lang('home.tripple_room_balcony') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> 
+                  </div>
+                </div>
+                <div id="questionFive" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                      {!! trans('home.tripple_room_balcony_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionSix" aria-expanded="false" aria-controls="questionSix">
+                    <i class="lni-pencil"></i>  What our price list?
+                  </div>
+                </div>
+                <div id="questionSix" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ask Question Section End -->
+
+
+
+
+    <!-- Counter Area Start-->
+
+
+    <!-- <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          Counter Item
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon"><i class="lni-map"></i></div>
+              <p>Wst. Conference Center</p>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon"><i class="lni-timer"></i></div>
+              <p>February 14 - 19, 2018</p>
+              <span>09:00 AM – 05:00 PM</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon"><i class="lni-users"></i></div>
+              <p>343 Available Seats</p>
+              <span>Hurryup! few tickets are left</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon"><i class="lni-coffee-cup"></i></div>
+              <p>Free Lunch & Snacks</p>
+              <span>Don’t miss it</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    
+    <!-- Counter Area End-->
+
+
+
+    <!-- Ask Question Section Start -->
+    <!-- Property Primorsko-->
+    <section id="faq" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">@lang('home.primorsko_house_name')</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.primorsko_name')</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionTwoOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i>
+                    <a href="#" > <font color="#E91E63">@lang('home.appartment_primorsko') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> </span> 
+                  </div>
+                </div>
+                <div id="questionTwoOne" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                  <div class="card-body">
+                      {!! trans('home.appartment_primorsko_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionTwoTwo" aria-expanded="false" aria-controls="questionTwo2">
+                      <i class="lni-pencil"></i>  Which payment methods do you accept?
+                    </div>
+                </div>
+                <div id="questionTwoTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
                   </div>
@@ -1062,11 +1268,11 @@
               </div>
               <div class="card">
                 <div class="card-header" id="headingThree">
-                  <div class="header-title" data-toggle="collapse" data-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionTwoThree" aria-expanded="false" aria-controls="questionThree">
                     <i class="lni-pencil"></i>  Which document can i bring to meeting?
                   </div>
                 </div>
-                <div id="questionThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                <div id="questionTwoThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
                   <div class="card-body">
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
                   </div>
@@ -1083,24 +1289,25 @@
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
             <div class="accordion">
               <div class="card">
                 <div class="card-header" id="headingOne2">
-                  <div class="header-title" data-toggle="collapse" data-target="#questionOne2" aria-expanded="true" aria-controls="collapseOne">
-                    <i class="lni-pencil"></i> How to make a new event?
+                  <div class="header-title" data-toggle="collapse" data-target="#questionTwoTwo" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> 
+                    <a href="#" > <font color="#E91E63">@lang('home.studio_appartment_primorsko') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> </span> 
                   </div>
                 </div>
-                <div id="questionOne2" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                <div id="questionTwoTwo" class="collapse" aria-labelledby="headingOne" data-parent="#question">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  {!! trans('home.studio_appartment_primorsko_beds') !!}
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <!-- <div class="card">
                 <div class="card-header" id="headingTwo2">
                     <div class="header-title" data-toggle="collapse" data-target="#questionTwo2" aria-expanded="false" aria-controls="questionTwo">
                       <i class="lni-pencil"></i>  Which payment methods do you accept?
@@ -1135,13 +1342,241 @@
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Ask Question Section End -->
+
+
+
+
+    <!-- Counter Area Start-->
+
+
+    <!-- <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon"><i class="lni-map"></i></div>
+              <p>Wst. Conference Center</p>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon"><i class="lni-timer"></i></div>
+              <p>February 14 - 19, 2018</p>
+              <span>09:00 AM – 05:00 PM</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon"><i class="lni-users"></i></div>
+              <p>343 Available Seats</p>
+              <span>Hurryup! few tickets are left</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon"><i class="lni-coffee-cup"></i></div>
+              <p>Free Lunch & Snacks</p>
+              <span>Don’t miss it</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- Counter Area End-->
+
+
+
+
+
+    <!-- Ask Question Section Start -->
+    <!-- Property Sinemorets-->
+    <section id="faq" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">@lang('home.sinemorets_house_name')</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.sinemorets_name')</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionThreeOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i>
+                    <a href="#" > <font color="#E91E63">@lang('home.standard_double_room_sinemorets') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> </span> 
+                  </div>
+                </div>
+                <div id="questionThreeOne" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                  <div class="card-body">
+                  {!! trans('home.double_room_sinemorets_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionThreeTwo" aria-expanded="false" aria-controls="questionTwo">
+                      <i class="lni-pencil"></i>  
+                      <a href="#" > <font color="#E91E63">@lang('home.deluxe_double_room_sinemorets') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> </span> 
+                    </div>
+                </div>
+                <div id="questionThreeTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
+                  <div class="card-body">
+                  {!! trans('home.double_room_sinemorets_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
+                    <i class="lni-pencil"></i>  Which document can i bring to meeting?
+                  </div>
+                </div>
+                <div id="questionThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionFour" aria-expanded="false" aria-controls="questionFour">
+                   <i class="lni-pencil"></i> Who can join at the live event venue?
+                  </div>
+                </div>
+                <div id="questionFour" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne2">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionThreeThree" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> 
+                    <a href="#" > <font color="#E91E63">@lang('home.tripple_room_sinemorets') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span>  <span class="glyphicon glyphicon-user"></span> <span class="glyphicon glyphicon-user"></span> 
+                  </div>
+                </div>
+                <div id="questionThreeThree" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                  <div class="card-body">
+                  {!! trans('home.tripple_room_sinemorets_beds') !!}   
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo2">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionThreeFour" aria-expanded="false" aria-controls="questionTwo">
+                      <i class="lni-pencil"></i>
+                      <a href="#" > <font color="#E91E63">@lang('home.five_room') </font> &nbsp;</a>  <span class="glyphicon glyphicon-user"></span> X 5 </span> 
+                    </div>
+                </div>
+                <div id="questionThreeFour" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
+                  <div class="card-body">
+                  {!! trans('home.five_room_sinemorets_beds') !!}
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionFive" aria-expanded="false" aria-controls="questionFive">
+                    <i class="lni-pencil"></i>How to set price?
+                  </div>
+                </div>
+                <div id="questionFive" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionSix" aria-expanded="false" aria-controls="questionSix">
+                    <i class="lni-pencil"></i>  What our price list?
+                  </div>
+                </div>
+                <div id="questionSix" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ask Question Section End -->
+
+
+     <!-- Counter Area Start-->
+
+
+     <!-- <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon"><i class="lni-map"></i></div>
+              <p>Wst. Conference Center</p>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon"><i class="lni-timer"></i></div>
+              <p>February 14 - 19, 2018</p>
+              <span>09:00 AM – 05:00 PM</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon"><i class="lni-users"></i></div>
+              <p>343 Available Seats</p>
+              <span>Hurryup! few tickets are left</span>
+            </div>
+          </div>
+          Counter Item this should be a comment
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon"><i class="lni-coffee-cup"></i></div>
+              <p>Free Lunch & Snacks</p>
+              <span>Don’t miss it</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- Counter Area End-->
+
+
+
+
 
     <!-- Sponsors Section Start -->
 
