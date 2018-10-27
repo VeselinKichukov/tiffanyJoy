@@ -20,25 +20,45 @@ return [
     'offer_title' => 'What we offer ?',
     'rules_heading' => 'Properties rules !',
     'rules' => 'Rules',
-    'rules_message' => 'We kindly recomend to read our rules :)',
     'important' => 'Important:', 
     'checkin_checkout_header' => 'Checkin and Checkout Policies !',
     'checkin_checkout_message' => 'The checkin needs to take place between 14:00 and 20:00. The checkout needs to take
-    place between 10:00 and 11:00 in the morning.',
-    'cansel_payment_header' => 'Cancellation/prepayment',
+     place between 10:00 and 11:00 in the morning.',
+     'cansel_payment_header' => 'Cancellation/prepayment',
     'cansel_payment_message' => 'Needs to be discussed',
-    'children_beds_header' => 'Children and Extra Beds',
-    'children_beds_pomorie_message' => 'All children are welcome.
-    All children under 12 years are charged EUR 6 per night for extra beds.
-    Any additional older children or adults are charged EUR 10 per night for extra beds.
-    The maximum number of extra beds in a room is 2.
-    Any type of extra bed is upon request and needs to be confirmed by management.
-    Additional fees are not calculated automatically in the total cost and will have to be paid for separately during your stay.',
-    'pets_header' => 'Pets',
-    'pets_message' => 'Pets are not allowed.',
-    'cash_header' => 'Cash only',
-    'cash_message' => 'This property only accepts cash payments.
-    Credit cards are only needed to guarantee your booking .',
+    'tripple_room' => 'Tripple Room with Sea View:',
+    'double_room' => 'Double Room with Sea View:',
+    'four_room' => ' Family Room with Sea View:',
+    'five_room' => ' Apartment with Sea View:',
+    'studio_balcony' => '  Studio with Balcony:',
+    'tripple_room_balcony' => 'Tripple Room with Balcony:',
+    'double_room_balcony' => 'Double Room with Balcony:',
+    'appartment_primorsko' => 'Apartment with Sea View:',
+    'studio_appartment_primorsko' => 'Studio Apartment with Sea View:',
+    'standard_double_room_sinemorets' => 'Standard Double Room:',
+    'deluxe_double_room_sinemorets' => 'Deluxe Double Room:',
+    'tripple_room_sinemorets' => ' Deluxe Double Room with Extra Bed:',
+    'tripple_room_pomorie_beds' => ' 3 twin beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> <i class="fa fa-bed"></i> &nbsp; or 1 twin bed &nbsp; <i class="fa fa-bed"></i> &nbsp; and  1 full bed &nbsp; <i class="glyphicon glyphicon-bed"></i>',
+    'four_room_pomorie_beds' => ' 4 twin beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> <i class="fa fa-bed"></i> <i class="fa fa-bed"></i> ',
+    'double_room_pomorie_beds' => ' 2 twin beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> ',
+    'five_room_pomorie_beds' => ' <b>Bedroom 1:</b> 2 twin beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> <br/> <br/> <b>Bedroom 2:</b> 1 king bed &nbsp; <i class="glyphicon glyphicon-bed"></i> <br/> <br/> <b>Living room:</b> 2 sofa beds &nbsp; <i class="material-icons">weekend</i> &nbsp; <i class="material-icons">weekend</i>',
+    'studio_balcony_beds' => '1 twin bed &nbsp; <i class="fa fa-bed"></i> &nbsp; and  1 full bed &nbsp; <i class="glyphicon glyphicon-bed"></i> &nbsp; and  1 futon bed',
+    'double_room_balcony_beds' => '1 full bed &nbsp; <i class="glyphicon glyphicon-bed"></i>',
+    'tripple_room_balcony_beds' => '1 twin bed &nbsp; <i class="fa fa-bed"></i> &nbsp; and  1 full bed &nbsp; <i class="glyphicon glyphicon-bed"></i>',
+    'appartment_primorsko_beds' => ' <b>Bedroom 1:</b> 1 king bed &nbsp; <i class="glyphicon glyphicon-bed"></i> <br/> <br/> <b>Bedroom 2:</b> 1 sofa bed &nbsp; <i class="material-icons">weekend</i> &nbsp; and 1 king bed &nbsp; <i class="glyphicon glyphicon-bed"></i> ',
+    'studio_appartment_primorsko_beds' => '1 king bed &nbsp; <i class="glyphicon glyphicon-bed"></i>',
+    'double_room_sinemorets_beds' => '2 single beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> &nbsp; or 1 large double bed &nbsp; <i class="glyphicon glyphicon-bed"></i> ',
+    'tripple_room_sinemorets_beds' => '2 single beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> &nbsp; and  1 futon bed or    <br/>    1 large double bed &nbsp; <i class="glyphicon glyphicon-bed"></i>  &nbsp; and  1 futon bed ',
+    'five_room_sinemorets_beds' => '<b>Bedroom 1:</b> 1 large double bed &nbsp; <i class="glyphicon glyphicon-bed"></i> &nbsp; and  1 futon bed <br/> <b>Living room</b> 1 sofa bed &nbsp; <i class="material-icons">weekend</i> ',
+    
+                     
+                     
+                     
+                     
+                     
+                     
+    
+   
 
 
     //Sinemorets
