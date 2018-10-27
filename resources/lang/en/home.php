@@ -50,7 +50,21 @@ return [
     'double_room_sinemorets_beds' => '2 single beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> &nbsp; or 1 large double bed &nbsp; <i class="glyphicon glyphicon-bed"></i> ',
     'tripple_room_sinemorets_beds' => '2 single beds &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> &nbsp; and  1 futon bed or    <br/>    1 large double bed &nbsp; <i class="glyphicon glyphicon-bed"></i>  &nbsp; and  1 futon bed ',
     'five_room_sinemorets_beds' => '<b>Bedroom 1:</b> 1 large double bed &nbsp; <i class="glyphicon glyphicon-bed"></i> &nbsp; and  1 futon bed <br/> <b>Living room</b> 1 sofa bed &nbsp; <i class="material-icons">weekend</i> ',
-    
+    'rules_message' => 'We kindly recomend to read our rules :)',
+    'children_beds_header' => 'Children and Extra Beds',
+    'children_beds_pomorie_message' => 'All children are welcome.
+    All children under 12 years are charged EUR 6 per night for extra beds.
+    Any additional older children or adults are charged EUR 10 per night for extra beds.
+    The maximum number of extra beds in a room is 2.
+    Any type of extra bed is upon request and needs to be confirmed by management.
+    Additional fees are not calculated automatically in the total cost and will have to be paid for separately during your stay.',
+    'pets_header' => 'Pets',
+    'pets_message' => 'Pets are not allowed.',
+    'cash_header' => 'Cash only',
+    'cash_message' => 'This property only accepts cash payments.
+    Credit cards are only needed to guarantee your booking .',
+
+
                      
                      
                      
