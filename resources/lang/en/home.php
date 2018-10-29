@@ -1,11 +1,12 @@
 <?php
- 
+
 return [
-	//tabs
-	'home' => 'Home',
+    //tabs
+    'home' => 'Home',
     'appartments' => 'Appartments',
     'contacts' => 'Contacts',
     'faq' => 'FAQ',
+    'language' => 'Language',
 
     // Names
     'pomorie_name' => 'Pomorie',
@@ -15,16 +16,15 @@ return [
     'sinemorets_name' => 'Sinemorets',
     'sinemorets_house_name' => 'Casa Di Angel',
 
-
     //Titles, labels and messages
     'offer_title' => 'What we offer ?',
     'rules_heading' => 'Properties rules !',
     'rules' => 'Rules',
-    'important' => 'Important:', 
+    'important' => 'Important:',
     'checkin_checkout_header' => 'Checkin and Checkout Policies !',
     'checkin_checkout_message' => 'The checkin needs to take place between 14:00 and 20:00. The checkout needs to take
      place between 10:00 and 11:00 in the morning.',
-     'cansel_payment_header' => 'Cancellation/prepayment',
+    'cansel_payment_header' => 'Cancellation/prepayment',
     'cansel_payment_message' => 'Needs to be discussed',
     'tripple_room' => 'Tripple Room with Sea View:',
     'double_room' => 'Double Room with Sea View:',
@@ -64,60 +64,62 @@ return [
     'cash_message' => 'This property only accepts cash payments.
     Credit cards are only needed to guarantee your booking .',
 
-
-                     
-                     
-                     
-                     
-                     
-                     
-    
-   
-
-
     //Sinemorets
-    'sinemorets' => 'This property is 5 minutes walk from the beach. Located in Sinemorets, Casa Di Angel provides a seasonal outdoor swimming pool and fitness centre. 1.2 km from Veleka Beach, the hotel features a garden and a terrace. Guests can have a cocktail at the bar.
+    'sinemorets' => 'This property is 5 minutes walk from the beach. Located in Sinemorets, Casa Di Angel provides a seasonal outdoor swimming pool and fitness centre. 1.2 km from Veleka Beach, the hotel features a garden and a terrace. Guests can have a cocktail at the bar.&nbsp;<br/>
+    <br/>&nbsp;
 
-    A Full English/Irish breakfast is served daily at the property. Guests can dine in the on-site restaurant, which specialises in local cuisine.
+    A Full English/Irish breakfast is served daily at the property. Guests can dine in the on-site restaurant, which specialises in local cuisine.&nbsp;<br>
+    <br/>&nbsp;
     
-    Staff at the hotel are always available to provide advice at the reception.
+    Staff at the hotel are always available to provide advice at the reception.&nbsp;<br>
+    <br/>&nbsp;
     
-    Silistar Beach is 5 km from Casa Di Angel. The nearest airport is Burgas Airport, 68 km from the property. 
+    Silistar Beach is 5 km from Casa Di Angel. The nearest airport is Burgas Airport, 68 km from the property.&nbsp;<br>
+    <br/>&nbsp; 
     
     This is our guests favourite part of Sinemorets, according to independent reviews.
     
     Couples particularly like the location — they rated it 8.2 for a two-person trip.
     
-    We speak your language!',
-    
-    // Primorsko
-    'primorsko' => 'This property is 5 minutes walk from the beach. Situated in Primorsko, Tiffany Joy Apartments provides accommodation with free WiFi and seating area.
+    We speak your language!&nbsp;<br/>
+    <br/>&nbsp;',
 
-    All units have a kitchenette, a private bathroom and a terrace or balcony with views of sea. A fridge and kettle are also offered.
+    // Primorsko
+    'primorsko' => 'This property is 5 minutes walk from the beach. Situated in Primorsko, Tiffany Joy Apartments provides accommodation with free WiFi and seating area.<br/>
+    <br/>
+
+    All units have a kitchenette, a private bathroom and a terrace or balcony with views of sea. A fridge and kettle are also offered.<br>
+    <br/>
     
-    Primorsko Municipality is a 2-minute walk from the apartment, while Aquapark Primorsko is 800 m away. The nearest airport is Burgas Airport, 39 km from Tiffany Joy Apartments. 
+    Primorsko Municipality is a 2-minute walk from the apartment, while Aquapark Primorsko is 800 m away. The nearest airport is Burgas Airport, 39 km from Tiffany Joy Apartments.<br>
+    <br/> 
     
-    This is our guests favourite part of Primorsko, according to independent reviews.
+    This is our guests favourite part of Primorsko, according to independent reviews.<br>
+    <br/>
     
-    This property also has one of the best-rated locations in Primorsko! Guests are happier about it compared to other properties in the area.
+    This property also has one of the best-rated locations in Primorsko! Guests are happier about it compared to other properties in the area.<br/>
+    <br/>
     
     This property is also rated for the best value in Primorsko! Guests are getting more for their money when compared to other properties in this city.
     
     We speak your language!',
 
     // Pomorie
-    'pomorie' => 'This property is 2 minutes walk from the beach. Guest House More is set in a 3-floor building in the centre of Pomorie and only 50 m away from the beach. Free WiFi is available throughout the property.
+    'pomorie' => 'This property is 2 minutes walk from the beach. Guest House More is set in a 3-floor building in the centre of Pomorie and only 50 m away from the beach. Free WiFi is available throughout the property.<br/>
+    <br/>
 
-    Certain units include a seating area where you can relax. You will find a kettle in the room. Each room includes a private bathroom. A TV is provided.
+    Certain units include a seating area where you can relax. You will find a kettle in the room. Each room includes a private bathroom. A TV is provided.<br>
+    <br/>
     
-    You will find a tour desk at the property.
+    You will find a tour desk at the property.<br>
+    <br/>
     
-    Burgas City is 16 km from Guest House More, while Obzor is 35 km from the property. The nearest airport is Burgas Airport, 11 km from Guest House More.
+    Burgas City is 16 km from Guest House More, while Obzor is 35 km from the property. The nearest airport is Burgas Airport, 11 km from Guest House More.<br>
+    <br/>
     
-    This is our guests favourite part of Pomorie, according to independent reviews.
+    This is our guests favourite part of Pomorie, according to independent reviews.<br>
+    <br/>
     
-    We speak your language!'
+    We speak your language!',
 
-
- 
 ];
