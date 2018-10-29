@@ -21,6 +21,9 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <!-- Responsive Style -->
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+              integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+              crossorigin="anonymous">
 
         <script src="http://thecodeplayer.com/uploads/js/prefixfree.js" type="text/javascript"></script>
 
@@ -1000,8 +1003,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">our event gallery</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Апаратаменти</h1>
+                            {{--<p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>--}}
                         </div>
                     </div>
                 </div>
@@ -1009,236 +1012,75 @@
                     <div class="col-md-6 col-sm-6 col-lg-4">
                         <div class="gallery-box">
                             <div class="img-thumb">
-                                <img class="img-fluid" src="img/apartments/Primorsko.jpg" alt="">
+                                <img class="img-fluid" src="img/apartments/primorsko/primsko.jpg" alt="">
                             </div>
                             <div class="overlay-box text-center">
-                                <a class="lightbox" href="#gallery">
-                                    <i class="lni-plus" data-toggle="modal" data-target="#exampleModal"></i>
+                                <a data-toggle="modal" data-target="#primorskoModal" class="lightbox" href="#gallery">
+                                    <h4 style="color: white; margin-left: -2.5em;"><strong>ПРИМОРСКО</strong></h4>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    <div class="modal fade" id="primorskoModal" tabindex="-1" role="dialog"
                          aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog"
                              style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
                              role="document">
                             <div class="modal-content" style="min-height: 800px;">
                                 <div class="modal-body">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <div class="slider">
-                                        <input type="radio" name="slide_switch" id="id1" checked="checked"/>
-                                        <label for="id1">
-                                            <img src="img/apartments/1.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/1.jpg"/>
-
-                                        <!--Lets show the second image by default on page load-->
-                                        <input type="radio" name="slide_switch" id="id2"/>
-                                        <label for="id2">
-                                            <img src="img/apartments/102428424.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/102428424.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id3"/>
-                                        <label for="id3">
-                                            <img src="img/apartments/102428455.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/102428455.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id4"/>
-                                        <label for="id4">
-                                            <img src="img/apartments/103522236.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522236.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id6"/>
-                                        <label for="id6">
-                                            <img src="img/apartments/103522254.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522254.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id7"/>
-                                        <label for="id7">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id8"/>
-                                        <label for="id8">
-                                            <img src="img/apartments/103522256.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522256.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id9"/>
-                                        <label for="id9">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id12"/>
-                                        <label for="id12">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id13"/>
-                                        <label for="id13">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-
-                                        <!--here-->
-
-                                        <input type="radio" name="slide_switch" id="id14"/>
-                                        <label for="id14">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id15"/>
-                                        <label for="id15">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-                                        <input type="radio" name="slide_switch" id="id16"/>
-                                        <label for="id16">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id11"/>
-                                        <label for="id11">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-                                        <input type="radio" name="slide_switch" id="id10"/>
-                                        <label for="id10">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-
-                                        <input type="radio" name="slide_switch" id="id11"/>
-                                        <label for="id11">
-                                            <img src="img/apartments/103522250.jpg" width="100"/>
-                                        </label>
-                                        <img src="img/apartments/103522250.jpg"/>
-                                    </div>
-
-                                    <div class="pre-scrollable" style="padding: 20px; min-height: 30em;">
-                                        <h3> Tiffany Joy Приморско </h3>
-                                        Това място за настаняване е на 5 минути пеша от плажа. Апартаменти „Тифани Джой"
-                                        се намират в Приморско. Предлагат помещения с безплатен WiFi и кът за
-                                        сядане..<br/>
-                                        <br/>
-                                        Всички апартаменти разполагат с кухненски бокс, собствена баня и тераса или
-                                        балкон с изглед към морето. Осигурени са хладилник и термокана.<br>
-                                        <br/>
-                                        Община Приморско е на 2 минути пеша от апартамента, а Аквапарк Приморско е на
-                                        800 метра. Най-близкото летище е Бургас, разположено на 39 км от Апартаменти
-                                        „Тифани Джой". <br>
-                                        <br/>За нашите гости това е любимата част на Приморско, според независими
-                                        отзиви.<br>
-                                        <br/>
-                                        Това място за настаняване има едно от най-добре оценените местоположения в
-                                        Приморско! В сравнение с други места за настаняване в този район, гостите са
-                                        доволни от това местоположение.
-                                    </div>
-
-                                </div>
-                                <div class="modal-footer">
-                                    <p>Contacts: 08991231231 </p>
+                                    @include('apartments.primorsko')
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="ccol-md-6 col-sm-6 col-lg-4">
+                    <div class="col-md-6 col-sm-6 col-lg-4">
                         <div class="gallery-box">
                             <div class="img-thumb">
-                                <img class="img-fluid" src="img/gallery/img-2.jpg" alt="">
+                                <img class="img-fluid" src="img/apartments/pomorie/pomorie.jpg" alt="">
                             </div>
                             <div class="overlay-box text-center">
-                                <a class="lightbox" href="#gallery">
-                                    <i class="lni-plus" data-toggle="modal" data-target="#exampleModal"></i>
+                                <a data-toggle="modal" data-target="#pomorieModal" class="lightbox" href="#gallery">
+                                    <h4 style="color: white; margin-left: -2em;"><strong>ПОМОРИЕ</strong></h4>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="ccol-md-6 col-sm-6 col-lg-4">
-                        <div class="gallery-box">
-                            <div class="img-thumb">
-                                <img class="img-fluid" src="img/gallery/img-3.jpg" alt="">
-                            </div>
-                            <div class="overlay-box text-center">
-                                <a class="lightbox" href="#gallery">
-                                    <i class="lni-plus" data-toggle="modal" data-target="#exampleModal"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ccol-md-6 col-sm-6 col-lg-4">
-                        <div class="gallery-box">
-                            <div class="img-thumb">
-                                <img class="img-fluid" src="img/gallery/img-4.jpg" alt="">
-                            </div>
-                            <div class="overlay-box text-center">
-                                <a class="lightbox" href="#gallery">
-                                    <i class="lni-plus" data-toggle="modal" data-target="#exampleModal"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ccol-md-6 col-sm-6 col-lg-4">
-                        <div class="gallery-box">
-                            <div class="img-thumb">
-                                <img class="img-fluid" src="#gallery" alt="">
-                            </div>
-                            <!--<div class="overlay-box text-center">-->
-                            <!--<a class="lightbox" href="img/gallery/img-5.jpg">-->
-                            <!--<i class="lni-plus"></i>-->
-                            <!--</a>-->
-                            <!--</div>-->
-
-                            <div class="modal" tabindex="-1" role="dialog">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p>Modal body text goes here.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
-                                            </button>
-                                        </div>
-                                    </div>
+                    <div class="modal fade" id="pomorieModal" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog"
+                             style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
+                             role="document">
+                            <div class="modal-content" style="min-height: 800px;">
+                                <div class="modal-body">
+                                    @include('apartments.pomorie')
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="ccol-md-6 col-sm-6 col-lg-4">
+
+                    <div class="col-md-6 col-sm-6 col-lg-4">
                         <div class="gallery-box">
                             <div class="img-thumb">
-                                <img class="img-fluid" src="img/gallery/img-6.jpg" alt="">
+                                <img class="img-fluid" src="img/apartments/sinemorec/38.jpg" alt="">
                             </div>
                             <div class="overlay-box text-center">
-                                <a class="lightbox" href="#gallery">
-                                    <i class="lni-plus" data-toggle="modal" data-target="#exampleModal"></i>
+                                <a data-toggle="modal" data-target="#sinemorecModal" class="lightbox" href="#gallery">
+                                    <h4 style="color: white; margin-left: -2em;"><strong>СИНЕМОРЕЦ</strong></h4>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row justify-content-center mt-3">
-                    <div class="col-xs-12">
-                        <a href="#" class="btn btn-common">Browse All</a>
+                    <div class="modal fade" id="sinemorecModal" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog"
+                             style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
+                             role="document">
+                            <div class="modal-content" style="min-height: 800px;">
+                                <div class="modal-body">
+                                    @include('apartments.sinemorec')
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
