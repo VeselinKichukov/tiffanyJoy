@@ -145,9 +145,9 @@
 
                     <h1 class="text-center">Pomorie</h1>
                     <ul class="list-inline text-center">
-                        <li>Author |</li>
-                        <li>Category |</li>
-                        <li>Date </li>
+                        <li>27°С Average Summer Temperature |</li>
+                        <li>23.6°С Average Water Temperature |</li>
+                        <li>5 km Long Beach </li>
                     </ul>
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-12">
