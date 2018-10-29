@@ -106,8 +106,9 @@
                             </li>
                             {{--HERE--}}
                             <li class="nav-item dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                   aria-expanded="false" style="position: fixed;">
+                                <a href="#" id="lngItem" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-expanded="false" style="position: fixed; top: 3px; text-transform: uppercase; color: white;">
+                                    @lang('home.language'):
                                     <img id="imgNavSel" class="img-thumbnail icon-small"
                                          style="background-color: transparent; border: none;">  
                                     <span id="lanNavSel" style="color: white;">ENG</span>

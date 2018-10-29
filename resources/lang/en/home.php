@@ -6,6 +6,7 @@ return [
     'appartments' => 'Appartments',
     'contacts' => 'Contacts',
     'faq' => 'FAQ',
+    'language' => 'Language',
 
     // Names
     'pomorie_name' => 'Pomorie',

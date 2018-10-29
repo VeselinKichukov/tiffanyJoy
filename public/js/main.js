@@ -13,9 +13,11 @@
         if ($(window).scrollTop() > 200) {
             $('.scrolling-navbar').addClass('top-nav-collapse');
             document.getElementById('lanNavSel').style.color = 'black';
+            document.getElementById('lngItem').style.color = 'black';
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
             document.getElementById('lanNavSel').style.color = 'white';
+            document.getElementById('lngItem').style.color = 'white';
         }
     });
 

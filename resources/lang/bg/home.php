@@ -7,6 +7,7 @@ return [
     'appartments' => 'Апартаменти',
     'contacts' => 'Контакти',
     'faq' => 'Въпроси',
+    'language' => 'Език',
 
     // Names
     'pomorie_name' => 'Поморие',
