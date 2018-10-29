@@ -633,6 +633,10 @@ a.back-to-top:hover, a.back-to-top:focus {
     color: #e91e63 !important;
 }
 
+.main-image {
+    max-height: 950px;
+}
+
 .indigo {
     background: transparent;
 }
