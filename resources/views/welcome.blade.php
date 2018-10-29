@@ -189,7 +189,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/slider/slide1.jpg" alt="First slide">
+                        <img class="d-block w-100 main-image" src="img/slider/slide1.jpg" alt="First slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
                             <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Design Thinking Conference</h1>
@@ -199,7 +199,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slider/slide2.jpg" alt="Second slide">
+                        <img class="d-block w-100 main-image" src="img/slider/slide2.jpg" alt="Second slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
                             <h1 class="wow bounceIn heading" data-wow-delay=".7s">22 Amazing Speakers</h1>
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/slider/slide3.jpg" alt="Third slide">
+                        <img class="d-block w-100 main-image" src="img/slider/slide3.jpg" alt="Third slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
                             <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Book Your Seat Now!</h1>
@@ -219,8 +219,8 @@
                     <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
-                    <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
+                <a class="carousel-control-next" style="text-align: right;" href="#main-slide" role="button" data-slide="next">
+                    <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right" style="margin: auto; position: fixed;"></i></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
