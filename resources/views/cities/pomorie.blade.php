@@ -151,29 +151,27 @@
                     </ul>
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-12">
-                    <p class="lead">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                     <div class="well ">
-                        <large>This is image</large>
+                    <p class="lead">Pomorie (Bulgarian: Поморие) is a town and seaside resort in southeastern Bulgaria, located on a narrow rocky peninsula in Burgas Bay on the southern Bulgarian Black Sea Coast.</p>
+    <p>It is situated in Burgas Province, 20 km away from the city of Burgas and 18 km from the Sunny Beach resort. The ultrasaline lagoon Lake Pomorie, the northernmost of the Burgas Lakes, lies in the immediate proximity. The town is the administrative centre of the eponymous Pomorie Municipality.</p>
+                     <div class="image-block1 ">
+                        <img src="../img/blog/pm-cover1.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
                     </div>
-    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                    <blockquote>
+    <p>Pomorie is located in the southern part of the Bulgarian Black Sea Coast, 22 km away from Burgas and approximately 400 km away from Sofia. The population of the town is around 14 000 people. E87 main road connecting the northern and the southern parts of the Black Sea Coast passes through Pomorie. Varna, Burgas, Sozopol, and Nesebar can be reached via Pomorie Port. The town lies in close proximity to the international airport of Burgas.</p>
+                    <!-- <blockquote>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
       <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
-    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+    </blockquote> -->
+                    <p>Pomorie is one of the most popular destinations in summer– the average air and water temperature in the month of July is 23.6°С, there are up to 2360 hours of sunshine every year, and the beach is about 5 km long. Winters are mild and with minimum precipitation.</p>
+    <p>Moreover, the region has been famous for the medicinal qualities of the mud extracted during the production of salt in Pomorie Lake ever since ancient times. The healing powers of the mineral water in the town are also well-known. The slow cooling of the sea water is very typical for the region. In the morning before sunrise the air is rich in ozone, negative ions, ultraviolet rays and iodine released in gas form by seaweed.</p>
                     <blockquote>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      <p>Pomorie is a popular tourist destination and it provides its guests with many accommodation opportunities. There are also plenty of venues and restaurants in the town.
+Thanks to the medicinal qualities of its mud, Pomorie has become a popular balneological and SPA resort visited during winter and summer. Nesebar and Sozopol which are famous for their archaeological discoveries and ancient histories are not far away. Slanchev bryag Resort (Sunny Beach Resort) is also close to Pomorie. It provides various forms of entertainment 24 hours a day.</p>
 
     </blockquote>
 
-                     <div class="image-block">
-                         <!-- <img src="https://static.pexels.com/photos/268455/pexels-photo-268455.jpeg" > -->
+                     <div class="image-block1">
+                         <img src="../img/blog/pm-cover2.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
                      </div>
-
-    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-
                  </div>
                 <div class="col-lg-3  col-md-3 col-sm-12">
                     <!-- <div class="well">
