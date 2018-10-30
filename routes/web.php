@@ -16,7 +16,7 @@ Route::get('locale/{locale}', function ($locale) {
     return redirect()->back();
 });
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
@@ -25,4 +25,4 @@ Route::get('/pomorie', function() {
 });
 
 // contact form
-Route::post('/home', 'ContactController@mailToAdmin');
+Route::post('/', 'ContactController@mailToAdmin');
