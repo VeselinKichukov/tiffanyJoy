@@ -151,6 +151,10 @@
                     </ul>
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-12">
+                  <a class="weatherwidget-io" href="https://forecast7.com/en/42d5727d62/pomorie/" data-label_1="Pomorie" data-label_2="Bulgaria" data-theme="original" >POMORIE WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
                     <p class="lead">Pomorie (Bulgarian: Поморие) is a town and seaside resort in southeastern Bulgaria, located on a narrow rocky peninsula in Burgas Bay on the southern Bulgarian Black Sea Coast.</p>
     <p>It is situated in Burgas Province, 20 km away from the city of Burgas and 18 km from the Sunny Beach resort. The ultrasaline lagoon Lake Pomorie, the northernmost of the Burgas Lakes, lies in the immediate proximity. The town is the administrative centre of the eponymous Pomorie Municipality.</p>
                      <div class="image-block1 ">
