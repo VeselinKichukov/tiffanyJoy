@@ -343,52 +343,54 @@
         <!-- Services Section End -->
 
 
-        <!-- About Section Start -->
-        <section id="about" class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About This Events</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="about-item">
-                            <img class="img-fluid" src="img/about/img1.jpg" alt="">
-                            <div class="about-text">
-                                <h3><a href="#">Wanna Know Our Mission?</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                                <a class="btn btn-common btn-rm" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="about-item">
-                            <img class="img-fluid" src="img/about/img2.jpg" alt="">
-                            <div class="about-text">
-                                <h3><a href="#">What you will learn?</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                                <a class="btn btn-common btn-rm" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="about-item">
-                            <img class="img-fluid" src="img/about/img3.jpg" alt="">
-                            <div class="about-text">
-                                <h3><a href="#">What are the benifits?</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                                <a class="btn btn-common btn-rm" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About The Cities</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Usefull information of cities where our hotels reside</p>
             </div>
-        </section>
-        <!-- About Section End -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="img/blog/pm-blog.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Pomorie</a></h3>
+                <p>Pomorie is a town and seaside resort in southeastern Bulgaria, located on the southern Bulgarian Black Sea Coast. It is situated in Burgas Province, 20 km away from the city of Burgas and 18 km from the Sunny Beach resort.</p>
+                <a class="btn btn-common btn-rm" href="/pomorie">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="img/blog/sn-blog.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Sinemorets</a></h3>
+                <p>Sinemorets is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey</p>
+                </br>
+                <a class="btn btn-common btn-rm" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="img/blog/po-blog.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Primorsko</a></h3>
+                <p>Primorsko is a town and seaside resort in southeastern Bulgaria, part of Burgas Province. A well-known resort on the Bulgarian Black Sea Coast, it is located on a gore 52 km south of Burgas and has a beach strip of about 1 km².</p>
+                <a class="btn btn-common btn-rm" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
 
         <!-- Counter Area Start-->
         <section class="counter-section section-padding">
@@ -1275,7 +1277,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-6 col-sm-6 col-lg-4">
                         <div class="gallery-box">
                             <div class="img-thumb">
@@ -1708,6 +1709,7 @@
               </div>
             </div>
           </div>
+
         </section> -->
 
 

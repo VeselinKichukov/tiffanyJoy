@@ -20,5 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/pomorie', function() {
+    return view('cities.pomorie');
+});
+
 // contact form
 Route::post('/', 'ContactController@mailToAdmin');
