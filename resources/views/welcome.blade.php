@@ -314,7 +314,7 @@
               <div class="about-text">
                 <h3><a href="#">Pomorie</a></h3>
                 <p>Pomorie is a town and seaside resort in southeastern Bulgaria, located on the southern Bulgarian Black Sea Coast. It is situated in Burgas Province, 20 km away from the city of Burgas and 18 km from the Sunny Beach resort.</p>
-                <a class="btn btn-common btn-rm" href="#">Read More</a>
+                <a class="btn btn-common btn-rm" href="/pomorie">Read More</a>
               </div>
             </div>
           </div>
