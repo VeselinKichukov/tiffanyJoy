@@ -101,6 +101,23 @@ return [
     <br/>
     <br/>',
 
+    // Primorsko (cities)
+
+    'primorsko_appartments' => 'Апартаменти в Приморско',
+
+    'primorsko_temperature' => '29°С Средна лятна температура |',
+    'primorsko_water_temperature' => '29°С Средна температура на водата |',
+    'primorsko_beach' => '1 км плажна ивица|',
+    'primorsko_one' => 'Приморско е град и морски курорт намиращ се в югоисточната част на България и е част от Бургаска област. Добре познат курорт на Българското Черноморие.',
+    'primorsko_two' => 'Намира се на 50 километра от Бургас и на 450 километра от столицата София. Населението на града е 2800 души, а през летните месеци броят на хората се увеличава неколкократно заради многобройните туристи, които избират Приморско за своята лятна почивка. Климатът тук е умереноконтинентален с черноморско и средиземноморско влияние, характерен с мека и къса зима и продължително лято. Средната юлска температура е 23-24° С.',
+    'primorsko_three' => 'Около Приморско са открити 4 светилища, 12 долмена и 10 могилни некропола. Най-голям интерес сред туристите предизвиква светилището „Беглик таш”, което олицетворява култа към слънцето. Скалното светилище край Приморско е едно от най-големите открития за тракийската история на българското Южно Черноморие и Странджа. То е разположено в централната най-висока част на нос Беглик таш, с надморска височина 128 м и обхваща площ от около 6 дка. Най-добре проучена е централната му част, където върху голяма скална тераса, леко издигната над околния терен, са разположени в кръг с диаметър 56 м отделни скални елементи от ритуалното пространство. Създадено е в средата на ІІ хил. пр.Хр. и е разрушено в началото на ІV в. сл.Хр. <br />  <br />
+    Край Приморско е разположен резерватът „Ропотамо”. На територията на резервата се намират множество интересни и уникални природни обекти - лиманът на река Ропотамо, блатото Аркутино, лонгозни гори, които на тази географска ширина се срещат много рядко, различни скални феномени, мочурища, блата и други. Резерватът е част от по-голямата защитена зона „Рамсарско място Ропотамо”. Лиманът на река Ропотамо е една от основните туристически забележителности в резервата. Тук се предлагат атрактивни разходки с лодка по течението на реката.',
+    'primorsko_four' => 'The Arkutino reserve, also known as Mecheshko Blato (Bear’s Swamp), in Primorsko municipality is famous for its pure nature and rare plants. The reserve is home to the sand lily and offers a clean and long coastline. <br />
+    North of Primorsko, in the area between the Stamopolu lagoon and the seashore is located one of the best – preserved dune complexes at the Black Sea shore. Some dunes reach up to 19 meters of height and are an exceptional view for visitors. This is the natural landmark Sand Dunes – Perla. <br />
+    The town of Primorsko is a preferred destination due to its favorable climate, its wonderful nature, its historical and cultural monuments, the hospitable people and the various attractions, offered in the town. There are 4 beaches near the town – north, central, southern and Perla, which offer various attractions – a volleyball playground, gym, water ski, pedal boats, surfing, boat trips, scooters and children’s facilities.
+    There are many accommodation options in Primorsko – from private apartments, villas, family hotels and hotel complexes. The restaurants in the town serve traditional Bulgarian meals, fish dishes. Many of them offer live music.',
+
+
     // Pomorie
     'pomorie' => ' Къща за гости Море се помещава в 3-етажна сграда, разположена в центъра на Поморие и само на 50 метра от плажа.
     Навсякъде е осигурен безплатен WiFi.<br/>

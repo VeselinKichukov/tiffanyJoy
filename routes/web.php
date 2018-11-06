@@ -24,5 +24,9 @@ Route::get('/pomorie', function() {
     return view('cities.pomorie');
 });
 
+Route::get('/primorsko', function() {
+    return view('cities.primorsko');
+});
+
 // contact form
 Route::post('/', 'ContactController@mailToAdmin');
