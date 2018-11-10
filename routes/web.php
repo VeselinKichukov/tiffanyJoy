@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 Route::get('/cities', function() {
-    return view('second');
+    return view('cities-main');
 });
 
 // contact form

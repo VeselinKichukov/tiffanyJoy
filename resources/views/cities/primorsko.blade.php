@@ -65,15 +65,14 @@
                 <div class="well">
                     <h3>Appartments in Primorsko</h3>
                     <div class="media">
-                        <div class="media-left"><a href="#"> <img data-src="holder.js/64x64"
-                                                                  class="media-object" alt="64x64" width='84px'
-                                                                  height='84px'
+                        <div class="row"><a href="#"> <img data-src="holder.js/64x64"
+                                                                  class="media-object" alt="64x64" width='100%'
+                                                                  height='auto'
                                                                   src="{{ asset('../img/blog/pm_house.jpg') }}"
                                                                   data-holder-rendered="true"> </a></div>
-                        <div class="media-body"><h4 class="media-heading">Casa Di Angel</h4>In the centre of
-                                                                                            Pomorie and only
-                                                                                            50 metres away
-                                                                                            from the beach.
+                        <div class="row" style="text-align: center; display: block;">
+                            <h4 class="media-heading">Casa Di Angel</h4>
+                            In the centre of Pomorie and only 50 metres away from the beach.
                         </div>
                     </div>
                 </div>

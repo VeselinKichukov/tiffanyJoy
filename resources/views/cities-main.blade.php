@@ -17,17 +17,62 @@
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
 
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet"
+              href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer
+                src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css"
+              href="css/bootstrap.min.css">
+        <!-- Icon -->
+        <link rel="stylesheet" type="text/css"
+              href="fonts/line-icons.css">
+        <!-- Slicknav -->
+        <link rel="stylesheet" type="text/css"
+              href="css/slicknav.css">
+        <!-- Nivo Lightbox -->
+        <link rel="stylesheet" type="text/css"
+              href="css/nivo-lightbox.css">
+        <!-- Animate -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!-- Main Style -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- Responsive Style -->
+        <link rel="stylesheet" type="text/css"
+              href="css/responsive.css">
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+              integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+              crossorigin="anonymous">
+
         <!-- blog template -->
         <link rel="stylesheet" type="text/css" href="css/pomorie.css">
         <!------ Include the above in your HEAD tag ---------->
     </head>
     <body>
 
+        @include('nav-bar')
+
         <section class="banner-section"></section>
 
         @include('cities.pomorie')
         @include('cities.sinemorets')
         @include('cities.primorsko' )
+
+        {{--@include('footer')--}}
 
         <div id="preloader">
             <div class="sk-circle">

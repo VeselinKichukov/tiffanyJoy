@@ -16,7 +16,7 @@ section {
 }
 
 .post-title-block {
-    padding: 100px 0;
+    padding: 115px 0;
 }
 
 .post-title-block h1 {
@@ -73,6 +73,7 @@ section {
 }
 
 .well {
+    width: 350px;
     margin-bottom: 10%;
 }
 
@@ -85,4 +86,9 @@ section {
     width: 100%;
     margin: 0 0 10px 0;
     object-fit: contain;
+}
+
+.media-heading {
+    margin-top: 5px;
+    text-align: center;
 }
