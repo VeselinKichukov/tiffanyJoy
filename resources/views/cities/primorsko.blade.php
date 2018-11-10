@@ -1,19 +1,19 @@
-<section id="pomorie-content" class="post-content-section">
+<section id="primorsko-content" class="post-content-section">
     <div class="container">
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
 
-                <h1 class="text-center">Pomorie</h1>
+                <h1 class="text-center">Primorsko</h1>
                 <ul class="list-inline text-center">
-                    <li>27°С Average Summer Temperature |</li>
-                    <li>23.6°С Average Water Temperature |</li>
-                    <li>5 km Long Beach</li>
+                    <li>22°С Average Summer Temperature |</li>
+                    <li>25.6°С Average Water Temperature |</li>
+                    <li>8 km Long Beach</li>
                 </ul>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-12">
                 <a class="weatherwidget-io" href="https://forecast7.com/en/42d5727d62/pomorie/"
-                   data-label_1="Pomorie" data-label_2="Bulgaria" data-theme="original">POMORIE WEATHER</a>
+                   data-label_1="Pomorie" data-label_2="Bulgaria" data-theme="original">PRIMORSKO WEATHER</a>
                 <script>
                     !function (d, s, id) {
                         var js, fjs = d.getElementsByTagName(s)[0];
@@ -39,6 +39,7 @@
                    people. E87 main road connecting the northern and the southern parts of the Black Sea Coast
                    passes through Pomorie. Varna, Burgas, Sozopol, and Nesebar can be reached via Pomorie Port.
                    The town lies in close proximity to the international airport of Burgas.</p>
+
                 <p>Pomorie is one of the most popular destinations in summer– the average air and water
                    temperature in the month of July is 23.6°С, there are up to 2360 hours of sunshine every
                    year, and the beach is about 5 km long. Winters are mild and with minimum precipitation.</p>
@@ -62,28 +63,24 @@
             </div>
             <div class="col-lg-3  col-md-3 col-sm-12">
                 <div class="well">
-                    <h3>Appartments in Pomorie</h3>
+                    <h3>Appartments in Primorsko</h3>
                     <div class="media">
-                        <div class="media-left"><a href="#">
-                                <img data-src="holder.js/64x64"
-                                     class="media-object"
-                                     alt="64x64"
-                                     width='84px'
-                                     height='84px'
-                                     src="{{ asset('../img/blog/pm_house.jpg') }}"
-                                     data-holder-rendered="true"> </a></div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Guest House More</h4>
-                            In the centre of Pomorie and only 50 metres away from the beach.
+                        <div class="media-left"><a href="#"> <img data-src="holder.js/64x64"
+                                                                  class="media-object" alt="64x64" width='84px'
+                                                                  height='84px'
+                                                                  src="{{ asset('../img/blog/pm_house.jpg') }}"
+                                                                  data-holder-rendered="true"> </a></div>
+                        <div class="media-body"><h4 class="media-heading">Casa Di Angel</h4>In the centre of
+                                                                                            Pomorie and only
+                                                                                            50 metres away
+                                                                                            from the beach.
                         </div>
                     </div>
-                    <!-- <div class="media"> <div class="media-left"> <a href="#"> <img data-src="holder.js/64x64" class="media-object" alt="64x64" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTY5MjIxZTM1NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1NjkyMjFlMzU1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi41IiB5PSIzNi44Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true"> </a> </div> <div class="media-body"> <h4 class="media-heading">Media heading</h4> Cras sit amet nibh libero, in gravida nulla.</div> </div>
-                    <div class="media"> <div class="media-left"> <a href="#"> <img data-src="holder.js/64x64" class="media-object" alt="64x64" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTY5MjIxZTM1NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1NjkyMjFlMzU1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi41IiB5PSIzNi44Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true"> </a> </div> <div class="media-body"> <h4 class="media-heading">Media heading</h4> Cras sit amet nibh libero, in gravida nulla.</div> </div> -->
                 </div>
                 <div class="well">
                     <h3>Cities:</h3>
                     <div class="list-group">
-                        <a class="list-group-item active" href="javascript:void(0)"><h4
+                        <a id="pomorie-tab" class="list-group-item" href="javascript:void(0)"><h4
                                 class="list-group-item-heading">
                                 Pomorie</h4>
                             <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.
@@ -92,7 +89,7 @@
                                 class="list-group-item-heading">Sinemorets</h4>
                             <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.
                                                             Maecenas sed diam eget risus varius blandit.</p></a>
-                        <a id="primorsko-tab" class="list-group-item" href="javascript:void(0)"><h4 class="list-group-item-heading">Primorsko</h4>
+                        <a id="primorsko-tab" class="list-group-item active" href="javascript:void(0)"><h4 class="list-group-item-heading">Primorsko</h4>
                             <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.
                                                             Maecenas sed diam eget risus varius blandit.</p></a>
                     </div>
@@ -101,5 +98,5 @@
         </div>
 
 
-    </div> <!-- /container -->
+    </div>
 </section>
