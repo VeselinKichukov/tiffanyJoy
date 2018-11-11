@@ -59,6 +59,6 @@
         <img src="../img/blog/pm-cover2.jpg" class="image-desc"/>
     </div>
 
-    @include('page-wrap')
+    @include('components.page-wrap')
 
 </div>

@@ -59,7 +59,7 @@
         <!-- Header Area wrapper Starts -->
         <header id="header-wrap">
 
-            @include('nav-bar')
+            @include('components.nav-bar')
 
             <!-- Main Carousel Section Start -->
             <div id="main-slide" class="carousel slide"
@@ -2983,7 +2983,7 @@
         </section>
         <!-- Map Section End -->
 
-        @include('footer')
+        @include('components.footer')
 
         <!-- Go to Top Link -->
         <a href="#" class="back-to-top">

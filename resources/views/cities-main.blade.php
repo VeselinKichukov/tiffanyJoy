@@ -64,7 +64,7 @@
     </head>
     <body>
 
-        @include('nav-bar')
+        @include('components.nav-bar')
 
         <section class="banner-section"></section>
 
@@ -77,9 +77,8 @@
                     @include('cities.primorsko' )
                 </div>
             </div>
+            @include('components.footer')
         </section>
-
-        {{--@include('footer')--}}
 
         <div id="preloader">
             <div class="sk-circle">

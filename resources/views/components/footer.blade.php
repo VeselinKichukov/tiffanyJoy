@@ -126,9 +126,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="site-info">
-                    <p>© Designed and Developed by <a
-                            href="http://uideck.com"
-                            rel="nofollow">UIdeck</a>
+                    <p>© Developed by <a
+                            href="http://motiv8soft.com"
+                            rel="nofollow">Motiv8Soft</a>
                     </p>
                 </div>
             </div>
