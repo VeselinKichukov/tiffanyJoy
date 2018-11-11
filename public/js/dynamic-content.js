@@ -29,7 +29,7 @@ $(function () {
 
         if (newHash) {
             $('#nav a').removeClass("active");
-            $('#' + newHash + '-tab').addClass("active");
+            $('#' + newHash + '-content #' + newHash + '-tab').addClass("active");
 
             $('#' + oldHash + '-content').fadeOut(0);
             $('#' + newHash + '-content').fadeIn(0);
