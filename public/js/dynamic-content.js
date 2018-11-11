@@ -10,13 +10,9 @@ window.addEventListener("hashchange", function (event) {
 $(function () {
     var newHash = "";
 
-    const $pomorie = $("#pomorie-content"),
-        $sinemorets = $("#sinemorets-content"),
-        $primorsko = $("#primorsko-content");
-
-    $pomorie.hide();
-    $sinemorets.hide();
-    $primorsko.hide();
+    $("#pomorie-content").hide();
+    $("#sinemorets-content").hide();
+    $("#primorsko-content").hide();
 
     $("#nav").delegate("a", "click", function () {
         window.location.hash = $(this).attr("href");
