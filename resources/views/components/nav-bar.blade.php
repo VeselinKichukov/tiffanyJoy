@@ -70,7 +70,7 @@
                 </li>
                 {{--HERE--}}
                 <li class="nav-item dropdown">
-                    <a href="#" id="lngItem"
+                    <a href="javascript:void(0)" id="lngItem"
                        class="dropdown-toggle"
                        data-toggle="dropdown"
                        role="button"

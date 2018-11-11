@@ -98,7 +98,8 @@
         </div>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-        <script src="js/dynamic-content.js"></script>
+        <script src="js/components/dynamic-content.js"></script>
+        <script src="js/components/language-bar.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.countdown.min.js"></script>
