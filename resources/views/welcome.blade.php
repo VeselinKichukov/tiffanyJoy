@@ -344,7 +344,7 @@
                                    the Sunny
                                    Beach resort.</p>
                                 <a class="btn btn-common btn-rm"
-                                   href="/pomorie">Read More</a>
+                                   href="/cities#pomorie">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -364,7 +364,7 @@
                                    the border with Turkey</p>
                                 </br>
                                 <a class="btn btn-common btn-rm"
-                                   href="#">Read
+                                   href="/cities#sinemorets">Read
                                             More</a>
                             </div>
                         </div>
@@ -388,7 +388,7 @@
                                    a beach
                                    strip of about 1 km².</p>
                                 <a class="btn btn-common btn-rm"
-                                   href="#">Read
+                                   href="cities#primorsko">Read
                                             More</a>
                             </div>
                         </div>

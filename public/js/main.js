@@ -13,50 +13,50 @@
 
       // $('#pomorie-tab').addClass('active');
 
-      $('#pomorie-content').fadeIn();
-      $('#sinemorets-content').hide();
-      $('#primorsko-content').hide();
-
-      document.getElementById('pomorie-tab').onclick = function () {
-          console.log('pom');
-          //make all tabs inactive
-          $('#sinemorets-tab').removeClass('active');
-          $('#primorsko-tab').removeClass('active');
-          //then make the clicked tab active
-          $(this).addClass('active');
-          // document.getElementById('pomorie-content').hidden = false;
-          // document.getElementById('sinemorets-content').hidden = true;
-          $('#pomorie-content').fadeIn("fast");
-          $('#sinemorets-content').hide();
-          $('#primorsko-content').hide();
-      }
-
-
-      document.getElementById('sinemorets-tab').onclick = function () {
-          console.log('sin');
-          //make all tabs inactive
-          $('#pomorie-tab').removeClass('active');
-          $('#primorsko-tab').removeClass('active');
-          //then make the clicked tab active
-          $(this).addClass('active');
-          $('#pomorie-content').hide();
-          $('#sinemorets-content').fadeIn("fast");
-          $('#primorsko-content').hide();
-      };
-
-      document.getElementById('primorsko-tab').onclick = function () {
-          console.log('prim');
-          //make all tabs inactive
-          $('#pomorie-tab').removeClass('active');
-          $('#sinemorets-tab').removeClass('active');
-          //then make the clicked tab active
-          $(this).addClass('active');
-          $('#pomorie-content').hide();
-          $('#sinemorets-content').hide();
-          $('#primorsko-content').fadeIn("fast");
-      };
-
-
+    //   $('#pomorie-content').fadeIn();
+    //   $('#sinemorets-content').hide();
+    //   $('#primorsko-content').hide();
+    //
+    //   document.getElementById('pomorie-tab').onclick = function () {
+    //       console.log('pom');
+    //       //make all tabs inactive
+    //       $('#sinemorets-tab').removeClass('active');
+    //       $('#primorsko-tab').removeClass('active');
+    //       //then make the clicked tab active
+    //       $(this).addClass('active');
+    //       // document.getElementById('pomorie-content').hidden = false;
+    //       // document.getElementById('sinemorets-content').hidden = true;
+    //       $('#pomorie-content').fadeIn("fast");
+    //       $('#sinemorets-content').hide();
+    //       $('#primorsko-content').hide();
+    //   }
+    //
+    //
+    //   document.getElementById('sinemorets-tab').onclick = function () {
+    //       console.log('sin');
+    //       //make all tabs inactive
+    //       $('#pomorie-tab').removeClass('active');
+    //       $('#primorsko-tab').removeClass('active');
+    //       //then make the clicked tab active
+    //       $(this).addClass('active');
+    //       $('#pomorie-content').hide();
+    //       $('#sinemorets-content').fadeIn("fast");
+    //       $('#primorsko-content').hide();
+    //   };
+    //
+    //   document.getElementById('primorsko-tab').onclick = function () {
+    //       console.log('prim');
+    //       //make all tabs inactive
+    //       $('#pomorie-tab').removeClass('active');
+    //       $('#sinemorets-tab').removeClass('active');
+    //       //then make the clicked tab active
+    //       $(this).addClass('active');
+    //       $('#pomorie-content').hide();
+    //       $('#sinemorets-content').hide();
+    //       $('#primorsko-content').fadeIn("fast");
+    //   };
+    //
+    //
       // Sticky Nav
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 200) {

@@ -15,7 +15,7 @@
                 <span class="icon-menu"></span>
                 <span class="icon-menu"></span>
             </button>
-            <a href="index.html" class="navbar-brand"><img
+            <a href="/" class="navbar-brand"><img
                     src="img/logo.png" alt=""></a>
         </div>
         <div class="collapse navbar-collapse"

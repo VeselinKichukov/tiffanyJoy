@@ -68,9 +68,16 @@
 
         <section class="banner-section"></section>
 
-        @include('cities.pomorie')
-        @include('cities.sinemorets')
-        @include('cities.primorsko' )
+        <section id="main-content" class="post-content-section">
+            <div class="container">
+                <p></p>
+                <div class="row">
+                    @include('cities.pomorie')
+                    @include('cities.sinemorets')
+                    @include('cities.primorsko' )
+                </div>
+            </div>
+        </section>
 
         {{--@include('footer')--}}
 
@@ -92,6 +99,7 @@
         </div>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
+        <script src="js/dynamic-content.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.countdown.min.js"></script>
