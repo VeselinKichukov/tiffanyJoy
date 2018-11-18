@@ -70,17 +70,17 @@ return [
 
     A Full English/Irish breakfast is served daily at the property. Guests can dine in the on-site restaurant, which specialises in local cuisine.&nbsp;<br>
     <br/>&nbsp;
-    
+
     Staff at the hotel are always available to provide advice at the reception.&nbsp;<br>
     <br/>&nbsp;
-    
+
     Silistar Beach is 5 km from Casa Di Angel. The nearest airport is Burgas Airport, 68 km from the property.&nbsp;<br>
-    <br/>&nbsp; 
-    
+    <br/>&nbsp;
+
     This is our guests favourite part of Sinemorets, according to independent reviews.
-    
+
     Couples particularly like the location — they rated it 8.2 for a two-person trip.
-    
+
     We speak your language!&nbsp;<br/>
     <br/>&nbsp;',
 
@@ -90,18 +90,18 @@ return [
 
     All units have a kitchenette, a private bathroom and a terrace or balcony with views of sea. A fridge and kettle are also offered.<br>
     <br/>
-    
+
     Primorsko Municipality is a 2-minute walk from the apartment, while Aquapark Primorsko is 800 m away. The nearest airport is Burgas Airport, 39 km from Tiffany Joy Apartments.<br>
-    <br/> 
-    
+    <br/>
+
     This is our guests favourite part of Primorsko, according to independent reviews.<br>
     <br/>
-    
+
     This property also has one of the best-rated locations in Primorsko! Guests are happier about it compared to other properties in the area.<br/>
     <br/>
-    
+
     This property is also rated for the best value in Primorsko! Guests are getting more for their money when compared to other properties in this city.
-    
+
     We speak your language!',
 
     // Pomorie
@@ -110,16 +110,31 @@ return [
 
     Certain units include a seating area where you can relax. You will find a kettle in the room. Each room includes a private bathroom. A TV is provided.<br>
     <br/>
-    
+
     You will find a tour desk at the property.<br>
     <br/>
-    
+
     Burgas City is 16 km from Guest House More, while Obzor is 35 km from the property. The nearest airport is Burgas Airport, 11 km from Guest House More.<br>
     <br/>
-    
+
     This is our guests favourite part of Pomorie, according to independent reviews.<br>
     <br/>
-    
+
     We speak your language!',
+
+    // Pomorie (cities)
+    'country' => 'Bulgaria',
+    'pomorie_appartments' => 'Aparments in Pomorie',
+    'pomorie_house_desc' => 'In the centre of Pomorie and only 50 metres away from the beach.',
+    'pomorie_weather_link' => 'https://forecast7.com/en/42d5727d62/pomorie/',
+    'pomorie_cities' => 'Cities:',
+    'pomorie_temperature' => '27°С Average Summer Temperature |',
+    'pomorie_water_temperature' => '23.6°С Average Water Temperature |',
+    'pomorie_beach' => '5 km Long Beach',
+    'pomorie_one' => 'Pomorie (Bulgarian: Поморие) is a town and seaside resort in southeastern Bulgaria, located on a narrow rocky peninsula in Burgas Bay on the southern Bulgarian Black Sea Coast.',
+    'pomorie_two' => 'Pomorie is located in the southern part of the Bulgarian Black Sea Coast, 22 km away from Burgas and approximately 400 km away from Sofia. The population of the town is around 14 000 people. E87 main road connecting the northern and the southern parts of the Black Sea Coast passes through Pomorie. Varna, Burgas, Sozopol, and Nesebar can be reached via Pomorie Port. The town lies in close proximity to the international airport of Burgas.',
+    'pomorie_three' => 'Pomorie is one of the most popular destinations in summer– the average air and water temperature in the month of July is 23.6°С, there are up to 2360 hours of sunshine every year, and the beach is about 5 km long. Winters are mild and with minimum precipitation.',
+    'pomorie_four' => 'Moreover, the region has been famous for the medicinal qualities of the mud extracted during the production of salt in Pomorie Lake ever since ancient times. The healing powers of the mineral water in the town are also well-known. The slow cooling of the sea water is very typical for the region. In the morning before sunrise the air is rich in ozone, negative ions, ultraviolet rays and iodine released in gas form by seaweed.',
+    'pomorie_five' => 'Pomorie is a popular tourist destination and it provides its guests with many accommodation opportunities. There are also plenty of venues and restaurants in the town. Thanks to the medicinal qualities of its mud, Pomorie has become a popular balneological and SPA resort visited during winter and summer. Nesebar and Sozopol which are famous for their archaeological discoveries and ancient histories are not far away. Slanchev bryag Resort (Sunny Beach Resort) is also close to Pomorie. It provides various forms of entertainment 24 hours a day.',
 
 ];
