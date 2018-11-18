@@ -3,224 +3,153 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <title>Tiffany Apart</title>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet"
+              href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer
+                src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css"
+              href="css/bootstrap.min.css">
         <!-- Icon -->
-        <link rel="stylesheet" type="text/css" href="fonts/line-icons.css">
+        <link rel="stylesheet" type="text/css"
+              href="fonts/line-icons.css">
         <!-- Slicknav -->
-        <link rel="stylesheet" type="text/css" href="css/slicknav.css">
+        <link rel="stylesheet" type="text/css"
+              href="css/slicknav.css">
         <!-- Nivo Lightbox -->
-        <link rel="stylesheet" type="text/css" href="css/nivo-lightbox.css">
+        <link rel="stylesheet" type="text/css"
+              href="css/nivo-lightbox.css">
         <!-- Animate -->
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <!-- Main Style -->
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <!-- Responsive Style -->
-        <link rel="stylesheet" type="text/css" href="css/responsive.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+        <link rel="stylesheet" type="text/css"
+              href="css/responsive.css">
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
               integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
               crossorigin="anonymous">
 
-        <script src="http://thecodeplayer.com/uploads/js/prefixfree.js" type="text/javascript"></script>
+        <script
+            src="http://thecodeplayer.com/uploads/js/prefixfree.js"
+            type="text/javascript"></script>
 
     </head>
     <body>
 
         <!-- Header Area wrapper Starts -->
         <header id="header-wrap">
-            <!-- Navbar Start -->
-            <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-                                aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            <span class="icon-menu"></span>
-                            <span class="icon-menu"></span>
-                            <span class="icon-menu"></span>
-                        </button>
-                        <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt=""></a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="main-navbar">
-                        <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#header-wrap">
-                                    @lang('home.home')
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">
-                                    About
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#schedules">
-                                    @lang('home.rules')
-                                </a>
-                            </li>
-                            <!-- <li class="nav-item">
-                              <a class="nav-link" href="#team">
-                                Speakers
-                              </a>
-                            </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#gallery">
-                                    @lang('home.appartments')
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#faq">
-                                    @lang('home.faq')
-                                </a>
-                            </li>
-                            <!-- <li class="nav-item">
-                              <a class="nav-link" href="#sponsors">
-                                Sponsors
-                              </a>
-                            </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pricing">
-                                    pricing
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#google-map-area">
-                                    @lang('home.contacts')
-                                </a>
-                            </li>
-                            {{--HERE--}}
-                            <li class="nav-item dropdown">
-                                <a href="#" id="lngItem" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                   aria-expanded="false" style="position: fixed; top: 3px; text-transform: uppercase; color: white;">
-                                    @lang('home.language'):
-                                    <img id="imgNavSel" class="img-thumbnail icon-small"
-                                         style="background-color: transparent; border: none;">  
-                                    <span id="lanNavSel" style="color: white;">ENG</span>
-                                </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <a id="navBg" href="locale/bg" target="_self" class="language">
-                                            <img id="imgNavBg" class="img-thumbnail icon-small"
-                                                 style="background-color: transparent; border: none;">  
-                                            <span id="lanNavBg">Bulgarian</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a id="navEng" href="locale/en" target="_self" class="language">
-                                            <img id="imgNavEng" class="img-thumbnail icon-small"
-                                                 style="background-color: transparent; border: none;">  
-                                            <span id="lanNavEng">English</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            {{--END HERE--}}
-                            {{--<li class="nav-item">--}}
-                            {{--<a class="nav-link"  href="locale/en">--}}
-                            {{--English--}}
-                            {{--</a>--}}
-                            {{--</li>--}}
-                            {{--<li class="nav-item">--}}
-                            {{--<a class="nav-link" href="locale/bg"   >--}}
-                            {{--Bulgarian--}}
-                            {{--</a>--}}
-                            {{--</li>--}}
-                        </ul>
-                    </div>
-                </div>
 
-                <!-- Mobile Menu Start -->
-                <ul class="mobile-menu">
-                    <li>
-                        <a class="page-scrool" href="#header-wrap">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scrool" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#schedules">schedules</a>
-                    </li>
-                    <!-- <li>
-                      <a class="page-scroll" href="#team">Speakers</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#gallery">Gallery</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#faq">Faq</a>
-                    </li>
-                    <!-- <li>
-                      <a class="page-scroll" href="#sponsors">Sponsors</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#pricing">pricing</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#google-map-area">Contact</a>
-                    </li>
-                </ul>
-                <!-- Mobile Menu End -->
-
-            </nav>
-            <!-- Navbar End -->
+            @include('components.nav-bar')
 
             <!-- Main Carousel Section Start -->
-            <div id="main-slide" class="carousel slide" data-ride="carousel">
+            <div id="main-slide" class="carousel slide"
+                 data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-                    <li data-target="#main-slide" data-slide-to="1"></li>
-                    <li data-target="#main-slide" data-slide-to="2"></li>
+                    <li data-target="#main-slide" data-slide-to="0"
+                        class="active"></li>
+                    <li data-target="#main-slide"
+                        data-slide-to="1"></li>
+                    <li data-target="#main-slide"
+                        data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 main-image" src="img/slider/slide1.jpg" alt="First slide">
+                        <img class="d-block w-100 main-image"
+                             src="img/slider/slide1.jpg"
+                             alt="First slide">
                         <div class="carousel-caption d-md-block">
-                            <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
-                            <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Design Thinking Conference</h1>
-                            <a href="#" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Get Ticket</a>
-                            <a href="#" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">Explore
-                                                                                                           More</a>
+                            <p class="fadeInUp wow"
+                               data-wow-delay=".6s">Global
+                                                    Grand
+                                                    Event
+                                                    on
+                                                    Digital
+                                                    Design</p>
+                            <h1 class="wow fadeInDown heading"
+                                data-wow-delay=".4s">Design Thinking
+                                                     Conference</h1>
+                            <a href="#"
+                               class="fadeInLeft wow btn btn-common btn-lg"
+                               data-wow-delay=".6s">Get Ticket</a>
+                            <a href="#"
+                               class="fadeInRight wow btn btn-border btn-lg"
+                               data-wow-delay=".6s">Explore
+                                                    More</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 main-image" src="img/slider/slide2.jpg" alt="Second slide">
+                        <img class="d-block w-100 main-image"
+                             src="img/slider/slide2.jpg"
+                             alt="Second slide">
                         <div class="carousel-caption d-md-block">
-                            <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
-                            <h1 class="wow bounceIn heading" data-wow-delay=".7s">22 Amazing Speakers</h1>
-                            <a href="#" class="fadeInUp wow btn btn-border btn-lg" data-wow-delay=".8s">Learn More</a>
+                            <p class="fadeInUp wow"
+                               data-wow-delay=".6s">Global
+                                                    Grand
+                                                    Event
+                                                    on
+                                                    Digital
+                                                    Design</p>
+                            <h1 class="wow bounceIn heading"
+                                data-wow-delay=".7s">22 Amazing
+                                                     Speakers</h1>
+                            <a href="#"
+                               class="fadeInUp wow btn btn-border btn-lg"
+                               data-wow-delay=".8s">Learn More</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 main-image" src="img/slider/slide3.jpg" alt="Third slide">
+                        <img class="d-block w-100 main-image"
+                             src="img/slider/slide3.jpg"
+                             alt="Third slide">
                         <div class="carousel-caption d-md-block">
-                            <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
-                            <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Book Your Seat Now!</h1>
-                            <a href="#" class="fadeInUp wow btn btn-common btn-lg" data-wow-delay=".8s">Explore</a>
+                            <p class="fadeInUp wow"
+                               data-wow-delay=".6s">Global
+                                                    Grand
+                                                    Event
+                                                    on
+                                                    Digital
+                                                    Design</p>
+                            <h1 class="wow fadeInUp heading"
+                                data-wow-delay=".6s">Book Your Seat
+                                                     Now!</h1>
+                            <a href="#"
+                               class="fadeInUp wow btn btn-common btn-lg"
+                               data-wow-delay=".8s">Explore</a>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
-                    <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
+                <a class="carousel-control-prev" href="#main-slide"
+                   role="button" data-slide="prev">
+                    <span class="carousel-control" aria-hidden="true"><i
+                            class="lni-chevron-left"></i></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" style="text-align: right;" href="#main-slide" role="button" data-slide="next">
-                    <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right" style="margin: auto; position: fixed;"></i></span>
+                <a class="carousel-control-next"
+                   style="text-align: right;"
+                   href="#main-slide" role="button" data-slide="next">
+                    <span class="carousel-control" aria-hidden="true"><i
+                            class="lni-chevron-right"
+                            style="margin: auto; position: static;"></i></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
@@ -235,15 +164,20 @@
                 <div class="row text-center">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="heading-count">
-                            <h2 class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.offer_title')</h2>
+                            <h2 class="wow fadeInDown"
+                                data-wow-delay="0.2s">@lang('home.offer_title')</h2>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div
+                            class="row time-countdown justify-content-center wow fadeInUp"
+                            data-wow-delay="0.2s">
                             <div id="clock" class="time-count"></div>
                         </div>
-                        <a href="pricing.html" class="btn btn-common wow fadeInUp" data-wow-delay="0.3s">Add to My
-                                                                                                         Calender</a>
+                        <a href="pricing.html"
+                           class="btn btn-common wow fadeInUp"
+                           data-wow-delay="0.3s">Add to My
+                                                 Calender</a>
                     </div>
                 </div>
             </div>
@@ -256,84 +190,114 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why You Choose Us?</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+                            <h1 class="section-title wow fadeInUp"
+                                data-wow-delay="0.2s">Why You Choose
+                                                      Us?</h1>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">
+                                Global Grand Event on Digital
+                                Design</p>
                         </div>
                     </div>
                 </div>
                 <div class="row services-wrapper">
                     <!-- Services item -->
-                    <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                        <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+                    <div
+                        class="col-md-6 col-lg-4 col-xs-12 padding-none">
+                        <div class="services-item wow fadeInDown"
+                             data-wow-delay="0.2s">
                             <div class="icon">
                                 <i class="fas fa-wifi"></i>
                             </div>
                             <div class="services-content">
                                 <h3><a href="#">WiFi</a></h3>
-                                <p>WiFi is available and is free of charge!</p>
+                                <p>WiFi is available and is free of
+                                   charge!</p>
                             </div>
                         </div>
                     </div>
                     <!-- Services item -->
-                    <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                        <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
+                    <div
+                        class="col-md-6 col-lg-4 col-xs-12 padding-none">
+                        <div class="services-item wow fadeInDown"
+                             data-wow-delay="0.4s">
                             <div class="icon">
                                 <i class="far fa-snowflake"></i>
                             </div>
                             <div class="services-content">
                                 <h3><a href="#">Air Condition</a></h3>
-                                <p>All of our appartments are equiped with air conditioning, so you could avoid the heat
+                                <p>All of our appartments are equiped
+                                   with air
+                                   conditioning, so you could avoid
+                                   the heat
                                    during the summer.</p>
                             </div>
                         </div>
                     </div>
                     <!-- Services item -->
-                    <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                        <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+                    <div
+                        class="col-md-6 col-lg-4 col-xs-12 padding-none">
+                        <div class="services-item wow fadeInDown"
+                             data-wow-delay="0.6s">
                             <div class="icon">
                                 <i class="fas fa-umbrella-beach"></i>
                             </div>
                             <div class="services-content">
                                 <h3><a href="#">Beach Nearby</a></h3>
-                                <p>Our appartments are located in walking distance to the beach.</p>
+                                <p>Our appartments are located in
+                                   walking
+                                   distance to the beach.</p>
                             </div>
                         </div>
                     </div>
                     <!-- Services item -->
-                    <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                        <div class="services-item wow fadeInDown" data-wow-delay="0.8s">
+                    <div
+                        class="col-md-6 col-lg-4 col-xs-12 padding-none">
+                        <div class="services-item wow fadeInDown"
+                             data-wow-delay="0.8s">
                             <div class="icon">
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="services-content">
                                 <h3><a href="#">8.7 Rating</a></h3>
-                                <p>On average, our customers have graded us with high location rating, based from
+                                <p>On average, our customers have
+                                   graded us with
+                                   high location rating, based from
                                    Booking.com </p>
                             </div>
                         </div>
                     </div>
                     <!-- Services item -->
-                    <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                        <div class="services-item wow fadeInDown" data-wow-delay="1s">
+                    <div
+                        class="col-md-6 col-lg-4 col-xs-12 padding-none">
+                        <div class="services-item wow fadeInDown"
+                             data-wow-delay="1s">
                             <div class="icon">
                                 <i class="fas fa-door-open"></i>
                             </div>
                             <div class="services-content">
                                 <h3><a href="#">Various Rooms</a></h3>
-                                <p>We offer rooms of various sizes with up to 3 beds per room, where 5 people could
+                                <p>We offer rooms of various sizes
+                                   with up to 3
+                                   beds per room, where 5 people could
                                    easily fit.</p>
                             </div>
                         </div>
                     </div>
                     <!-- Services item -->
-                    <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                        <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
+                    <div
+                        class="col-md-6 col-lg-4 col-xs-12 padding-none">
+                        <div class="services-item wow fadeInDown"
+                             data-wow-delay="1.2s">
                             <div class="icon">
                                 <i class="fas fa-utensils"></i>
                             </div>
                             <div class="services-content">
-                                <h3><a href="#">Restaurants Nearby</a></h3>
-                                <p>There are plenty of various restaurant nearby our locations.</p>
+                                <h3><a href="#">Restaurants Nearby</a>
+                                </h3>
+                                <p>There are plenty of various
+                                   restaurant nearby
+                                   our locations.</p>
                             </div>
                         </div>
                     </div>
@@ -343,87 +307,142 @@
         <!-- Services Section End -->
 
 
-
-    <!-- About Section Start -->
-    <section id="about" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About The Cities</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">Usefull information of cities where our hotels reside</p>
+        <!-- About Section Start -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title-header text-center">
+                            <h1 class="section-title wow fadeInUp"
+                                data-wow-delay="0.2s">About The
+                                                      Cities</h1>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">
+                                Usefull information of cities where
+                                our hotels
+                                reside</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="about-item">
+                            <img class="img-fluid"
+                                 src="img/blog/pm-blog.jpg"
+                                 alt="">
+                            <div class="about-text">
+                                <h3><a href="#">Pomorie</a></h3>
+                                <p>Pomorie is a town and seaside
+                                   resort in
+                                   southeastern Bulgaria, located on
+                                   the
+                                   southern Bulgarian Black Sea Coast.
+                                   It is
+                                   situated in Burgas Province, 20 km
+                                   away from
+                                   the city of Burgas and 18 km from
+                                   the Sunny
+                                   Beach resort.</p>
+                                <a class="btn btn-common btn-rm"
+                                   href="/cities#pomorie">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="about-item">
+                            <img class="img-fluid"
+                                 src="img/blog/sn-blog.jpg"
+                                 alt="">
+                            <div class="about-text">
+                                <h3><a href="#">Sinemorets</a></h3>
+                                <p>Sinemorets is a village and seaside
+                                   resort on
+                                   the Black Sea coast of Bulgaria,
+                                   located in
+                                   the very southeast of the country
+                                   close to
+                                   the border with Turkey</p>
+                                </br>
+                                <a class="btn btn-common btn-rm"
+                                   href="/cities#sinemorets">Read
+                                            More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="about-item">
+                            <img class="img-fluid"
+                                 src="img/blog/po-blog.jpg"
+                                 alt="">
+                            <div class="about-text">
+                                <h3><a href="#">Primorsko</a></h3>
+                                <p>Primorsko is a town and seaside
+                                   resort in
+                                   southeastern Bulgaria, part of
+                                   Burgas
+                                   Province. A well-known resort on
+                                   the
+                                   Bulgarian Black Sea Coast, it is
+                                   located on a
+                                   gore 52 km south of Burgas and has
+                                   a beach
+                                   strip of about 1 km².</p>
+                                <a class="btn btn-common btn-rm"
+                                   href="cities#primorsko">Read
+                                            More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="about-item">
-              <img class="img-fluid" src="img/blog/pm-blog.jpg" alt="">
-              <div class="about-text">
-                <h3><a href="#">Pomorie</a></h3>
-                <p>Pomorie is a town and seaside resort in southeastern Bulgaria, located on the southern Bulgarian Black Sea Coast. It is situated in Burgas Province, 20 km away from the city of Burgas and 18 km from the Sunny Beach resort.</p>
-                <a class="btn btn-common btn-rm" href="/pomorie">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="about-item">
-              <img class="img-fluid" src="img/blog/sn-blog.jpg" alt="">
-              <div class="about-text">
-                <h3><a href="#">Sinemorets</a></h3>
-                <p>Sinemorets is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey</p>
-                </br>
-                <a class="btn btn-common btn-rm" href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="about-item">
-              <img class="img-fluid" src="img/blog/po-blog.jpg" alt="">
-              <div class="about-text">
-                <h3><a href="#">Primorsko</a></h3>
-                <p>Primorsko is a town and seaside resort in southeastern Bulgaria, part of Burgas Province. A well-known resort on the Bulgarian Black Sea Coast, it is located on a gore 52 km south of Burgas and has a beach strip of about 1 km².</p>
-                <a class="btn btn-common btn-rm" href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About Section End -->
+        </section>
+        <!-- About Section End -->
 
         <!-- Counter Area Start-->
         <section class="counter-section section-padding">
             <div class="container">
                 <div class="row">
                     <!-- Counter Item -->
-                    <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
-                        <div class="counter wow fadeInRight" data-wow-delay="0.3s">
-                            <div class="icon"><i class="lni-map"></i></div>
+                    <div
+                        class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+                        <div class="counter wow fadeInRight"
+                             data-wow-delay="0.3s">
+                            <div class="icon"><i class="lni-map"></i>
+                            </div>
                             <p>Wst. Conference Center</p>
                             <span>San Francisco, CA</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
-                    <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
-                        <div class="counter wow fadeInRight" data-wow-delay="0.6s">
-                            <div class="icon"><i class="lni-timer"></i></div>
+                    <div
+                        class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+                        <div class="counter wow fadeInRight"
+                             data-wow-delay="0.6s">
+                            <div class="icon"><i
+                                    class="lni-timer"></i></div>
                             <p>February 14 - 19, 2018</p>
                             <span>09:00 AM – 05:00 PM</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
-                    <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
-                        <div class="counter wow fadeInRight" data-wow-delay="0.9s">
-                            <div class="icon"><i class="lni-users"></i></div>
+                    <div
+                        class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+                        <div class="counter wow fadeInRight"
+                             data-wow-delay="0.9s">
+                            <div class="icon"><i
+                                    class="lni-users"></i></div>
                             <p>343 Available Seats</p>
                             <span>Hurryup! few tickets are left</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
-                    <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
-                        <div class="counter wow fadeInRight" data-wow-delay="1.2s">
-                            <div class="icon"><i class="lni-coffee-cup"></i></div>
+                    <div
+                        class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+                        <div class="counter wow fadeInRight"
+                             data-wow-delay="1.2s">
+                            <div class="icon"><i
+                                    class="lni-coffee-cup"></i>
+                            </div>
                             <p>Free Lunch & Snacks</p>
                             <span>Don’t miss it</span>
                         </div>
@@ -441,18 +460,28 @@
                         <div class="section-title-header text-center">
                             <h1 class="section-title wow fadeInUp"
                                 data-wow-delay="0.2s">@lang('home.rules_heading')</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.rules_message') <br></p>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">@lang('home.rules_message')
+                                <br></p>
                         </div>
                     </div>
                 </div>
                 <!-- Pomorie -->
-                <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
-                    <div class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
+                <div class="schedule-area row wow fadeInDown"
+                     data-wow-delay="0.3s">
+                    <div
+                        class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
                         <div class="table-responsive">
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <ul class="nav nav-tabs" id="myTab"
+                                role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday"
-                                       role="tab" aria-controls="monday" aria-expanded="true">
+                                    <a class="nav-link active"
+                                       id="monday-tab"
+                                       data-toggle="tab"
+                                       href="#monday"
+                                       role="tab"
+                                       aria-controls="monday"
+                                       aria-expanded="true">
                                         <div class="item-text">
                                             <h4>@lang('home.pomorie_name')</h4>
                                             <h5>@lang('home.pomorie_house_name')</h5>
@@ -460,7 +489,11 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab"
+                                    <a class="nav-link"
+                                       id="tuesday-tab"
+                                       data-toggle="tab"
+                                       href="#tuesday"
+                                       role="tab"
                                        aria-controls="tuesday">
                                         <div class="item-text">
                                             <h4>@lang('home.sinemorets_name')</h4>
@@ -469,8 +502,12 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday"
-                                       role="tab" aria-controls="wednesday">
+                                    <a class="nav-link"
+                                       id="wednesday-tab"
+                                       data-toggle="tab"
+                                       href="#wednesday"
+                                       role="tab"
+                                       aria-controls="wednesday">
                                         <div class="item-text">
                                             <h4>@lang('home.primorsko_name')</h4>
                                             <h5>@lang('home.primorsko_house_name')</h5>
@@ -488,103 +525,167 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
+                    <div
+                        class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="monday" role="tabpanel"
+                            <div class="tab-pane fade show active"
+                                 id="monday"
+                                 role="tabpanel"
                                  aria-labelledby="monday-tab">
                                 <div id="accordion">
                                     <div class="card">
                                         <div id="headingOne">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseOne" aria-expanded="false"
-                                                 aria-controls="collapseOne">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-1.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseOne"
+                                                aria-expanded="false"
+                                                aria-controls="collapseOne">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-1.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.checkin_checkout_header')</h4>
                                                 <h5 class="name">@lang('home.pomorie_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        <div id="collapseOne"
+                                             class="collapse show"
+                                             aria-labelledby="headingOne"
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
                                                 <div class="location">
-                                                    <span>@lang('home.important')</span> Hall 1 , Building A, Golden
-                                                                                         Street, Southafrica
+                                                    <span>@lang('home.important')</span>
+                                                    Hall 1 , Building
+                                                    A, Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingTwo">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseTwo" aria-expanded="false"
-                                                 aria-controls="collapseTwo">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-2.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseTwo"
+                                                aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-2.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.cansel_payment_header')</h4>
                                                 <h5 class="name">@lang('home.pomorie_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        <div id="collapseTwo"
+                                             class="collapse"
+                                             aria-labelledby="headingTwo"
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingThree">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseThree" aria-expanded="false"
-                                                 aria-controls="collapseThree">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-3.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseThree"
+                                                aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-3.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.children_beds_header')</h4>
                                                 <h5 class="name">@lang('home.pomorie_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        <div id="collapseThree"
+                                             class="collapse"
+                                             aria-labelledby="headingThree"
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingFour">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseFour" aria-expanded="false"
-                                                 aria-controls="collapseFour">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-4.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFour"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFour">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-4.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.pets_header')</h4>
                                                 <h5 class="name">@lang('home.pomorie_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                        <div id="collapseFour"
+                                             class="collapse"
+                                             aria-labelledby="headingFour"
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
@@ -592,24 +693,40 @@
 
                                     <div class="card">
                                         <div id="headingFive">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseFive" aria-expanded="false"
-                                                 aria-controls="collapseFive">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-5.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFive"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFive">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-5.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.cash_header')</h4>
                                                 <h5 class="name">@lang('home.pomorie_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                        <div id="collapseFive"
+                                             class="collapse"
+                                             aria-labelledby="headingFive"
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
@@ -620,100 +737,163 @@
                             </div>
 
                             <!-- Sinemorets -->
-                            <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
+                            <div class="tab-pane fade" id="tuesday"
+                                 role="tabpanel"
+                                 aria-labelledby="tuesday-tab">
                                 <div id="accordion2">
                                     <div class="card">
                                         <div id="headingOne2">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseOne2" aria-expanded="false"
-                                                 aria-controls="collapseOne2">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-1.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseOne2"
+                                                aria-expanded="false"
+                                                aria-controls="collapseOne2">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-1.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.checkin_checkout_header')</h4>
                                                 <h5 class="name">@lang('home.sinemorets_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseOne2" class="collapse show" aria-labelledby="headingOne2"
+                                        <div id="collapseOne2"
+                                             class="collapse show"
+                                             aria-labelledby="headingOne2"
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
                                                 <div class="location">
-                                                    <span>@lang('home.important')</span> Hall 1 , Building A, Golden
-                                                                                         Street, Southafrica
+                                                    <span>@lang('home.important')</span>
+                                                    Hall 1 , Building
+                                                    A, Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingTwo2">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseTwo2" aria-expanded="false"
-                                                 aria-controls="collapseTwo2">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-2.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseTwo2"
+                                                aria-expanded="false"
+                                                aria-controls="collapseTwo2">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-2.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.cansel_payment_header')</h4>
                                                 <h5 class="name">@lang('home.sinemorets_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2"
+                                        <div id="collapseTwo2"
+                                             class="collapse"
+                                             aria-labelledby="headingTwo2"
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingThree2">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseThree2" aria-expanded="false"
-                                                 aria-controls="collapseThree2">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-3.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseThree2"
+                                                aria-expanded="false"
+                                                aria-controls="collapseThree2">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-3.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.children_beds_header')</h4>
                                                 <h5 class="name">@lang('home.sinemorets_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2"
+                                        <div id="collapseThree2"
+                                             class="collapse"
+                                             aria-labelledby="headingThree2"
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingFour2">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseFour2" aria-expanded="false"
-                                                 aria-controls="collapseFour2">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-4.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFour2"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFour2">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-4.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.pets_header')</h4>
                                                 <h5 class="name">@lang('home.sinemorets_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseFour2" class="collapse" aria-labelledby="headingFour2"
+                                        <div id="collapseFour2"
+                                             class="collapse"
+                                             aria-labelledby="headingFour2"
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
@@ -721,24 +901,40 @@
 
                                     <div class="card">
                                         <div id="headingFive2">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseFive2" aria-expanded="false"
-                                                 aria-controls="collapseFive2">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-5.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFive2"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFive2">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-5.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.cash_header')</h4>
                                                 <h5 class="name">@lang('home.sinemorets_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseFive2" class="collapse" aria-labelledby="headingFive2"
+                                        <div id="collapseFive2"
+                                             class="collapse"
+                                             aria-labelledby="headingFive2"
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
@@ -749,100 +945,163 @@
                             </div>
                             <!-- Primorsko -->
                             <!-- headingTwo3 and collapseTwo3 are not working corectly due to some css or javascript. So the order would be 1,3,4,5 ... -->
-                            <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
+                            <div class="tab-pane fade" id="wednesday"
+                                 role="tabpanel"
+                                 aria-labelledby="wednesday-tab">
                                 <div id="accordion3">
                                     <div class="card">
                                         <div id="headingOne3">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseOne3" aria-expanded="false"
-                                                 aria-controls="collapseOne3">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-1.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseOne3"
+                                                aria-expanded="false"
+                                                aria-controls="collapseOne3">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-1.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.checkin_checkout_header')</h4>
                                                 <h5 class="name">@lang('home.primorsko_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3"
+                                        <div id="collapseOne3"
+                                             class="collapse show"
+                                             aria-labelledby="headingOne3"
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
                                                 <div class="location">
-                                                    <span>@lang('home.important')</span> Hall 1 , Building A, Golden
-                                                                                         Street, Southafrica
+                                                    <span>@lang('home.important')</span>
+                                                    Hall 1 , Building
+                                                    A, Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingThree3">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseThree3" aria-expanded="false"
-                                                 aria-controls="collapseThree3">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-2.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseThree3"
+                                                aria-expanded="false"
+                                                aria-controls="collapseThree3">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-2.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.cansel_payment_header')</h4>
                                                 <h5 class="name">@lang('home.primorsko_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3"
+                                        <div id="collapseThree3"
+                                             class="collapse"
+                                             aria-labelledby="headingThree3"
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingFour3">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseFour3" aria-expanded="false"
-                                                 aria-controls="collapseFour3">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-3.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFour3"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFour3">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-3.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.children_beds_header')</h4>
                                                 <h5 class="name">@lang('home.primorsko_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseFour3" class="collapse" aria-labelledby="headingFour3"
+                                        <div id="collapseFour3"
+                                             class="collapse"
+                                             aria-labelledby="headingFour3"
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingFive3">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseFive3" aria-expanded="false"
-                                                 aria-controls="collapseFive3">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-4.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseFive3"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFive3">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-4.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.pets_header')</h4>
                                                 <h5 class="name">@lang('home.primorsko_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseFive3" class="collapse" aria-labelledby="headingFive3"
+                                        <div id="collapseFive3"
+                                             class="collapse"
+                                             aria-labelledby="headingFive3"
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
@@ -851,24 +1110,40 @@
 
                                     <div class="card">
                                         <div id="headingSix3">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseSix3" aria-expanded="false"
-                                                 aria-controls="collapseSix3">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-5.png" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseSix3"
+                                                aria-expanded="false"
+                                                aria-controls="collapseSix3">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-5.png"
+                                                        alt="">
                                                 </div>
-                                                <span class="time"></span>
+                                                <span
+                                                    class="time"></span>
                                                 <h4>@lang('home.cash_header')</h4>
                                                 <h5 class="name">@lang('home.primorsko_house_name')</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseSix3" class="collapse" aria-labelledby="headingSix3"
+                                        <div id="collapseSix3"
+                                             class="collapse"
+                                             aria-labelledby="headingSix3"
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
@@ -941,82 +1216,165 @@
                                 </div>
                               </div>
                             </div> -->
-                            <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
+                            <div class="tab-pane fade" id="friday"
+                                 role="tabpanel"
+                                 aria-labelledby="friday-tab">
                                 <div id="accordion">
                                     <div class="card">
                                         <div id="headingOne">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseOne" aria-expanded="false"
-                                                 aria-controls="collapseOne">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-1.jpg" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseOne"
+                                                aria-expanded="false"
+                                                aria-controls="collapseOne">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-1.jpg"
+                                                        alt="">
                                                 </div>
                                                 <span class="time">10am - 12:30pm</span>
-                                                <h4>Web Design Principles and Best Practices</h4>
-                                                <h5 class="name">David Warner</h5>
+                                                <h4>Web Design
+                                                    Principles and
+                                                    Best
+                                                    Practices</h4>
+                                                <h5 class="name">David
+                                                                 Warner</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        <div id="collapseOne"
+                                             class="collapse show"
+                                             aria-labelledby="headingOne"
                                              data-parent="#accordion">
                                             <div class="card-body">
-                                                <p>Consectetur adipisicing elit. Quod distinctio impedit sint
-                                                   accusantium ducimus lites consequuntur innobisl dolores saepe.Proin
-                                                   sit amet turpis lobortis.</p>
+                                                <p>Consectetur
+                                                   adipisicing elit.
+                                                   Quod distinctio
+                                                   impedit sint
+                                                   accusantium ducimus
+                                                   lites
+                                                   consequuntur
+                                                   innobisl dolores
+                                                   saepe.Proin
+                                                   sit amet turpis
+                                                   lobortis.</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingTwo">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseTwo" aria-expanded="false"
-                                                 aria-controls="collapseTwo">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-2.jpg" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseTwo"
+                                                aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-2.jpg"
+                                                        alt="">
                                                 </div>
                                                 <span class="time">10am - 12:30pm</span>
-                                                <h4>Web Design Principles and Best Practices</h4>
-                                                <h5 class="name">David Warner</h5>
+                                                <h4>Web Design
+                                                    Principles and
+                                                    Best
+                                                    Practices</h4>
+                                                <h5 class="name">David
+                                                                 Warner</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        <div id="collapseTwo"
+                                             class="collapse"
+                                             aria-labelledby="headingTwo"
                                              data-parent="#accordion">
                                             <div class="card-body">
-                                                <p>Consectetur adipisicing elit. Quod distinctio impedit sint
-                                                   accusantium ducimus lites consequuntur innobisl dolores saepe.Proin
-                                                   sit amet turpis lobortis.</p>
+                                                <p>Consectetur
+                                                   adipisicing elit.
+                                                   Quod distinctio
+                                                   impedit sint
+                                                   accusantium ducimus
+                                                   lites
+                                                   consequuntur
+                                                   innobisl dolores
+                                                   saepe.Proin
+                                                   sit amet turpis
+                                                   lobortis.</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div id="headingThree">
-                                            <div class="collapsed card-header" data-toggle="collapse"
-                                                 data-target="#collapseThree" aria-expanded="false"
-                                                 aria-controls="collapseThree">
-                                                <div class="images-box">
-                                                    <img class="img-fluid" src="img/speaker/speakers-3.jpg" alt="">
+                                            <div
+                                                class="collapsed card-header"
+                                                data-toggle="collapse"
+                                                data-target="#collapseThree"
+                                                aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                <div
+                                                    class="images-box">
+                                                    <img
+                                                        class="img-fluid"
+                                                        src="img/speaker/speakers-3.jpg"
+                                                        alt="">
                                                 </div>
                                                 <span class="time">10am - 12:30pm</span>
-                                                <h4>Web Design Principles and Best Practices</h4>
-                                                <h5 class="name">David Warner</h5>
+                                                <h4>Web Design
+                                                    Principles and
+                                                    Best
+                                                    Practices</h4>
+                                                <h5 class="name">David
+                                                                 Warner</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        <div id="collapseThree"
+                                             class="collapse"
+                                             aria-labelledby="headingThree"
                                              data-parent="#accordion">
                                             <div class="card-body">
-                                                <p>Consectetur adipisicing elit. Quod distinctio impedit sint
-                                                   accusantium ducimus lites consequuntur innobisl dolores saepe.Proin
-                                                   sit amet turpis lobortis.</p>
+                                                <p>Consectetur
+                                                   adipisicing elit.
+                                                   Quod distinctio
+                                                   impedit sint
+                                                   accusantium ducimus
+                                                   lites
+                                                   consequuntur
+                                                   innobisl dolores
+                                                   saepe.Proin
+                                                   sit amet turpis
+                                                   lobortis.</p>
                                                 <div class="location">
-                                                    <span>Location:</span> Hall 1 , Building A, Golden Street,
-                                                                           Southafrica
+                                                    <span>Location:</span>
+                                                    Hall
+                                                    1 ,
+                                                    Building
+                                                    A,
+                                                    Golden
+                                                    Street,
+                                                    Southafrica
                                                 </div>
                                             </div>
                                         </div>
@@ -1219,7 +1577,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                            <h1 class="section-title wow fadeInUp"
+                                data-wow-delay="0.2s">
                                 @lang('home.appartments')
                             </h1>
                             {{--<p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>--}}
@@ -1230,22 +1589,31 @@
                     <div class="col-md-6 col-sm-6 col-lg-4">
                         <div class="gallery-box">
                             <div class="img-thumb">
-                                <img class="img-fluid" src="img/apartments/primorsko/primsko.jpg" alt="">
+                                <img class="img-fluid"
+                                     src="img/apartments/primorsko/primsko.jpg"
+                                     alt="">
                             </div>
                             <div class="overlay-box text-center">
-                                <a data-toggle="modal" data-target="#primorskoModal" class="lightbox" href="#gallery">
+                                <a data-toggle="modal"
+                                   data-target="#primorskoModal"
+                                   class="lightbox" href="#gallery">
                                     <h4 style="color: white; margin-left: -2.5em; text-transform: uppercase;">
-                                        <strong>@lang('home.primorsko_name')</strong></h4>
+                                        <strong>@lang('home.primorsko_name')</strong>
+                                    </h4>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="primorskoModal" tabindex="-1" role="dialog"
-                         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="primorskoModal"
+                         tabindex="-1"
+                         role="dialog"
+                         aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
                         <div class="modal-dialog"
                              style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
                              role="document">
-                            <div class="modal-content" style="min-height: 800px;">
+                            <div class="modal-content"
+                                 style="min-height: 800px;">
                                 <div class="modal-body">
                                     @include('apartments.primorsko')
                                 </div>
@@ -1255,22 +1623,32 @@
                     <div class="col-md-6 col-sm-6 col-lg-4">
                         <div class="gallery-box">
                             <div class="img-thumb">
-                                <img class="img-fluid" src="img/apartments/pomorie/pomorie.jpg" alt="">
+                                <img class="img-fluid"
+                                     src="img/apartments/pomorie/pomorie.jpg"
+                                     alt="">
                             </div>
                             <div class="overlay-box text-center">
-                                <a data-toggle="modal" data-target="#pomorieModal" class="lightbox" href="#gallery">
+                                <a data-toggle="modal"
+                                   data-target="#pomorieModal"
+                                   class="lightbox"
+                                   href="#gallery">
                                     <h4 style="color: white; margin-left: -2em; text-transform: uppercase;">
-                                        <strong>@lang('home.pomorie_name')</strong></h4>
+                                        <strong>@lang('home.pomorie_name')</strong>
+                                    </h4>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="pomorieModal" tabindex="-1" role="dialog"
-                         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="pomorieModal"
+                         tabindex="-1"
+                         role="dialog"
+                         aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
                         <div class="modal-dialog"
                              style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
                              role="document">
-                            <div class="modal-content" style="min-height: 800px;">
+                            <div class="modal-content"
+                                 style="min-height: 800px;">
                                 <div class="modal-body">
                                     @include('apartments.pomorie')
                                 </div>
@@ -1280,22 +1658,31 @@
                     <div class="col-md-6 col-sm-6 col-lg-4">
                         <div class="gallery-box">
                             <div class="img-thumb">
-                                <img class="img-fluid" src="img/apartments/sinemorec/38.jpg" alt="">
+                                <img class="img-fluid"
+                                     src="img/apartments/sinemorec/38.jpg"
+                                     alt="">
                             </div>
                             <div class="overlay-box text-center">
-                                <a data-toggle="modal" data-target="#sinemorecModal" class="lightbox" href="#gallery">
+                                <a data-toggle="modal"
+                                   data-target="#sinemorecModal"
+                                   class="lightbox" href="#gallery">
                                     <h4 style="color: white; margin-left: -2.5em; text-transform: uppercase;">
-                                        <strong>@lang('home.sinemorets_name')</strong></h4>
+                                        <strong>@lang('home.sinemorets_name')</strong>
+                                    </h4>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="sinemorecModal" tabindex="-1" role="dialog"
-                         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="sinemorecModal"
+                         tabindex="-1"
+                         role="dialog"
+                         aria-labelledby="exampleModalLabel"
+                         aria-hidden="true">
                         <div class="modal-dialog"
                              style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
                              role="document">
-                            <div class="modal-content" style="min-height: 800px;">
+                            <div class="modal-content"
+                                 style="min-height: 800px;">
                                 <div class="modal-body">
                                     @include('apartments.sinemorec')
                                 </div>
@@ -1316,23 +1703,34 @@
                         <div class="section-title-header text-center">
                             <h1 class="section-title wow fadeInUp"
                                 data-wow-delay="0.2s">@lang('home.pomorie_house_name')</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.pomorie_name')</p>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">@lang('home.pomorie_name')</p>
                         </div>
                     </div>
                 </div>
 
 
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div
+                        class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <div class="accordion">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionOne"
-                                         aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header"
+                                     id="headingOne">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionOne"
+                                         aria-expanded="true"
+                                         aria-controls="collapseOne">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.tripple_room') </font> &nbsp;</a>
-                                        <span class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.tripple_room') </font>
+                                            &nbsp;</a>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span>
 
                                         <!-- style='color:red; -->
@@ -1344,7 +1742,8 @@
 
                                     </div>
                                 </div>
-                                <div id="questionOne" class="collapse" aria-labelledby="headingOne"
+                                <div id="questionOne" class="collapse"
+                                     aria-labelledby="headingOne"
                                      data-parent="#question">
                                     <div class="card-body">
                                     {!! trans('home.tripple_room_pomorie_beds') !!}
@@ -1357,16 +1756,25 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionTwo"
-                                         aria-expanded="false" aria-controls="questionTwo">
+                                <div class="card-header"
+                                     id="headingTwo">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionTwo"
+                                         aria-expanded="false"
+                                         aria-controls="questionTwo">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.double_room') </font> &nbsp;</a>
-                                        <span class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.double_room') </font>
+                                            &nbsp;</a>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionTwo" class="collapse" aria-labelledby="headingTwo"
+                                <div id="questionTwo" class="collapse"
+                                     aria-labelledby="headingTwo"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.double_room_pomorie_beds') !!}
@@ -1374,18 +1782,30 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionThree"
-                                         aria-expanded="false" aria-controls="questionThree">
+                                <div class="card-header"
+                                     id="headingThree">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionThree"
+                                         aria-expanded="false"
+                                         aria-controls="questionThree">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.four_room') </font> &nbsp;</a>
-                                        <span class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.four_room') </font>
+                                            &nbsp;</a>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionThree" class="collapse" aria-labelledby="headingThree"
+                                <div id="questionThree"
+                                     class="collapse"
+                                     aria-labelledby="headingThree"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.four_room_pomorie_beds') !!}
@@ -1393,15 +1813,25 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingFour">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionFour"
-                                         aria-expanded="false" aria-controls="questionFour">
+                                <div class="card-header"
+                                     id="headingFour">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionFour"
+                                         aria-expanded="false"
+                                         aria-controls="questionFour">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.five_room') </font> &nbsp;</a>
-                                        <span class="glyphicon glyphicon-user"></span> X 5 </span>
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.five_room') </font>
+                                            &nbsp;</a>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        X 5 </span>
                                     </div>
                                 </div>
-                                <div id="questionFour" class="collapse" aria-labelledby="headingThree"
+                                <div id="questionFour"
+                                     class="collapse"
+                                     aria-labelledby="headingThree"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.five_room_pomorie_beds') !!}
@@ -1410,21 +1840,33 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div
+                        class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <div class="accordion">
                             <div class="card">
-                                <div class="card-header" id="headingFive">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionOne2"
-                                         aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header"
+                                     id="headingFive">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionOne2"
+                                         aria-expanded="true"
+                                         aria-controls="collapseOne">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.studio_balcony') </font>
-                                            &nbsp;</a> <span class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.studio_balcony') </font>
+                                            &nbsp;</a> <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionOne2" class="collapse" aria-labelledby="headingOne"
+                                <div id="questionOne2"
+                                     class="collapse"
+                                     aria-labelledby="headingOne"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.studio_balcony_beds') !!}
@@ -1432,16 +1874,25 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingSix">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionTwo2"
-                                         aria-expanded="false" aria-controls="questionTwo">
+                                <div class="card-header"
+                                     id="headingSix">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionTwo2"
+                                         aria-expanded="false"
+                                         aria-controls="questionTwo">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.double_room_balcony') </font>
-                                            &nbsp;</a> <span class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.double_room_balcony') </font>
+                                            &nbsp;</a> <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionTwo2" class="collapse" aria-labelledby="headingTwo"
+                                <div id="questionTwo2"
+                                     class="collapse"
+                                     aria-labelledby="headingTwo"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.double_room_balcony_beds') !!}
@@ -1449,17 +1900,27 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingSeven">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionFive"
-                                         aria-expanded="false" aria-controls="questionFive">
+                                <div class="card-header"
+                                     id="headingSeven">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionFive"
+                                         aria-expanded="false"
+                                         aria-controls="questionFive">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.tripple_room_balcony') </font>
-                                            &nbsp;</a> <span class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.tripple_room_balcony') </font>
+                                            &nbsp;</a> <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span>
                                     </div>
                                 </div>
-                                <div id="questionFive" class="collapse" aria-labelledby="headingThree"
+                                <div id="questionFive"
+                                     class="collapse"
+                                     aria-labelledby="headingThree"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.tripple_room_balcony_beds') !!}
@@ -1541,26 +2002,39 @@
                         <div class="section-title-header text-center">
                             <h1 class="section-title wow fadeInUp"
                                 data-wow-delay="0.2s">@lang('home.primorsko_house_name')</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.primorsko_name')</p>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">@lang('home.primorsko_name')</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div
+                        class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <div class="accordion">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionTwoOne"
-                                         aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header"
+                                     id="headingOne">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionTwoOne"
+                                         aria-expanded="true"
+                                         aria-controls="collapseOne">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.appartment_primorsko') </font>
-                                            &nbsp;</a> <span class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.appartment_primorsko') </font>
+                                            &nbsp;</a> <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionTwoOne" class="collapse" aria-labelledby="headingOne"
+                                <div id="questionTwoOne"
+                                     class="collapse"
+                                     aria-labelledby="headingOne"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.appartment_primorsko_beds') !!}
@@ -1605,20 +2079,30 @@
                             </div> -->
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div
+                        class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <div class="accordion">
                             <div class="card">
-                                <div class="card-header" id="headingOne2">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionTwoTwo"
-                                         aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header"
+                                     id="headingOne2">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionTwoTwo"
+                                         aria-expanded="true"
+                                         aria-controls="collapseOne">
                                         <i class="lni-pencil"></i>
                                         <a href="#"> <font
-                                                color="#E91E63">@lang('home.studio_appartment_primorsko') </font> &nbsp;</a>
-                                        <span class="glyphicon glyphicon-user"></span> <span
+                                                color="#E91E63">@lang('home.studio_appartment_primorsko') </font>
+                                            &nbsp;</a>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionTwoTwo" class="collapse" aria-labelledby="headingOne"
+                                <div id="questionTwoTwo"
+                                     class="collapse"
+                                     aria-labelledby="headingOne"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.studio_appartment_primorsko_beds') !!}
@@ -1725,25 +2209,35 @@
                         <div class="section-title-header text-center">
                             <h1 class="section-title wow fadeInUp"
                                 data-wow-delay="0.2s">@lang('home.sinemorets_house_name')</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">@lang('home.sinemorets_name')</p>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">@lang('home.sinemorets_name')</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div
+                        class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <div class="accordion">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionThreeOne"
-                                         aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header"
+                                     id="headingOne">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionThreeOne"
+                                         aria-expanded="true"
+                                         aria-controls="collapseOne">
                                         <i class="lni-pencil"></i>
                                         <a href="#"> <font
                                                 color="#E91E63">@lang('home.standard_double_room_sinemorets') </font>
-                                            &nbsp;</a> <span class="glyphicon glyphicon-user"></span> <span
+                                            &nbsp;</a> <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionThreeOne" class="collapse" aria-labelledby="headingOne"
+                                <div id="questionThreeOne"
+                                     class="collapse"
+                                     aria-labelledby="headingOne"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.double_room_sinemorets_beds') !!}
@@ -1751,17 +2245,25 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionThreeTwo"
-                                         aria-expanded="false" aria-controls="questionTwo">
+                                <div class="card-header"
+                                     id="headingTwo">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionThreeTwo"
+                                         aria-expanded="false"
+                                         aria-controls="questionTwo">
                                         <i class="lni-pencil"></i>
                                         <a href="#"> <font
                                                 color="#E91E63">@lang('home.deluxe_double_room_sinemorets') </font>
-                                            &nbsp;</a> <span class="glyphicon glyphicon-user"></span> <span
+                                            &nbsp;</a> <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span> </span>
                                     </div>
                                 </div>
-                                <div id="questionThreeTwo" class="collapse" aria-labelledby="headingTwo"
+                                <div id="questionThreeTwo"
+                                     class="collapse"
+                                     aria-labelledby="headingTwo"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.double_room_sinemorets_beds') !!}
@@ -1794,20 +2296,31 @@
                             </div> -->
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div
+                        class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                         <div class="accordion">
                             <div class="card">
-                                <div class="card-header" id="headingOne2">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionThreeThree"
-                                         aria-expanded="true" aria-controls="collapseOne">
+                                <div class="card-header"
+                                     id="headingOne2">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionThreeThree"
+                                         aria-expanded="true"
+                                         aria-controls="collapseOne">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.tripple_room_sinemorets') </font>
-                                            &nbsp;</a> <span class="glyphicon glyphicon-user"></span> <span
-                                            class="glyphicon glyphicon-user"></span> <span
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.tripple_room_sinemorets') </font>
+                                            &nbsp;</a> <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        <span
                                             class="glyphicon glyphicon-user"></span>
                                     </div>
                                 </div>
-                                <div id="questionThreeThree" class="collapse" aria-labelledby="headingOne"
+                                <div id="questionThreeThree"
+                                     class="collapse"
+                                     aria-labelledby="headingOne"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.tripple_room_sinemorets_beds') !!}
@@ -1815,15 +2328,25 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingTwo2">
-                                    <div class="header-title" data-toggle="collapse" data-target="#questionThreeFour"
-                                         aria-expanded="false" aria-controls="questionTwo">
+                                <div class="card-header"
+                                     id="headingTwo2">
+                                    <div class="header-title"
+                                         data-toggle="collapse"
+                                         data-target="#questionThreeFour"
+                                         aria-expanded="false"
+                                         aria-controls="questionTwo">
                                         <i class="lni-pencil"></i>
-                                        <a href="#"> <font color="#E91E63">@lang('home.five_room') </font> &nbsp;</a>
-                                        <span class="glyphicon glyphicon-user"></span> X 5 </span>
+                                        <a href="#"> <font
+                                                color="#E91E63">@lang('home.five_room') </font>
+                                            &nbsp;</a>
+                                        <span
+                                            class="glyphicon glyphicon-user"></span>
+                                        X 5 </span>
                                     </div>
                                 </div>
-                                <div id="questionThreeFour" class="collapse" aria-labelledby="headingTwo"
+                                <div id="questionThreeFour"
+                                     class="collapse"
+                                     aria-labelledby="headingTwo"
                                      data-parent="#question">
                                     <div class="card-body">
                                         {!! trans('home.five_room_sinemorets_beds') !!}
@@ -1958,14 +2481,20 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Our Pricing</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+                            <h1 class="section-title wow fadeInUp"
+                                data-wow-delay="0.2s">Our Pricing</h1>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">
+                                Global Grand Event on Digital
+                                Design</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                        <div class="price-block-wrapper wow fadeInLeft" data-wow-delay="0.2s">
+                        <div
+                            class="price-block-wrapper wow fadeInLeft"
+                            data-wow-delay="0.2s">
                             <div class="icon">
                                 <i class="lni-write"></i>
                             </div>
@@ -1978,20 +2507,37 @@
                             </div>
                             <div class="pricing-list">
                                 <ul>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Entrance</span>
                                     </li>
-                                    <li><i class="lni-close"></i><span class="text">Access to all areas</span></li>
-                                    <li><i class="lni-close"></i><span class="text">Certificate</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Workshop</span></li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Coffee Break</span>
+                                    </li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Lunch on all days</span>
+                                    </li>
+                                    <li><i class="lni-close"></i><span
+                                            class="text">Access to all areas</span>
+                                    </li>
+                                    <li><i class="lni-close"></i><span
+                                            class="text">Certificate</span>
+                                    </li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Workshop</span>
+                                    </li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn btn-common">Buy Ticket</a>
+                            <a href="#" class="btn btn-common">Buy
+                                                               Ticket</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                        <div class="price-block-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="price-block-wrapper wow fadeInUp"
+                             data-wow-delay="0.3s">
                             <div class="icon">
                                 <i class="lni-layers"></i>
                             </div>
@@ -2004,20 +2550,38 @@
                             </div>
                             <div class="pricing-list">
                                 <ul>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Entrance</span>
                                     </li>
-                                    <li><i class="lni-close"></i><span class="text">Access to all areas</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Certificate</span></li>
-                                    <li><i class="lni-close"></i><span class="text">Workshop</span></li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Coffee Break</span>
+                                    </li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Lunch on all days</span>
+                                    </li>
+                                    <li><i class="lni-close"></i><span
+                                            class="text">Access to all areas</span>
+                                    </li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Certificate</span>
+                                    </li>
+                                    <li><i class="lni-close"></i><span
+                                            class="text">Workshop</span>
+                                    </li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn btn-common">Buy Ticket</a>
+                            <a href="#" class="btn btn-common">Buy
+                                                               Ticket</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                        <div class="price-block-wrapper wow fadeInRight" data-wow-delay="0.4s">
+                        <div
+                            class="price-block-wrapper wow fadeInRight"
+                            data-wow-delay="0.4s">
                             <div class="icon">
                                 <i class="lni-leaf"></i>
                             </div>
@@ -2030,16 +2594,32 @@
                             </div>
                             <div class="pricing-list">
                                 <ul>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
-                                    <li><i class="lni-close"></i><span class="text">Lunch on all days</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span
-                                            class="text">Access to all areas</span></li>
-                                    <li><i class="lni-check-mark-circle"></i><span class="text">Certificate</span></li>
-                                    <li><i class="lni-close"></i><span class="text">Workshop</span></li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Entrance</span>
+                                    </li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Coffee Break</span>
+                                    </li>
+                                    <li><i class="lni-close"></i><span
+                                            class="text">Lunch on all days</span>
+                                    </li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Access to all areas</span>
+                                    </li>
+                                    <li>
+                                        <i class="lni-check-mark-circle"></i><span
+                                            class="text">Certificate</span>
+                                    </li>
+                                    <li><i class="lni-close"></i><span
+                                            class="text">Workshop</span>
+                                    </li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn btn-common">Buy Ticket</a>
+                            <a href="#" class="btn btn-common">Buy
+                                                               Ticket</a>
                         </div>
                     </div>
                 </div>
@@ -2053,27 +2633,71 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Guideline</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+                            <h1 class="section-title wow fadeInUp"
+                                data-wow-delay="0.2s">Event
+                                                      Guideline</h1>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">
+                                Global Grand Event on Digital
+                                Design</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+                    <div
+                        class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight"
+                        data-wow-delay="0.3s">
                         <div class="video">
-                            <img class="img-fluid" src="img/about/about.jpg" alt="">
+                            <img class="img-fluid"
+                                 src="img/about/about.jpg"
+                                 alt="">
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
-                        <p class="intro-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                              Lorem Ipsum has been the industry's standard dummy text ever since the
-                                              1500s, when an unknown printer took a galley of type and scrambled it to
-                                              make a type specimen book. It has survived not only five centuries.
+                    <div
+                        class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft"
+                        data-wow-delay="0.3s">
+                        <p class="intro-desc">Lorem Ipsum is simply
+                                              dummy text
+                                              of the printing and
+                                              typesetting
+                                              industry.
+                                              Lorem Ipsum has been the
+                                              industry's standard
+                                              dummy text
+                                              ever since the
+                                              1500s, when an unknown
+                                              printer
+                                              took a galley of type
+                                              and
+                                              scrambled it to
+                                              make a type specimen
+                                              book. It has
+                                              survived not only five
+                                              centuries.
                         </p>
                         <h2 class="intro-title">Check List</h2>
                         <ul class="list-specification">
-                            <li><i class="lni-check-mark-circle"></i> Lorem Ipsum is simply dummy</li>
-                            <li><i class="lni-check-mark-circle"></i> Ipsum passages, and more recently</li>
-                            <li><i class="lni-check-mark-circle"></i> PageMaker including versions</li>
-                            <li><i class="lni-check-mark-circle"></i> Lorem Ipsum is simply dummy</li>
+                            <li><i class="lni-check-mark-circle"></i>
+                                Lorem
+                                Ipsum is
+                                simply
+                                dummy
+                            </li>
+                            <li><i class="lni-check-mark-circle"></i>
+                                Ipsum
+                                passages,
+                                and more
+                                recently
+                            </li>
+                            <li><i class="lni-check-mark-circle"></i>
+                                PageMaker
+                                including
+                                versions
+                            </li>
+                            <li><i class="lni-check-mark-circle"></i>
+                                Lorem
+                                Ipsum is
+                                simply
+                                dummy
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -2087,27 +2711,38 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Our Latest News & Articles</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+                            <h1 class="section-title wow fadeInUp"
+                                data-wow-delay="0.2s">Our Latest News
+                                                      &
+                                                      Articles</h1>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">
+                                Global Grand Event on Digital
+                                Design</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-xs-12">
                         <div class="blog-item">
                             <div class="blog-image">
                                 <a href="#">
-                                    <img class="img-fluid" src="img/blog/img-1.jpg" alt="">
+                                    <img class="img-fluid"
+                                         src="img/blog/img-1.jpg"
+                                         alt="">
                                 </a>
                             </div>
                             <div class="descr">
                                 <div class="tag">Design</div>
                                 <h3 class="title">
                                     <a href="single-blog.html">
-                                        The 9 Design Trends You Need to Know
+                                        The 9 Design Trends You Need
+                                        to Know
                                     </a>
                                 </h3>
                                 <div class="meta-tags">
-                                    <span class="date">Jan 20, 2018</span>
-                                    <span class="comments">| <a href="#"> by Cindy Jefferson</a></span>
+                                    <span
+                                        class="date">Jan 20, 2018</span>
+                                    <span class="comments">| <a
+                                            href="#"> by Cindy Jefferson</a></span>
                                 </div>
                             </div>
                         </div>
@@ -2116,19 +2751,24 @@
                         <div class="blog-item">
                             <div class="blog-image">
                                 <a href="#">
-                                    <img class="img-fluid" src="img/blog/img-2.jpg" alt="">
+                                    <img class="img-fluid"
+                                         src="img/blog/img-2.jpg"
+                                         alt="">
                                 </a>
                             </div>
                             <div class="descr">
                                 <div class="tag">Design</div>
                                 <h3 class="title">
                                     <a href="single-blog.html">
-                                        The 9 Design Trends You Need to Know
+                                        The 9 Design Trends You Need
+                                        to Know
                                     </a>
                                 </h3>
                                 <div class="meta-tags">
-                                    <span class="date">Jan 20, 2018 </span>
-                                    <span class="comments">| <a href="#"> by Cindy Jefferson</a></span>
+                                    <span
+                                        class="date">Jan 20, 2018 </span>
+                                    <span class="comments">| <a
+                                            href="#"> by Cindy Jefferson</a></span>
                                 </div>
                             </div>
                         </div>
@@ -2137,25 +2777,31 @@
                         <div class="blog-item">
                             <div class="blog-image">
                                 <a href="#">
-                                    <img class="img-fluid" src="img/blog/img-3.jpg" alt="">
+                                    <img class="img-fluid"
+                                         src="img/blog/img-3.jpg"
+                                         alt="">
                                 </a>
                             </div>
                             <div class="descr">
                                 <div class="tag">Design</div>
                                 <h3 class="title">
                                     <a href="single-blog.html">
-                                        The 9 Design Trends You Need to Know
+                                        The 9 Design Trends You Need
+                                        to Know
                                     </a>
                                 </h3>
                                 <div class="meta-tags">
-                                    <span class="date">Jan 20, 2018</span>
-                                    <span class="comments">| <a href="#"> by Cindy Jefferson</a></span>
+                                    <span
+                                        class="date">Jan 20, 2018</span>
+                                    <span class="comments">| <a
+                                            href="#"> by Cindy Jefferson</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 text-center">
-                        <a href="#" class="btn btn-common">Read More News</a>
+                        <a href="#" class="btn btn-common">Read More
+                                                           News</a>
                     </div>
                 </div>
             </div>
@@ -2167,13 +2813,23 @@
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-md-10 col-lg-7">
-                        <div class="subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
-                            <h2 class="subscribe-title">Sign Up For Our Newsletter</h2>
+                        <div class="subscribe-inner wow fadeInDown"
+                             data-wow-delay="0.3s">
+                            <h2 class="subscribe-title">Sign Up For
+                                                        Our
+                                                        Newsletter</h2>
                             <form class="text-center form-inline">
-                                <input class="mb-20 form-control" name="email" placeholder="Enter Your Email Here">
-                                <button type="submit" class="btn btn-common sub-btn" data-style="zoom-in"
-                                        data-spinner-size="30" name="submit" id="submit">
-                                    <span class="ladda-label"><i class="lni-check-box"></i> Submit</span>
+                                <input class="mb-20 form-control"
+                                       name="email"
+                                       placeholder="Enter Your Email Here">
+                                <button type="submit"
+                                        class="btn btn-common sub-btn"
+                                        data-style="zoom-in"
+                                        data-spinner-size="30"
+                                        name="submit"
+                                        id="submit">
+                                    <span class="ladda-label"><i
+                                            class="lni-check-box"></i> Submit</span>
                                 </button>
                             </form>
                         </div>
@@ -2189,68 +2845,117 @@
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Drop A Message</h1>
-                            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+                            <h1 class="section-title wow fadeInUp"
+                                data-wow-delay="0.2s">Drop A
+                                                      Message</h1>
+                            <p class="wow fadeInDown"
+                               data-wow-delay="0.2s">
+                                Global Grand Event on Digital
+                                Design</p>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12 col-xs-12">
-                        <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="container-form wow fadeInLeft"
+                             data-wow-delay="0.2s">
                             <div class="form-wrapper">
-                                <form role="form" method="post" id="contactForm" name="contact-form"
-                                      data-toggle="validator" , action='/home'>
+                                <form role="form" method="post"
+                                      id="contactForm"
+                                      name="contact-form"
+                                      data-toggle="validator" ,
+                                      action='/home'>
                                     <div class="row">
-                                        <div class="col-md-6 form-line">
+                                        <div
+                                            class="col-md-6 form-line">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="firstName" name="firstName"
-                                                       placeholder="First Name" required
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="firstName"
+                                                       name="firstName"
+                                                       placeholder="First Name"
+                                                       required
                                                        data-error="Please enter your name">
-                                                <div class="help-block with-errors"></div>
+                                                <div
+                                                    class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 form-line">
+                                        <div
+                                            class="col-md-6 form-line">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="lastName" name="lastName"
-                                                       placeholder="Last Name" required
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="lastName"
+                                                       name="lastName"
+                                                       placeholder="Last Name"
+                                                       required
                                                        data-error="Please enter your Last Name">
-                                                <div class="help-block with-errors"></div>
+                                                <div
+                                                    class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 form-line">
+                                        <div
+                                            class="col-md-6 form-line">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                       placeholder="Email" required
+                                                <input type="email"
+                                                       class="form-control"
+                                                       id="email"
+                                                       name="email"
+                                                       placeholder="Email"
+                                                       required
                                                        data-error="Please enter your Email">
-                                                <div class="help-block with-errors"></div>
+                                                <div
+                                                    class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 form-line">
+                                        <div
+                                            class="col-md-6 form-line">
                                             <div class="form-group">
-                                                <input type="tel" class="form-control" id="phoneNumber"
-                                                       name="phoneNumber" placeholder="Phone Number"
+                                                <input type="tel"
+                                                       class="form-control"
+                                                       id="phoneNumber"
+                                                       name="phoneNumber"
+                                                       placeholder="Phone Number"
                                                        data-error="Please enter your Email">
-                                                <div class="help-block with-errors"></div>
+                                                <div
+                                                    class="help-block with-errors"></div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 form-line">
+                                        <div
+                                            class="col-md-12 form-line">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="msg_subject" name="subject"
-                                                       placeholder="Subject" required
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="msg_subject"
+                                                       name="subject"
+                                                       placeholder="Subject"
+                                                       required
                                                        data-error="Please enter your message subject">
-                                                <div class="help-block with-errors"></div>
+                                                <div
+                                                    class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <textarea class="form-control" rows="4" id="messageContent"
-                                                          name="messageContent" required
-                                                          data-error="Write your message"></textarea>
+                                                <textarea
+                                                    class="form-control"
+                                                    rows="4"
+                                                    id="messageContent"
+                                                    name="messageContent"
+                                                    required
+                                                    data-error="Write your message"></textarea>
                                             </div>
                                             <div class="form-submit">
-                                                <button type="submit" class="btn btn-common" value="Send"><i
-                                                        class="fa fa-paper-plane" aria-hidden="true"></i> Send Us Now
+                                                <button type="submit"
+                                                        class="btn btn-common"
+                                                        value="Send">
+                                                    <i
+                                                        class="fa fa-paper-plane"
+                                                        aria-hidden="true"></i>
+                                                    Send Us Now
                                                 </button>
                                                 @if(session()->has('msgSubmit'))
-                                                    <div id="msgSubmit" class="h3 text-center hidden">
+                                                    <div
+                                                        id="msgSubmit"
+                                                        class="h3 text-center hidden">
                                                         {{ session()->get('msgSubmit') }}
                                                     </div>
                                                 @endif
@@ -2278,92 +2983,7 @@
         </section>
         <!-- Map Section End -->
 
-        <!-- Footer Section Start -->
-        <footer class="footer-area section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-                        <h3><img src="img/logo.png" alt=""></h3>
-                        <p>
-                            Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim
-                            veniam quis nostrud ncididunt.
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-                        <h3>QUICK LINKS</h3>
-                        <ul>
-                            <li><a href="#">About Conference</a></li>
-                            <li><a href="#">Our Speakers</a></li>
-                            <li><a href="#">Event Shedule</a></li>
-                            <li><a href="#">Latest News</a></li>
-                            <li><a href="#">Event Photo Gallery</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-                        <h3>RECENT POSTS</h3>
-                        <ul class="image-list">
-                            <li>
-                                <figure class="overlay">
-                                    <img class="img-fluid" src="img/art/a1.jpg" alt="">
-                                </figure>
-                                <div class="post-content">
-                                    <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
-                                    <div class="meta"><span class="date">October 12, 2018</span></div>
-                                </div>
-                            </li>
-                            <li>
-                                <figure class="overlay">
-                                    <img class="img-fluid" src="img/art/a2.jpg" alt="">
-                                </figure>
-                                <div class="post-content">
-                                    <h6 class="post-title"><a href="blog-single.html">Lorem ipsm dolor sumit.</a></h6>
-                                    <div class="meta"><span class="date">October 12, 2018</span></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
-                        <h3>SUBSCRIBE US</h3>
-                        <div class="widget">
-                            <div class="newsletter-wrapper">
-                                <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
-                                    <div class="form-group is-empty">
-                                        <input type="email" value="" name="Email" class="form-control" id="EMAIL"
-                                               placeholder="Your email" required="">
-                                        <button type="submit" name="subscribe" id="subscribes"
-                                                class="btn btn-common sub-btn"><i class="lni-pointer"></i></button>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- /.widget -->
-                        <div class="widget">
-                            <h5 class="widget-title">FOLLOW US ON</h5>
-                            <ul class="footer-social">
-                                <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>
-                                <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer Section End -->
-
-        <div id="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="site-info">
-                            <p>© Designed and Developed by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('components.footer')
 
         <!-- Go to Top Link -->
         <a href="#" class="back-to-top">
@@ -2388,6 +3008,7 @@
         </div>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/components/language-bar.js"></script>
         <script src="js/jquery-min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

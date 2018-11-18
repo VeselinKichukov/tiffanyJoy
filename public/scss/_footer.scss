@@ -21,6 +21,7 @@
 				color: #fff;
 				font-size: 13px;
 				font-weight: 400;
+                padding: 8px;
 				&:hover{
 					color: $preset;
 				}
@@ -30,7 +31,7 @@
 	.footer-social{
 		li{
 			display: inline-block;
-			a{	
+			a{
 				color: #000;
 				background: #fff;
 				width: 35px;
@@ -39,6 +40,7 @@
 				display: block;
 				text-align: center;
 				border-radius: 4px;
+                padding: 8px !important;
 				font-size: 15px;
 				margin-right: 5px;
 				transition: all 0.3s ease-in-out 0s;

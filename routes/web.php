@@ -20,8 +20,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/pomorie', function() {
-    return view('cities.pomorie');
+Route::get('/cities', function() {
+    return view('cities-main');
 });
 
 // contact form
