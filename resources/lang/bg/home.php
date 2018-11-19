@@ -8,6 +8,8 @@ return [
     'contacts' => 'Контакти',
     'faq' => 'Въпроси',
     'language' => 'Език',
+    'pricing' => 'Цени',
+    'about_cities' => 'Градове',
 
     // Names
     'pomorie_name' => 'Поморие',
@@ -36,7 +38,7 @@ return [
     'tripple_room_balcony' => 'Тройна стая с балкон:',
     'appartment_primorsko' => 'Апартамент с изглед към морето:',
     'studio_appartment_primorsko' => 'Студио апартамент с изглед към морето:',
-    'standard_double_room_sinemorets' => 'Стандартна двойна стая',
+    'standard_double_room_sinemorets' => 'Стандартна двойна стая:',
     'deluxe_double_room_sinemorets' => 'Двойна делукс стая:',
     'tripple_room_sinemorets' => 'Двойна делукс стая с допълнително легло:',
     'tripple_room_pomorie_beds' => '  3 единични легла  &nbsp; <i class="fa fa-bed"></i>  <i class="fa fa-bed"></i> <i class="fa fa-bed"></i> &nbsp; или 1 единичнo леглo &nbsp; <i class="fa fa-bed"></i> &nbsp; и  1 двойно легло &nbsp; <i class="glyphicon glyphicon-bed"></i>',
@@ -63,6 +65,36 @@ return [
     'cash_header' => 'Само в брой',
     'cash_message' => 'Това място за настаняване приема само плащания в брой.
     Кредитните карти са необходими и единствено за гарантиране на вашата резервация.',
+    'our_pricing' => 'Нашите Цени',
+    'our_pricing_vary' => 'Цените могат да варират според периода на резервация.',
+
+    //prices pomorie 
+    'pomorie_prices_start_from' => 'Цените започват от : &nbsp; 36 лв.',
+    'pomorie_house_name_price' => 'Guest House <br/> More',
+
+    'pomorie_five_room_price' => '96 лв.',
+    'pomorie_double_room_price' => '36 лв.',
+    'pomorie_tripple_room_price' => '40 лв.',
+    'pomorie_four_room_price' => '77 лв.',
+    'pomorie_double_room_balcony_price' => '36 лв.',
+    'pomorie_tripple_room_balcony_price' => '40 лв.',
+    'pomorie_studio_balcony_price' => '55 лв.',
+
+   //prices sinemorets 
+   'sinemorets_prices_start_from' => 'Цените започват от :  &nbsp;  52 лв.',
+   'sinemorets_house_name_price' => 'Casa Di <br/> Angel',
+
+   'sinemorets_standard_double_room_price' => '52 лв.',
+   'sinemorets_deluxe_double_room_price' => '64 лв.',
+   'sinemorets_tripple_room_price' => '68 лв.',
+   'sinemorets_five_room_price' => '65 лв.',
+
+    //prices primorsko 
+    'primorsko_prices_start_from' => 'Цените започват от : 100 лв.',
+    'primorsko_house_name_price' => 'Tiffany Joy <br/> Apartments',
+
+    'primorsko_appartment_price' => '120 лв.',
+    'primorsko_studio_appartment_price' => '100 лв.',
 
 
     // Sinemorets

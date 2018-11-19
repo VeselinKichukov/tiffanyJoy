@@ -2476,150 +2476,161 @@
         <!-- Sponsors Section End -->
 
         <!-- Ticket Pricing Area Start -->
+        <!-- Pomorie pricing -->
         <section id="pricing" class="section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title-header text-center">
-                            <h1 class="section-title wow fadeInUp"
-                                data-wow-delay="0.2s">Our Pricing</h1>
-                            <p class="wow fadeInDown"
-                               data-wow-delay="0.2s">
-                                Global Grand Event on Digital
-                                Design</p>
+                            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">@lang('home.our_pricing')</h1>
+                            <p class="wow fadeInDown" data-wow-delay="0.2s">
+                                @lang('home.our_pricing_vary')
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                        <div
-                            class="price-block-wrapper wow fadeInLeft"
-                            data-wow-delay="0.2s">
+                        <div class="price-block-wrapper wow fadeInLeft" data-wow-delay="0.2s">
                             <div class="icon">
-                                <i class="lni-write"></i>
+                                <img src="../img/blog/pm_house.jpg" width="200" height="200">
                             </div>
+        
                             <div class="colmun-title">
-                                <h5>Basic Pass</h5>
+                                <h5>{!! trans('home.pomorie_house_name_price') !!}</h5>
+                                <h6>@lang('home.pomorie_name')</h6>
                             </div>
                             <div class="price">
-                                <h2>$29</h2>
-                                <p>452 Tickets Available</p>
+                                <p>{!! trans('home.pomorie_prices_start_from') !!}</p>
                             </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Entrance</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Coffee Break</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Lunch on all days</span>
-                                    </li>
-                                    <li><i class="lni-close"></i><span
-                                            class="text">Access to all areas</span>
-                                    </li>
-                                    <li><i class="lni-close"></i><span
-                                            class="text">Certificate</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Workshop</span>
-                                    </li>
-                                </ul>
+        
+                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo">Read more</button>
+        
+                            <div id="demo" class="collapse">
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text"> 
+                                                {!! trans('home.five_room') !!}
+                                                {!! trans('home.pomorie_five_room_price') !!}</span>
+                                            </li>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                trans('home.double_room') !!}
+                                                {!!trans('home.pomorie_double_room_price') !!}</span>
+                                        </li>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                trans('home.tripple_room') !!}
+                                                {!!trans('home.pomorie_tripple_room_price') !!}</span>
+                                        </li>
+                                        <li><i class="lni-check-mark-circle"></i><span class="text">{!! trans('home.four_room') !!} 
+                                                {!!trans('home.pomorie_four_room_price') !!}</span>
+                                        </li>
+                                        <li><i class="lni-check-mark-circle"></i><span class="text">{!! trans('home.double_room_balcony')!!} 
+                                                {!!trans('home.pomorie_double_room_balcony_price') !!}</span>
+                                        </li>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                trans('home.tripple_room_balcony') !!} 
+                                                {!!trans('home.pomorie_tripple_room_balcony_price') !!}</span>
+                                        </li>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                trans('home.studio_balcony')!!} 
+                                                {!!trans('home.pomorie_studio_balcony_price') !!}</span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <a href="#" class="btn btn-common">Buy
-                                                               Ticket</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                        <div class="price-block-wrapper wow fadeInUp"
-                             data-wow-delay="0.3s">
+                        <div class="price-block-wrapper wow fadeInUp" data-wow-delay="0.3s">
                             <div class="icon">
-                                <i class="lni-layers"></i>
+                                <img src="../img/blog/sinemorets_house.jpg" width="200" height="200">
                             </div>
+        
+        
                             <div class="colmun-title">
-                                <h5>Standard Pass</h5>
+                                <h5>{!!trans('home.sinemorets_house_name_price') !!}</h5>
+                                <h6>@lang('home.sinemorets_name')</h6>
                             </div>
+        
                             <div class="price">
-                                <h2>$40</h2>
-                                <p>452 Tickets Available</p>
+                                <!-- <h4>$29</h4> -->
+                                <p>{!! trans('home.sinemorets_prices_start_from') !!}</p>
+                                <!-- <p>452 Tickets Available</p> -->
                             </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Entrance</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Coffee Break</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Lunch on all days</span>
-                                    </li>
-                                    <li><i class="lni-close"></i><span
-                                            class="text">Access to all areas</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Certificate</span>
-                                    </li>
-                                    <li><i class="lni-close"></i><span
-                                            class="text">Workshop</span>
-                                    </li>
-                                </ul>
+                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo1">Read more</button>
+                            <!-- <p> <br/> </p> -->
+                            <br/> 
+        
+                            <div id="demo1" class="collapse">
+                                <div class="pricing-list">
+                                        <ul>
+                                                <li>
+                                                    <i class="lni-check-mark-circle"></i><span class="text"> {!!
+                                                        trans('home.standard_double_room_sinemorets') !!}
+                                                        {!!trans('home.sinemorets_standard_double_room_price') !!}</span>
+                                                    </li>
+                                                <li>
+                                                    <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                        trans('home.deluxe_double_room_sinemorets') !!}
+                                                        {!!trans('home.sinemorets_deluxe_double_room_price') !!}</span>
+                                                </li>
+                                                <li>
+                                                    <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                        trans('home.tripple_room_sinemorets') !!}
+                                                        {!!trans('home.sinemorets_tripple_room_price') !!}</span>
+                                                </li>
+                                                <li><i class="lni-check-mark-circle"></i><span class="text">
+                                                        {!! trans('home.five_room') !!} 
+                                                        {!!trans('home.sinemorets_five_room_price') !!}</span>
+                                                </li>
+                                            
+                                            </ul>
+                                </div>
                             </div>
-                            <a href="#" class="btn btn-common">Buy
-                                                               Ticket</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
-                        <div
-                            class="price-block-wrapper wow fadeInRight"
-                            data-wow-delay="0.4s">
+                        <div class="price-block-wrapper wow fadeInRight" data-wow-delay="0.4s">
                             <div class="icon">
-                                <i class="lni-leaf"></i>
+                                <img src="../img/blog/primorsko_house.jpg" width="200" height="200">
                             </div>
+        
                             <div class="colmun-title">
-                                <h5>Premium Pass</h5>
+                                <h5>{!!trans('home.primorsko_house_name_price') !!}</h5>
+                                <h6>@lang('home.primorsko_name')</h6>
                             </div>
                             <div class="price">
-                                <h2>$68</h2>
-                                <p>452 Tickets Available</p>
+                                <!-- <h4>$29</h4> -->
+                                <p> {!! trans('home.primorsko_prices_start_from') !!}</p>
+                                <!-- <p>452 Tickets Available</p> -->
                             </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Entrance</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Coffee Break</span>
-                                    </li>
-                                    <li><i class="lni-close"></i><span
-                                            class="text">Lunch on all days</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Access to all areas</span>
-                                    </li>
-                                    <li>
-                                        <i class="lni-check-mark-circle"></i><span
-                                            class="text">Certificate</span>
-                                    </li>
-                                    <li><i class="lni-close"></i><span
-                                            class="text">Workshop</span>
-                                    </li>
-                                </ul>
+        
+                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo2">Read more</button>
+        
+                            <div id="demo2" class="collapse">
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text"> 
+                                                {!! trans('home.appartment_primorsko') !!} 
+                                                {!! trans('home.primorsko_appartment_price') !!} 
+                                               </span>
+                                        </li>
+                                        <li>
+                                                <i class="lni-check-mark-circle"></i><span class="text"> 
+                                                    {!! trans('home.studio_appartment_primorsko') !!} 
+                                                    {!! trans('home.primorsko_studio_appartment_price') !!} 
+                                                   </span>
+                                            </li>
+                                    
+                                    </ul>
+                                </div>
                             </div>
-                            <a href="#" class="btn btn-common">Buy
-                                                               Ticket</a>
                         </div>
                     </div>
                 </div>
