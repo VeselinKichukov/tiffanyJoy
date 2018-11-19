@@ -7,6 +7,8 @@ return [
     'contacts' => 'Contacts',
     'faq' => 'FAQ',
     'language' => 'Language',
+    'pricing' => 'Pricing',
+    'about_cities' => 'Cities',
 
     // Names
     'pomorie_name' => 'Pomorie',
@@ -66,7 +68,38 @@ return [
     'cash_header' => 'Cash only',
     'cash_message' => 'This property only accepts cash payments.
     Credit cards are only needed to guarantee your booking .',
+    'our_pricing' => 'Our Pricing',
+    'our_pricing_vary' => 'Prices may vary due to the time period.',
 
+    //prices pomorie 
+    'pomorie_prices_start_from' => 'Prices starts from : 19€',
+    'pomorie_house_name_price' => 'Guest House <br/> More',
+    
+    'pomorie_five_room_price' => '49€',
+    'pomorie_double_room_price' => '19€',
+    'pomorie_tripple_room_price' => '21€',
+    'pomorie_four_room_price' => '40€',
+    'pomorie_double_room_balcony_price' => '19€',
+    'pomorie_tripple_room_balcony_price' => '21€',
+    'pomorie_studio_balcony_price' => '28€',
+
+    //prices sinemorets 
+    'sinemorets_prices_start_from' => 'Prices starts from : 28€',
+    'sinemorets_house_name_price' => 'Casa Di <br/> Angel',
+
+    'sinemorets_standard_double_room_price' => '28€',
+    'sinemorets_deluxe_double_room_price' => '32€',
+    'sinemorets_tripple_room_price' => '35€',
+    'sinemorets_five_room_price' => '33€',
+
+    //prices primorsko 
+    'primorsko_prices_start_from' => 'Prices starts from : 50€',
+    'primorsko_house_name_price' => 'Tiffany Joy <br/> Apartments',
+
+    'primorsko_appartment_price' => '60€',
+    'primorsko_studio_appartment_price' => '50€',
+        
+        
     //Sinemorets
     'sinemorets' => 'This property is 5 minutes walk from the beach. Located in Sinemorets, Casa Di Angel provides a seasonal outdoor swimming pool and fitness centre. 1.2 km from Veleka Beach, the hotel features a garden and a terrace. Guests can have a cocktail at the bar.&nbsp;<br/>
     <br/>&nbsp;

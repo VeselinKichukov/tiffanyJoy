@@ -29,7 +29,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">
-                        About
+                    @lang('home.about_cities')
                     </a>
                 </li>
                 <li class="nav-item">
@@ -59,7 +59,7 @@
                 </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#pricing">
-                        pricing
+                    @lang('home.pricing')
                     </a>
                 </li>
                 <li class="nav-item">
