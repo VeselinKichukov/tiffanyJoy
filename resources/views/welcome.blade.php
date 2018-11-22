@@ -79,22 +79,17 @@
                              alt="First slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow"
-                               data-wow-delay=".6s">Global
-                                                    Grand
-                                                    Event
-                                                    on
-                                                    Digital
-                                                    Design</p>
+                            
+                               data-wow-delay=".6s"> @lang('home.slide1_header1')</p>
                             <h1 class="wow fadeInDown heading"
-                                data-wow-delay=".4s">Design Thinking
-                                                     Conference</h1>
-                            <a href="#"
+                                data-wow-delay=".4s">@lang('home.slide1_header2')</h1>
+                            <a href="#about"
                                class="fadeInLeft wow btn btn-common btn-lg"
-                               data-wow-delay=".6s">Get Ticket</a>
-                            <a href="#"
+                               data-wow-delay=".6s">@lang('home.button1')</a>
+                            <!-- <a href="#"
                                class="fadeInRight wow btn btn-border btn-lg"
                                data-wow-delay=".6s">Explore
-                                                    More</a>
+                                                    More</a> -->
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -103,18 +98,12 @@
                              alt="Second slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow"
-                               data-wow-delay=".6s">Global
-                                                    Grand
-                                                    Event
-                                                    on
-                                                    Digital
-                                                    Design</p>
+                               data-wow-delay=".6s">@lang('home.slide2_header1')</p>
                             <h1 class="wow bounceIn heading"
-                                data-wow-delay=".7s">22 Amazing
-                                                     Speakers</h1>
-                            <a href="#"
-                               class="fadeInUp wow btn btn-border btn-lg"
-                               data-wow-delay=".8s">Learn More</a>
+                                data-wow-delay=".7s">@lang('home.slide2_header2')</h1>
+                            <a href="#about"
+                               class="fadeInUp wow btn btn-common btn-lg"
+                               data-wow-delay=".8s">@lang('home.button2')</a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -123,18 +112,12 @@
                              alt="Third slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow"
-                               data-wow-delay=".6s">Global
-                                                    Grand
-                                                    Event
-                                                    on
-                                                    Digital
-                                                    Design</p>
+                               data-wow-delay=".6s">@lang('home.slide3_header1')</p>
                             <h1 class="wow fadeInUp heading"
-                                data-wow-delay=".6s">Book Your Seat
-                                                     Now!</h1>
-                            <a href="#"
+                                data-wow-delay=".6s">@lang('home.slide3_header2')</h1>
+                            <a href="#about"
                                class="fadeInUp wow btn btn-common btn-lg"
-                               data-wow-delay=".8s">Explore</a>
+                               data-wow-delay=".8s">@lang('home.button3')</a>
                         </div>
                     </div>
                 </div>

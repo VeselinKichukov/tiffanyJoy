@@ -70,6 +70,15 @@ return [
     Credit cards are only needed to guarantee your booking .',
     'our_pricing' => 'Our Pricing',
     'our_pricing_vary' => 'Prices may vary due to the time period.',
+    'button1' => 'Check Out More',
+    'button2' => 'Check Out More',
+    'button3' => 'Check Out More',
+    'slide1_header1' => 'Pomorie',
+    'slide1_header2' => 'Book you great holyday now !',
+    'slide2_header1' => 'Sinemorets',
+    'slide2_header2' => 'Forget about reality !',
+    'slide3_header1' => 'Primoprsko',
+    'slide3_header2' => 'You can be here !',
 
     //prices pomorie 
     'pomorie_prices_start_from' => 'Prices starts from : 19€',
