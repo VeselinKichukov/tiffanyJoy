@@ -8,12 +8,12 @@
 
         <title>Tiffany Apart</title>
 
-        <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
         <script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -62,8 +62,7 @@
             @include('components.nav-bar')
 
             <!-- Main Carousel Section Start -->
-            <div id="main-slide" class="carousel slide"
-                 data-ride="carousel">
+            <div id="main-slide" class="carousel slide">
                 <ol class="carousel-indicators">
                     <li data-target="#main-slide" data-slide-to="0"
                         class="active"></li>
@@ -452,6 +451,9 @@
         </section>
         <!-- Counter Area End-->
 
+
+        
+
         <!-- Schedule Section Start -->
         <section id="schedules" class="schedule section-padding">
             <div class="container">
@@ -560,13 +562,13 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -597,7 +599,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -606,7 +608,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -637,7 +639,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -646,7 +648,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -677,7 +679,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -686,7 +688,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -718,7 +720,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -727,7 +729,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -768,13 +770,13 @@
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -805,7 +807,7 @@
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -814,7 +816,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -845,7 +847,7 @@
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -854,7 +856,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -885,7 +887,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -894,7 +896,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -926,7 +928,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -935,7 +937,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -976,13 +978,13 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1013,7 +1015,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1022,7 +1024,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1053,7 +1055,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1062,7 +1064,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1093,7 +1095,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1102,7 +1104,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1135,7 +1137,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1144,7 +1146,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1350,22 +1352,19 @@
                                                                  Warner</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseThree"
-                                             class="collapse"
-                                             aria-labelledby="headingThree"
-                                             data-parent="#accordion">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>Consectetur
-                                                   adipisicing elit.
-                                                   Quod distinctio
-                                                   impedit sint
-                                                   accusantium ducimus
-                                                   lites
-                                                   consequuntur
-                                                   innobisl dolores
-                                                   saepe.Proin
-                                                   sit amet turpis
-                                                   lobortis.</p>
+                                                    adipisicing elit.
+                                                    Quod distinctio
+                                                    impedit sint
+                                                    accusantium ducimus
+                                                    lites
+                                                    consequuntur
+                                                    innobisl dolores
+                                                    saepe.Proin
+                                                    sit amet turpis
+                                                    lobortis.</p>
                                                 <div class="location">
                                                     <span>Location:</span>
                                                     Hall

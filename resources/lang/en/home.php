@@ -30,7 +30,7 @@ return [
     'checkin_checkout_message' => 'The checkin needs to take place between 14:00 and 20:00. The checkout needs to take
      place between 10:00 and 11:00 in the morning.',
     'cansel_payment_header' => 'Cancellation/prepayment',
-    'cansel_payment_message' => 'Needs to be discussed',
+    'cansel_payment_message' => 'Prepayment of 30 % from the total amount booked are required when making a reservation.',
     'tripple_room' => 'Tripple Room with Sea View:',
     'double_room' => 'Double Room with Sea View:',
     'four_room' => ' Family Room with Sea View:',

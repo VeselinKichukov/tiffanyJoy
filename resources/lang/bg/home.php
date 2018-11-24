@@ -33,7 +33,7 @@ return [
     'checkin_checkout_header' => 'На бг преводът.',
     'checkin_checkout_message' => 'На бг преводът.',
     'cansel_payment_header' => 'Анулиране/предварително заплащане',
-    'cansel_payment_message' => 'На бг преводът.',
+    'cansel_payment_message' => 'Капаро от 30% трябва да бъде направено при резервация.',
     'tripple_room' => 'Тройна стая с изглед към морето:',
     'double_room' => ' Двойна стая с изглед към морето:',
     'four_room' => '  Фамилна стая с морски изглед:',
