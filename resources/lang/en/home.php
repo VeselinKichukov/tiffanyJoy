@@ -70,14 +70,6 @@ return [
     Credit cards are only needed to guarantee your booking .',
     'our_pricing' => 'Our Pricing',
     'our_pricing_vary' => 'Prices may vary due to the time period.',
-    'pink_field1' => 'Choose а property.',
-    'pink_field2' => 'Choose the period of staying.',
-    'pink_field3' => 'Contact us at any time.',
-    'pink_field4' => 'Have a great holyday : )',
-    'step1' => 'Step 1',
-    'step2' => 'Step 2',
-    'step3' => 'Step 3',
-    'step4' => 'Step 4',
 
     //prices pomorie 
     'pomorie_prices_start_from' => 'Prices starts from : 19€',
