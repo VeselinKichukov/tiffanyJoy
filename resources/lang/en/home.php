@@ -70,6 +70,13 @@ return [
     Credit cards are only needed to guarantee your booking .',
     'our_pricing' => 'Our Pricing',
     'our_pricing_vary' => 'Prices may vary due to the time period.',
+    'description_motiv8_footer' => 'TiffanyAppart is developed by Motiv8Soft. For more information and details you can go to our website: <a href="http://motiv8soft.com">motiv8soft.com</a>',
+    'useful_link1_footer' => '<a href="http://bulgariatravel.org/en">bulgariatravel.org</a>',
+    'useful_link2_footer' => '<a href="https://www.tripadvisor.com/">tripadvisor.com</a>',
+    'send_message_footer_text' => 'LEAVE US A MESSAGE:',
+    'send_message_footer_button' => 'Send Us Now',
+    'quick_links' => 'QUICK LINKS',
+    'useful_links' => 'USEFUL LINKS',
 
     //prices pomorie 
     'pomorie_prices_start_from' => 'Prices starts from : 19€',

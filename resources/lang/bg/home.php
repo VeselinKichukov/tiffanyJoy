@@ -72,6 +72,13 @@ return [
     Кредитните карти са необходими и единствено за гарантиране на вашата резервация.',
     'our_pricing' => 'Нашите Цени',
     'our_pricing_vary' => 'Цените могат да варират според периода на резервация.',
+    'description_motiv8_footer' => 'TiffanyAppart е разработен от Motiv8Soft. За повече информация и детайли, можете да посетите нашия уебсайт: <a href="http://motiv8soft.com">  motiv8soft.com</a>',
+    'useful_link1_footer' => '<a href="http://bulgariatravel.org/en">bulgariatravel.org</a>',
+    'useful_link2_footer' => '<a href="https://www.tripadvisor.com/">tripadvisor.com</a>',
+    'send_message_footer_text' => 'ОСТАВЕТЕ НИ СЪОБЩЕНИЕ:',
+    'send_message_footer_button' => 'Изпрати сега',
+    'quick_links' => 'БЪРЗИ ЛИНКОВЕ',
+    'useful_links' => 'ПОЛЕЗНИ ЛИНКОВЕ',
 
     //prices pomorie 
     'pomorie_prices_start_from' => 'Цените започват от : &nbsp; 36 лв.',
