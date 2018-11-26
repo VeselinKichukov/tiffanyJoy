@@ -30,7 +30,7 @@ return [
     'checkin_checkout_message' => 'The checkin needs to take place between 14:00 and 20:00. The checkout needs to take
      place between 10:00 and 11:00 in the morning.',
     'cansel_payment_header' => 'Cancellation/prepayment',
-    'cansel_payment_message' => 'Needs to be discussed',
+    'cansel_payment_message' => 'Prepayment of 30 % from the total amount booked are required when making a reservation.',
     'tripple_room' => 'Tripple Room with Sea View:',
     'double_room' => 'Double Room with Sea View:',
     'four_room' => ' Family Room with Sea View:',
@@ -77,6 +77,15 @@ return [
     'send_message_footer_button' => 'Send Us Now',
     'quick_links' => 'QUICK LINKS',
     'useful_links' => 'USEFUL LINKS',
+    'button1' => 'Check Out More',
+    'button2' => 'Check Out More',
+    'button3' => 'Check Out More',
+    'slide1_header1' => 'Pomorie',
+    'slide1_header2' => 'Book you great holyday now !',
+    'slide2_header1' => 'Sinemorets',
+    'slide2_header2' => 'Forget about reality !',
+    'slide3_header1' => 'Primoprsko',
+    'slide3_header2' => 'You can be here !',
 
     //prices pomorie 
     'pomorie_prices_start_from' => 'Prices starts from : 19€',
