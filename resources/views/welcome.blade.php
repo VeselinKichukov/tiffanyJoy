@@ -391,8 +391,8 @@
                              data-wow-delay="0.3s">
                             <div class="icon"><i class="lni-map"></i>
                             </div>
-                            <p>Wst. Conference Center</p>
-                            <span>San Francisco, CA</span>
+                            <p>@lang('home.pink_field1')</p>
+                            <span>@lang('home.step1')</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
@@ -402,8 +402,8 @@
                              data-wow-delay="0.6s">
                             <div class="icon"><i
                                     class="lni-timer"></i></div>
-                            <p>February 14 - 19, 2018</p>
-                            <span>09:00 AM – 05:00 PM</span>
+                                    <p>@lang('home.pink_field2')</p>
+                                    <span>@lang('home.step2')</span>        
                         </div>
                     </div>
                     <!-- Counter Item -->
@@ -412,9 +412,9 @@
                         <div class="counter wow fadeInRight"
                              data-wow-delay="0.9s">
                             <div class="icon"><i
-                                    class="lni-users"></i></div>
-                            <p>343 Available Seats</p>
-                            <span>Hurryup! few tickets are left</span>
+                                class="lni-laptop-phone"></i></div>
+                                <p>@lang('home.pink_field3')</p>
+                                <span>@lang('home.step3')</span>    
                         </div>
                     </div>
                     <!-- Counter Item -->
@@ -423,10 +423,10 @@
                         <div class="counter wow fadeInRight"
                              data-wow-delay="1.2s">
                             <div class="icon"><i
-                                    class="lni-coffee-cup"></i>
+                                class="lni-heart"></i>
                             </div>
-                            <p>Free Lunch & Snacks</p>
-                            <span>Don’t miss it</span>
+                            <p>@lang('home.pink_field4')</p>
+                            <span>@lang('home.step4')</span>
                         </div>
                     </div>
                 </div>
