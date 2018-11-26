@@ -8,12 +8,12 @@
 
         <title>Tiffany Apart</title>
 
-        <link rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
         <script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -62,8 +62,7 @@
             @include('components.nav-bar')
 
             <!-- Main Carousel Section Start -->
-            <div id="main-slide" class="carousel slide"
-                 data-ride="carousel">
+            <div id="main-slide" class="carousel slide">
                 <ol class="carousel-indicators">
                     <li data-target="#main-slide" data-slide-to="0"
                         class="active"></li>
@@ -79,22 +78,17 @@
                              alt="First slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow"
-                               data-wow-delay=".6s">Global
-                                                    Grand
-                                                    Event
-                                                    on
-                                                    Digital
-                                                    Design</p>
+                            
+                               data-wow-delay=".6s"> @lang('home.slide1_header1')</p>
                             <h1 class="wow fadeInDown heading"
-                                data-wow-delay=".4s">Design Thinking
-                                                     Conference</h1>
-                            <a href="#"
+                                data-wow-delay=".4s">@lang('home.slide1_header2')</h1>
+                            <a href="#about"
                                class="fadeInLeft wow btn btn-common btn-lg"
-                               data-wow-delay=".6s">Get Ticket</a>
-                            <a href="#"
+                               data-wow-delay=".6s">@lang('home.button1')</a>
+                            <!-- <a href="#"
                                class="fadeInRight wow btn btn-border btn-lg"
                                data-wow-delay=".6s">Explore
-                                                    More</a>
+                                                    More</a> -->
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -103,18 +97,12 @@
                              alt="Second slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow"
-                               data-wow-delay=".6s">Global
-                                                    Grand
-                                                    Event
-                                                    on
-                                                    Digital
-                                                    Design</p>
+                               data-wow-delay=".6s">@lang('home.slide2_header1')</p>
                             <h1 class="wow bounceIn heading"
-                                data-wow-delay=".7s">22 Amazing
-                                                     Speakers</h1>
-                            <a href="#"
-                               class="fadeInUp wow btn btn-border btn-lg"
-                               data-wow-delay=".8s">Learn More</a>
+                                data-wow-delay=".7s">@lang('home.slide2_header2')</h1>
+                            <a href="#about"
+                               class="fadeInUp wow btn btn-common btn-lg"
+                               data-wow-delay=".8s">@lang('home.button2')</a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -123,18 +111,12 @@
                              alt="Third slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow"
-                               data-wow-delay=".6s">Global
-                                                    Grand
-                                                    Event
-                                                    on
-                                                    Digital
-                                                    Design</p>
+                               data-wow-delay=".6s">@lang('home.slide3_header1')</p>
                             <h1 class="wow fadeInUp heading"
-                                data-wow-delay=".6s">Book Your Seat
-                                                     Now!</h1>
-                            <a href="#"
+                                data-wow-delay=".6s">@lang('home.slide3_header2')</h1>
+                            <a href="#about"
                                class="fadeInUp wow btn btn-common btn-lg"
-                               data-wow-delay=".8s">Explore</a>
+                               data-wow-delay=".8s">@lang('home.button3')</a>
                         </div>
                     </div>
                 </div>
@@ -452,6 +434,9 @@
         </section>
         <!-- Counter Area End-->
 
+
+        
+
         <!-- Schedule Section Start -->
         <section id="schedules" class="schedule section-padding">
             <div class="container">
@@ -560,13 +545,13 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -597,7 +582,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -606,7 +591,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -637,7 +622,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -646,7 +631,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -677,7 +662,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -686,7 +671,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -718,7 +703,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -727,7 +712,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -768,13 +753,13 @@
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -805,7 +790,7 @@
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -814,7 +799,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -845,7 +830,7 @@
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -854,7 +839,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -885,7 +870,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -894,7 +879,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -926,7 +911,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -935,7 +920,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -976,13 +961,13 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1013,7 +998,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cansel_payment_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1022,7 +1007,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1053,7 +1038,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.children_beds_pomorie_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1062,7 +1047,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1093,7 +1078,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.pets_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1102,7 +1087,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1135,7 +1120,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.cash_message')</p>
-                                                <div class="location">
+                                                <!-- <div class="location">
                                                     <span>Location:</span>
                                                     Hall
                                                     1 ,
@@ -1144,7 +1129,7 @@
                                                     Golden
                                                     Street,
                                                     Southafrica
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -1350,22 +1335,19 @@
                                                                  Warner</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseThree"
-                                             class="collapse"
-                                             aria-labelledby="headingThree"
-                                             data-parent="#accordion">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>Consectetur
-                                                   adipisicing elit.
-                                                   Quod distinctio
-                                                   impedit sint
-                                                   accusantium ducimus
-                                                   lites
-                                                   consequuntur
-                                                   innobisl dolores
-                                                   saepe.Proin
-                                                   sit amet turpis
-                                                   lobortis.</p>
+                                                    adipisicing elit.
+                                                    Quod distinctio
+                                                    impedit sint
+                                                    accusantium ducimus
+                                                    lites
+                                                    consequuntur
+                                                    innobisl dolores
+                                                    saepe.Proin
+                                                    sit amet turpis
+                                                    lobortis.</p>
                                                 <div class="location">
                                                     <span>Location:</span>
                                                     Hall
@@ -2639,7 +2621,7 @@
         <!-- Ticket Pricing Area End -->
 
         <!-- Event Slides Section Start -->
-        <section id="event-slides" class="section-padding">
+        <!-- <section id="event-slides" class="section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -2713,11 +2695,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Event Slides Section End -->
 
         <!-- Blog Section Start -->
-        <section id="blog" class="section-padding">
+        <!-- <section id="blog" class="section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -2816,11 +2798,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Blog Section End -->
 
         <!-- Subscribe Area Start -->
-        <div id="subscribe" class="section-padding">
+        <!-- <div id="subscribe" class="section-padding">
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-md-10 col-lg-7">
@@ -2847,7 +2829,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Subscribe Area End -->
 
         <!-- Contact Us Section -->
