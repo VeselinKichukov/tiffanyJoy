@@ -2,15 +2,15 @@
     <span aria-hidden="true">&times;</span>
 </button>
 <div class="col-sm-6 slider">
-    <input type="radio" name="slide_switch" id="sinemorec1" checked="checked"/>
-    <label for="sinemorec1">
+    <input type="radio" name="slide_switch" id="sinemorec-pic1" checked="checked"/>
+    <label for="sinemorec-pic1">
         <img src="img/apartments/sinemorec/1.jpg" width="100"/>
     </label>
     <img src="img/apartments/sinemorec/1.jpg"/>
 
     @for ($i=2; $i<39; $i++)
-        <input type="radio" name="slide_switch" id="sinemorec{{ $i }}" />
-        <label for="sinemorec{{ $i }}">
+        <input type="radio" name="slide_switch" id="sinemorec-pic{{ $i }}" />
+        <label for="sinemorec-pic{{ $i }}">
             <img src="img/apartments/sinemorec/{{ $i }}.jpg" width="100"/>
         </label>
         <img class="col-sm-12" src="img/apartments/sinemorec/{{ $i }}.jpg"/>

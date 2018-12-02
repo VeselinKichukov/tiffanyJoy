@@ -2263,16 +2263,24 @@ body {
     transition: all 0.5s;
 }
 
-.slider input[name='slide_switch'] {
+.slider-image {
+    box-shadow: 0px 20px 20px -18px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    left: -10%;
+    max-height: 640px;
+    top: 0;
+    transition: all 0.5s;
+}
+
+.slider .row input[name='slide_switch'] {
     display: none;
 }
 
-.slider label {
+.slider .row label {
     /*Lets add some spacing for the thumbnails*/
-    margin: 1em 0 0 18px;
+    margin: 1em 0 0 10px;
     border: 2px solid #999999;
 
-    float: left;
     cursor: pointer;
     transition: all 0.5s;
 
@@ -2280,21 +2288,21 @@ body {
     opacity: 0.6;
 }
 
-.slider label img {
+.slider .row label img {
     display: block;
     max-height: 50px;
     width: auto;
 }
 
 /*Time to add the click effects*/
-.slider input[name='slide_switch']:checked + label {
+.slider .row input[name='slide_switch']:checked + label {
     border-color: #666666;
     opacity: 1;
 }
 
 /*Clicking any thumbnail now should change its opacity(style)*/
 /*Time to work on the main images*/
-.slider input[name='slide_switch'] ~ img {
+.slider .row input[name='slide_switch'] ~ img {
     opacity: 0;
     max-height: 640px;
     margin-left: 4em;
@@ -2304,7 +2312,7 @@ body {
 /*That hides all main images at a 110% size
 On click the images will be displayed at normal size to complete the effect
 */
-.slider input[name='slide_switch']:checked + label + img {
+.slider .row input[name='slide_switch']:checked + label + img {
     opacity: 1;
     transform: scale(1);
 }

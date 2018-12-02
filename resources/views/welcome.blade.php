@@ -1596,6 +1596,7 @@
                             <div class="overlay-box text-center">
                                 <a data-toggle="modal"
                                    data-target="#primorskoModal"
+                                   onclick="loadFirstPic('primorsko')" 
                                    class="lightbox" href="#gallery">
                                     <h4 style="color: white; margin-left: -2.5em; text-transform: uppercase;">
                                         <strong>@lang('home.primorsko_name')</strong>
@@ -1630,6 +1631,7 @@
                             <div class="overlay-box text-center">
                                 <a data-toggle="modal"
                                    data-target="#pomorieModal"
+                                   onclick="loadFirstPic('pomorie')3" 
                                    class="lightbox"
                                    href="#gallery">
                                     <h4 style="color: white; margin-left: -2em; text-transform: uppercase;">
@@ -1664,6 +1666,7 @@
                             </div>
                             <div class="overlay-box text-center">
                                 <a data-toggle="modal"
+                                   onclick="loadFirstPic('sinemorec')" 
                                    data-target="#sinemorecModal"
                                    class="lightbox" href="#gallery">
                                     <h4 style="color: white; margin-left: -2.5em; text-transform: uppercase;">
