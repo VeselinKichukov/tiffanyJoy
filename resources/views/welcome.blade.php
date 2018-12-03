@@ -1596,7 +1596,7 @@
                             <div class="overlay-box text-center">
                                 <a data-toggle="modal"
                                    data-target="#primorskoModal"
-                                   onclick="loadFirstPic('primorsko')" 
+                                   onclick="loadFirstPic('primorsko')"
                                    class="lightbox" href="#gallery">
                                     <h4 style="color: white; margin-left: -2.5em; text-transform: uppercase;">
                                         <strong>@lang('home.primorsko_name')</strong>
@@ -1631,7 +1631,7 @@
                             <div class="overlay-box text-center">
                                 <a data-toggle="modal"
                                    data-target="#pomorieModal"
-                                   onclick="loadFirstPic('pomorie')3" 
+                                   onclick="loadFirstPic('pomorie')3"
                                    class="lightbox"
                                    href="#gallery">
                                     <h4 style="color: white; margin-left: -2em; text-transform: uppercase;">
@@ -1666,7 +1666,7 @@
                             </div>
                             <div class="overlay-box text-center">
                                 <a data-toggle="modal"
-                                   onclick="loadFirstPic('sinemorec')" 
+                                   onclick="loadFirstPic('sinemorec')"
                                    data-target="#sinemorecModal"
                                    class="lightbox" href="#gallery">
                                     <h4 style="color: white; margin-left: -2.5em; text-transform: uppercase;">
@@ -2498,7 +2498,7 @@
                             <div class="icon">
                                 <img src="../img/blog/pm_house.jpg" width="200" height="200">
                             </div>
-        
+
                             <div class="colmun-title">
                                 <h5>{!! trans('home.pomorie_house_name_price') !!}</h5>
                                 <h6>@lang('home.pomorie_name')</h6>
@@ -2506,14 +2506,14 @@
                             <div class="price">
                                 <p>{!! trans('home.pomorie_prices_start_from') !!}</p>
                             </div>
-        
+
                             <button class="btn btn-common" data-toggle="collapse" data-target="#demo">Read more</button>
-        
+
                             <div id="demo" class="collapse">
                                 <div class="pricing-list">
                                     <ul>
                                         <li>
-                                            <i class="lni-check-mark-circle"></i><span class="text"> 
+                                            <i class="lni-check-mark-circle"></i><span class="text">
                                                 {!! trans('home.five_room') !!}
                                                 {!! trans('home.pomorie_five_room_price') !!}</span>
                                             </li>
@@ -2527,20 +2527,20 @@
                                                 trans('home.tripple_room') !!}
                                                 {!!trans('home.pomorie_tripple_room_price') !!}</span>
                                         </li>
-                                        <li><i class="lni-check-mark-circle"></i><span class="text">{!! trans('home.four_room') !!} 
+                                        <li><i class="lni-check-mark-circle"></i><span class="text">{!! trans('home.four_room') !!}
                                                 {!!trans('home.pomorie_four_room_price') !!}</span>
                                         </li>
-                                        <li><i class="lni-check-mark-circle"></i><span class="text">{!! trans('home.double_room_balcony')!!} 
+                                        <li><i class="lni-check-mark-circle"></i><span class="text">{!! trans('home.double_room_balcony')!!}
                                                 {!!trans('home.pomorie_double_room_balcony_price') !!}</span>
                                         </li>
                                         <li>
                                             <i class="lni-check-mark-circle"></i><span class="text">{!!
-                                                trans('home.tripple_room_balcony') !!} 
+                                                trans('home.tripple_room_balcony') !!}
                                                 {!!trans('home.pomorie_tripple_room_balcony_price') !!}</span>
                                         </li>
                                         <li>
                                             <i class="lni-check-mark-circle"></i><span class="text">{!!
-                                                trans('home.studio_balcony')!!} 
+                                                trans('home.studio_balcony')!!}
                                                 {!!trans('home.pomorie_studio_balcony_price') !!}</span>
                                         </li>
                                     </ul>
@@ -2553,13 +2553,13 @@
                             <div class="icon">
                                 <img src="../img/blog/sinemorets_house.jpg" width="200" height="200">
                             </div>
-        
-        
+
+
                             <div class="colmun-title">
                                 <h5>{!!trans('home.sinemorets_house_name_price') !!}</h5>
                                 <h6>@lang('home.sinemorets_name')</h6>
                             </div>
-        
+
                             <div class="price">
                                 <!-- <h4>$29</h4> -->
                                 <p>{!! trans('home.sinemorets_prices_start_from') !!}</p>
@@ -2567,8 +2567,8 @@
                             </div>
                             <button class="btn btn-common" data-toggle="collapse" data-target="#demo1">Read more</button>
                             <!-- <p> <br/> </p> -->
-                            <br/> 
-        
+                            <br/>
+
                             <div id="demo1" class="collapse">
                                 <div class="pricing-list">
                                         <ul>
@@ -2588,10 +2588,10 @@
                                                         {!!trans('home.sinemorets_tripple_room_price') !!}</span>
                                                 </li>
                                                 <li><i class="lni-check-mark-circle"></i><span class="text">
-                                                        {!! trans('home.five_room') !!} 
+                                                        {!! trans('home.five_room') !!}
                                                         {!!trans('home.sinemorets_five_room_price') !!}</span>
                                                 </li>
-                                            
+
                                             </ul>
                                 </div>
                             </div>
@@ -2602,7 +2602,7 @@
                             <div class="icon">
                                 <img src="../img/blog/primorsko_house.jpg" width="200" height="200">
                             </div>
-        
+
                             <div class="colmun-title">
                                 <h5>{!!trans('home.primorsko_house_name_price') !!}</h5>
                                 <h6>@lang('home.primorsko_name')</h6>
@@ -2612,25 +2612,25 @@
                                 <p> {!! trans('home.primorsko_prices_start_from') !!}</p>
                                 <!-- <p>452 Tickets Available</p> -->
                             </div>
-        
+
                             <button class="btn btn-common" data-toggle="collapse" data-target="#demo2">Read more</button>
-        
+
                             <div id="demo2" class="collapse">
                                 <div class="pricing-list">
                                     <ul>
                                         <li>
-                                            <i class="lni-check-mark-circle"></i><span class="text"> 
-                                                {!! trans('home.appartment_primorsko') !!} 
-                                                {!! trans('home.primorsko_appartment_price') !!} 
+                                            <i class="lni-check-mark-circle"></i><span class="text">
+                                                {!! trans('home.appartment_primorsko') !!}
+                                                {!! trans('home.primorsko_appartment_price') !!}
                                                </span>
                                         </li>
                                         <li>
-                                                <i class="lni-check-mark-circle"></i><span class="text"> 
-                                                    {!! trans('home.studio_appartment_primorsko') !!} 
-                                                    {!! trans('home.primorsko_studio_appartment_price') !!} 
+                                                <i class="lni-check-mark-circle"></i><span class="text">
+                                                    {!! trans('home.studio_appartment_primorsko') !!}
+                                                    {!! trans('home.primorsko_studio_appartment_price') !!}
                                                    </span>
                                             </li>
-                                    
+
                                     </ul>
                                 </div>
                             </div>
@@ -3023,6 +3023,7 @@
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/components/language-bar.js"></script>
+        <script src="js/components/slider-gallery.js"></script>
         <script src="js/jquery-min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

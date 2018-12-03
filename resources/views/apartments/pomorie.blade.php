@@ -5,10 +5,10 @@
     @for($i=1; $i<22; $i++)
         <div class="mySlides">
             <div class="numbertext">{{ $i }} / 22</div>
-            <img src="img/apartments/primorsko/{{ $i }}.jpg" >
+            <img src="img/apartments/pomorie/{{ $i }}.jpg" >
         </div>
     @endfor
-    
+
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
 
@@ -16,7 +16,7 @@
   <div class="row">
     @for($i=1; $i<22; $i++)
     <div class="column">
-      <img id="pomorie{{ $i }}" class="demo cursor" src="img/apartments/primorsko/{{ $i }}.jpg"  onclick="currentSlide({{ $i }})" alt="Guest House More">
+      <img id="pomorie{{ $i }}" class="demo cursor" src="img/apartments/pomorie/{{ $i }}.jpg"  onclick="currentSlide({{ $i }})" alt="Guest House More">
     </div>
     @endfor
   </div>
@@ -148,36 +148,12 @@ img {
 .active,
 .demo:hover {
   opacity: 1;
-}   
+}
 </style>
 
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
-
-var counter = 0;
-
-setInterval(function () {
-    counter++;
-    if (counter > 21) {
-        counter = 0
-    }
-      // var i;
-      var slides = document.getElementsByClassName("mySlides");
-      console.log(slides[counter].style.display = 'block');
-      // var dots = document.getElementsByClassName("demo");
-      // if (counter > slides.length) {slideIndex = 1}
-      // if (counter < 1) {slideIndex = slides.length}
-      // for (i = 0; i < slides.length; i++) {
-      //     slides[i].style.display = "none";
-      // }
-
-      // for (i = 0; i < dots.length; i++) {
-      //     dots[i].className = dots[i].className.replace(" active", "");
-      // }
-      // slides[slideIndex-1].style.display = "block";
-      // dots[slideIndex-1].className += " active";
-}, 3000);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
