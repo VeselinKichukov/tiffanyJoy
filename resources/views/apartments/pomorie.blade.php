@@ -3,20 +3,20 @@
 </button>
 <div id="pomorie-appartment-modal" class="col-sm-7">
     @for($i=1; $i<22; $i++)
-        <div class="mySlides">
+        <div class="mySlides pomorie">
             <div class="numbertext">{{ $i }} / 22</div>
             <img src="img/apartments/pomorie/{{ $i }}.jpg" >
         </div>
     @endfor
 
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+  <a class="prev" onclick="plusSlides(-1, 'pomorie')">❮</a>
+  <a class="next" onclick="plusSlides(1, 'pomorie')">❯</a>
 
 
   <div class="row">
     @for($i=1; $i<22; $i++)
     <div class="column">
-      <img id="pomorie{{ $i }}" class="demo cursor" src="img/apartments/pomorie/{{ $i }}.jpg"  onclick="currentSlide({{ $i }})" alt="Guest House More">
+      <img class="demo cursor pomorie" src="img/apartments/pomorie/{{ $i }}.jpg"  onclick="currentSlide({{ $i }}, 'pomorie')" alt="Guest House More">
     </div>
     @endfor
   </div>
@@ -152,31 +152,31 @@ img {
 </style>
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+// var slideIndex = 1;
+// showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("demo");
+//   if (n > slides.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";
+//   }
 
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+//   for (i = 0; i < dots.length; i++) {
+//       dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+// }
 </script>

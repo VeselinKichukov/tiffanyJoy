@@ -3,20 +3,20 @@
 </button>
 <div id="sinemorets-appartment-modal" class="col-sm-7">
     @for($i=1; $i<22; $i++)
-        <div class="mySlides">
+        <div class="mySlides sinemorets">
             <div class="numbertext">{{ $i }} / 22</div>
             <img src="img/apartments/sinemorec/{{ $i }}.jpg" >
         </div>
     @endfor
 
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
+    <a class="prev" onclick="plusSlides(-1, 'sinemorets')">❮</a>
+    <a class="next" onclick="plusSlides(1, 'sinemorets')">❯</a>
 
 
     <div class="row">
         @for($i=1; $i<22; $i++)
             <div class="column">
-                <img id="sinemorets{{ $i }}" class="demo cursor" src="img/apartments/sinemorec/{{ $i }}.jpg"  onclick="currentSlide({{ $i }})" alt="Cassa Di Angel">
+                <img id="sinemorets{{ $i }}" class="demo cursor sinemorets" src="img/apartments/sinemorec/{{ $i }}.jpg"  onclick="currentSlide({{ $i }}, 'sinemorets')" alt="Cassa Di Angel">
             </div>
         @endfor
     </div>
@@ -150,31 +150,31 @@
     }
 </style>
 <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+    // var slideIndex = 1;
+    // showSlides(slideIndex);
 
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
+    // function plusSlides(n) {
+    //     showSlides(slideIndex += n);
+    // }
 
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
+    // function currentSlide(n) {
+    //     showSlides(slideIndex = n);
+    // }
 
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
+    // function showSlides(n) {
+    //     var i;
+    //     var slides = document.getElementsByClassName("mySlides");
+    //     var dots = document.getElementsByClassName("demo");
+    //     if (n > slides.length) {slideIndex = 1}
+    //     if (n < 1) {slideIndex = slides.length}
+    //     for (i = 0; i < slides.length; i++) {
+    //         slides[i].style.display = "none";
+    //     }
 
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-    }
+    //     for (i = 0; i < dots.length; i++) {
+    //         dots[i].className = dots[i].className.replace(" active", "");
+    //     }
+    //     slides[slideIndex-1].style.display = "block";
+    //     dots[slideIndex-1].className += " active";
+    // }
 </script>

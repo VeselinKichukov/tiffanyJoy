@@ -83,11 +83,6 @@
   });
 }(jQuery));
 
-function loadFirstPic(name) {
-  document.getElementById(name + '/1').checked = true;
-}
-
-function switchImage(name) {
-  var url = 'img/apartments/' + name + '.jpg';
-  document.getElementById('slider-image').src = url;
+function loadFirstPic(name) {  
+  document.getElementById(name+"-appartment-modal-content").style.display = 'block';
 }

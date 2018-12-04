@@ -3,20 +3,20 @@
 </button>
 <div id="primorsko-appartment-modal" class="col-sm-7">
     @for($i=1; $i<22; $i++)
-        <div class="mySlides">
+        <div class="mySlides primorsko">
             <div class="numbertext">{{ $i }} / 22</div>
             <img src="img/apartments/primorsko/{{ $i }}.jpg" >
         </div>
     @endfor
 
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
+    <a class="prev" onclick="plusSlides(-1, 'primorsko')">❮</a>
+    <a class="next" onclick="plusSlides(1, 'primorsko')">❯</a>
 
 
     <div class="row">
         @for($i=1; $i<22; $i++)
             <div class="column">
-                <img id="primorsko{{ $i }}" class="demo cursor" src="img/apartments/primorsko/{{ $i }}.jpg"  onclick="currentSlide({{ $i }})" alt="Tiffany Joy Appartments">
+                <img id="primorsko{{ $i }}" class="demo cursor primorsko" src="img/apartments/primorsko/{{ $i }}.jpg"  onclick="currentSlide({{ $i }}, 'primorsko')" alt="Tiffany Joy Appartments">
             </div>
         @endfor
     </div>
@@ -153,32 +153,3 @@
         opacity: 1;
     }
 </style>
-<script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-    }
-</script>
