@@ -9,7 +9,7 @@ window.addEventListener("hashchange", function (event) {
 
 $(function () {
     var newHash = "";
-    
+
     $("#pomorie-content").hide();
     $("#sinemorets-content").hide();
     $("#primorsko-content").hide();
@@ -24,6 +24,8 @@ $(function () {
         newHash = window.location.hash.substring(1);
 
         if (newHash) {
+            document.getElementsByClassName('banner-section').addClass(newHash);
+
             $('#nav a').removeClass("active");
             $('#' + newHash + '-content #' + newHash + '-tab').addClass("active");
 
@@ -37,5 +39,3 @@ $(function () {
     $(window).trigger('hashchange');
 
 });
-
-
