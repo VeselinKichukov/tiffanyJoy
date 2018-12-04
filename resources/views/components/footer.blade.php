@@ -1,4 +1,3 @@
-
 <!-- Footer Section Start -->
 <footer class="footer-area section-padding">
     <div class="container">
@@ -36,7 +35,8 @@
                             <img class="img-fluid" src="img/art/a1.jpg" width="50px" height="50px" alt="">
                         </figure>
                         <div class="post-content">
-                            <h6 class="post-title"><a href="blog-single.html"> {!! trans('home.useful_link1_footer') !!}   </a>
+                            <h6 class="post-title"><a
+                                    href="blog-single.html"> {!! trans('home.useful_link1_footer') !!}   </a>
                             </h6>
                             <!-- <div class="meta"><span
                                     class="date">BulgariaTravel</span>
@@ -61,7 +61,7 @@
             <div
                 class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp"
                 data-wow-delay="0.8s">
-                <h3> {!! trans('home.send_message_footer_text') !!} </h3>   
+                <h3> {!! trans('home.send_message_footer_text') !!} </h3>
                 <div class="widget">
                     <div class="newsletter-wrapper">
                         <form method="post"
@@ -69,7 +69,9 @@
                               name="subscribe-form"
                               class="validate">
                             <div class="form-group is-empty">
-                                <a href="#contact-map" class="btn btn-common">  <i class="fa fa-paper-plane" aria-hidden="true"></i> {!! trans('home.send_message_footer_button') !!} </a>
+                                <a href="#contact-map" class="btn btn-common"> <i class="fa fa-paper-plane"
+                                                                                  aria-hidden="true"></i> {!! trans('home.send_message_footer_button') !!}
+                                </a>
                                 <div class="clearfix"></div>
                             </div>
                         </form>

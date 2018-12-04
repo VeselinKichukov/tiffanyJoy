@@ -9,8 +9,8 @@ window.addEventListener("hashchange", function (event) {
 
 $(function () {
     var newHash = "";
-
-    // $("#pomorie-content").hide();
+    
+    $("#pomorie-content").hide();
     $("#sinemorets-content").hide();
     $("#primorsko-content").hide();
 
