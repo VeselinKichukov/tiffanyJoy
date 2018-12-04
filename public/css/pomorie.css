@@ -4,7 +4,6 @@ section {
 }
 
 .banner-section {
-    background-image: url('/img/blog/pm-cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -13,6 +12,18 @@ section {
     position: absolute;
     top: 0;
     background-position: 0;
+}
+
+.pomorie {
+    background-image: url('/img/blog/pm-cover.jpg');
+}
+
+.primorsko {
+    background-image: url('/img/blog/primorsko-cover.jpg');
+}
+
+.sinemorets {
+    background-image: url('/img/blog/sn-blog.jpg');
 }
 
 .post-title-block {
