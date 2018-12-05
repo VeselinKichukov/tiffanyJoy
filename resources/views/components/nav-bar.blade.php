@@ -37,11 +37,6 @@
                         @lang('home.rules')
                     </a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#team">
-                    Speakers
-                  </a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#gallery">
                         @lang('home.appartments')
@@ -52,11 +47,6 @@
                         @lang('home.faq')
                     </a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#sponsors">
-                    Sponsors
-                  </a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#pricing">
                         @lang('home.pricing')
@@ -68,14 +58,13 @@
                         @lang('home.contacts')
                     </a>
                 </li>
-                {{--HERE--}}
                 <li class="nav-item dropdown">
                     <a href="javascript:void(0)" id="lngItem"
                        class="dropdown-toggle"
                        data-toggle="dropdown"
                        role="button"
                        aria-expanded="false"
-                       style="position: fixed; top: 3px; text-transform: uppercase; color: white;">
+                       style="position: fixed; margin-top: 1.1%; text-transform: uppercase; color: white;">
                         @lang('home.language'):
                         <img id="imgNavSel"
                              class="img-thumbnail icon-small"
