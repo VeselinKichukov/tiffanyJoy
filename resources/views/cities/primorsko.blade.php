@@ -42,21 +42,23 @@
     <div class="col-lg-3  col-md-3 col-sm-12">
         <div class="well">
             <h3>{!! trans('home.primorsko_appartments') !!}</h3>
-            <div class="media">
-                <div class="media-left"><a href="#"> <img data-src="../img/blog/primosrsko_house.jpg"
+            <div>
+                <div class="row"><a href="#">
+                 <img data-src="../img/blog/primosrsko_house.jpg"
                                                           class="media-object"
                                                           alt="64x64" width='200px' height='200px'
                                                           src="{{ asset('../img/blog/primosrsko_house.jpg') }}"
                                                           data-holder-rendered="true"> </a></div>
-                <div class="media-body"><h5 class="media-heading">{!! trans('home.primorsko_house_name') !!}</h5>{!!
-                trans('home.primorsko_short') !!}
+                <div class="row" style="text-align: center; display: block;">
+                    <h4 class="media-heading"> {!! trans('home.primorsko_house_name') !!}</h4>
+                    {!! trans('home.primorsko_short') !!}
                 </div>
             </div>
 
         </div>
 
-        @include('components.page-wrap')
-
     </div>
+
+    @include('components.page-wrap')
 
 </div>
