@@ -96,17 +96,6 @@
                         </li>
                     </ul>
                 </li>
-                {{--END HERE--}}
-                {{--<li class="nav-item">--}}
-                {{--<a class="nav-link"  href="locale/en">--}}
-                {{--English--}}
-                {{--</a>--}}
-                {{--</li>--}}
-                {{--<li class="nav-item">--}}
-                {{--<a class="nav-link" href="locale/bg"   >--}}
-                {{--Bulgarian--}}
-                {{--</a>--}}
-                {{--</li>--}}
             </ul>
         </div>
     </div>
