@@ -3,7 +3,6 @@
   "use strict";
 
   $(window).on('load', function() {
-
   /*Page Loader active
     ========================================================*/
     $('#preloader').fadeOut();
@@ -83,3 +82,7 @@
 
   });
 }(jQuery));
+
+function loadFirstPic(name) {  
+  document.getElementById(name+"-appartment-modal-content").style.display = 'block';
+}
