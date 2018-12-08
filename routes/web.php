@@ -13,6 +13,9 @@
 
 Route::get('locale/{locale}', function ($locale) {
     \Session::put('locale', $locale);
+    if (strpos(url()->previous(), 'cities')) {
+      return redirect()->to(url()->previous().'#pomorie');
+    }
     return redirect()->back();
 });
 

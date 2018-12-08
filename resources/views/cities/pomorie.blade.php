@@ -30,10 +30,8 @@
         </div>
         <p>{!! trans('home.pomorie_three') !!}</p>
         <p>{!! trans('home.pomorie_four') !!}</p>
-        <blockquote>
-            <p>{!! trans('home.pomorie_five') !!}</p>
+        <p>{!! trans('home.pomorie_five') !!}</p>
 
-        </blockquote>
 
         <div class="image-block1">
             <img src="../img/blog/pm-cover2.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
@@ -41,7 +39,7 @@
     </div>
     <div class="col-lg-3  col-md-3 col-sm-12">
         <div class="well">
-            <h3>Appartments in Pomorie</h3>
+            <h3>{!! trans('home.pomorie_appartments') !!}</h3>
             <div>
                 <div class="row"><a href="#">
                         <img data-src="holder.js/64x64"
@@ -53,7 +51,7 @@
                              data-holder-rendered="true"> </a></div>
                 <div class="row" style="text-align: center; display: block;">
                     <h4 class="media-heading">Guest House More</h4>
-                    In the centre of Pomorie and only 50 metres away from the beach.
+                    {!! trans('home.pomorie_house_desc') !!}
                 </div>
             </div>
         </div>
