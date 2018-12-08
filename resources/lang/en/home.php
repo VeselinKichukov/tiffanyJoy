@@ -18,7 +18,7 @@ return [
     'sinemorets_name' => 'Sinemorets',
     'sinemorets_house_name' => 'Casa Di Angel',
 
-    //Random words 
+    //Random words
     'cities' => 'Cities :',
 
     //Titles, labels and messages
@@ -95,10 +95,10 @@ return [
     'slide3_header1' => 'Primoprsko',
     'slide3_header2' => 'You can be here !',
 
-    //prices pomorie 
+    //prices pomorie
     'pomorie_prices_start_from' => 'Prices starts from : 19€',
     'pomorie_house_name_price' => 'Guest House <br/> More',
-    
+
     'pomorie_five_room_price' => '49€',
     'pomorie_double_room_price' => '19€',
     'pomorie_tripple_room_price' => '21€',
@@ -107,7 +107,7 @@ return [
     'pomorie_tripple_room_balcony_price' => '21€',
     'pomorie_studio_balcony_price' => '28€',
 
-    //prices sinemorets 
+    //prices sinemorets
     'sinemorets_prices_start_from' => 'Prices starts from : 28€',
     'sinemorets_house_name_price' => 'Casa Di <br/> Angel',
 
@@ -116,14 +116,14 @@ return [
     'sinemorets_tripple_room_price' => '35€',
     'sinemorets_five_room_price' => '33€',
 
-    //prices primorsko 
+    //prices primorsko
     'primorsko_prices_start_from' => 'Prices starts from : 50€',
     'primorsko_house_name_price' => 'Tiffany Joy <br/> Apartments',
 
     'primorsko_appartment_price' => '60€',
     'primorsko_studio_appartment_price' => '50€',
-        
-        
+
+
     //Sinemorets
     'sinemorets' => 'This property is 5 minutes walk from the beach. Located in Sinemorets, Casa Di Angel provides a seasonal outdoor swimming pool and fitness centre. 1.2 km from Veleka Beach, the hotel features a garden and a terrace. Guests can have a cocktail at the bar.&nbsp;<br/>
     <br/>&nbsp;
@@ -215,7 +215,7 @@ return [
     'pomorie_four' => 'Moreover, the region has been famous for the medicinal qualities of the mud extracted during the production of salt in Pomorie Lake ever since ancient times. The healing powers of the mineral water in the town are also well-known. The slow cooling of the sea water is very typical for the region. In the morning before sunrise the air is rich in ozone, negative ions, ultraviolet rays and iodine released in gas form by seaweed.',
     'pomorie_five' => 'Pomorie is a popular tourist destination and it provides its guests with many accommodation opportunities. There are also plenty of venues and restaurants in the town. Thanks to the medicinal qualities of its mud, Pomorie has become a popular balneological and SPA resort visited during winter and summer. Nesebar and Sozopol which are famous for their archaeological discoveries and ancient histories are not far away. Slanchev bryag Resort (Sunny Beach Resort) is also close to Pomorie. It provides various forms of entertainment 24 hours a day.',
 
-
+    'sinemorets_appartments' => 'Apartments in Sinemorets',
     'sinemorets_text_paragraph_1' => 'Sinemorets (Bulgarian: Синеморец; also Sinemorec, Sinemoretz, "place on the blue sea") is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey, where the river Veleka flows into the sea. The seaside resort Ahtopol is 6 km north of Sinemorets, and Rezovo is 11 km to the south.',
     'sinemorets_text_paragraph_2' => 'Sinemorets is an attractive vacation destination, thanks to its pristine natural beauty and excellent beaches. It is very close to the Strandzha Nature Reserve, a cool retreat on hot summer days with many trails leading to natural and historical points of interest.',
     'sinemorets_text_paragraph_3' => 'The village has two beaches – The Bytamyata Beach and the beach at the mouth of the Veleka River. Also a short distance away is one Bulgaria’s most scenic beaches, Silistar.',
