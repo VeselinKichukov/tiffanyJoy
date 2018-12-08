@@ -1,7 +1,7 @@
 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <span aria-hidden="true">&times;</span>
 </button>
-<div id="primorsko-appartment-modal" class="col-sm-7">
+<div id="primorsko-appartment-modal" class="col-sm-6 slider">
     @for($i=1; $i<22; $i++)
         <div class="mySlides primorsko">
             <div class="numbertext">{{ $i }} / 22</div>
