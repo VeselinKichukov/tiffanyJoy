@@ -8,8 +8,8 @@
         </ul>
     </div>
     <div class="col-lg-9 col-md-9 col-sm-12">
-        <a class="weatherwidget-io" href="https://forecast7.com/en/42d5727d62/pomorie/"
-           data-label_1="Pomorie" data-label_2="Bulgaria" data-theme="original">POMORIE WEATHER</a>
+        <a class="weatherwidget-io" href="{!! trans('home.sinemorets_weather_link') !!}"
+           data-label_1="{!! trans('home.sinemorets_name') !!}" data-label_2="{!! trans('home.country') !!}" data-theme="original">SINEMORETS WEATHER</a>
         <script>
             !function (d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
