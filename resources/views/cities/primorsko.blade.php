@@ -43,7 +43,11 @@
         <div class="well">
             <h3>{!! trans('home.primorsko_appartments') !!}</h3>
             <div>
-                <div class="row"><a href="#">
+                <div class="row"><a
+                        data-toggle="modal"
+                        data-target="#primorskoModal"
+                        onclick="showSlides(1, 'primorsko')"
+                        class="lightbox" href="#gallery">
                         <img data-src="holder.js/64x64"
                              class="media-object"
                              alt="64x64"
@@ -53,7 +57,24 @@
                              data-holder-rendered="true"> </a></div>
                 <div class="row" style="text-align: center; display: block;">
                     <h4 class="media-heading">{!! trans('home.primorsko_house_name') !!}</h4>
-                    {!! trans('home.primorsko_short') !!}
+                    {{--{!! trans('home.primorsko_house_name') !!}--}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="primorskoModal"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog"
+             style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
+             role="document">
+            <div class="modal-content"
+                 style="min-height: 800px;">
+                <div class="modal-body">
+                    @include('apartments.primorsko')
                 </div>
             </div>
         </div>
