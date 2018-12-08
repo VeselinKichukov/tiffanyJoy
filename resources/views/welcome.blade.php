@@ -78,7 +78,7 @@
                              alt="First slide">
                         <div class="carousel-caption d-md-block">
                             <p class="fadeInUp wow"
-                            
+
                                data-wow-delay=".6s"> @lang('home.slide1_header1')</p>
                             <h1 class="wow fadeInDown heading"
                                 data-wow-delay=".4s">@lang('home.slide1_header2')</h1>
@@ -313,20 +313,10 @@
                                  src="img/blog/pm-blog.jpg"
                                  alt="">
                             <div class="about-text">
-                                <h3><a href="#">Pomorie</a></h3>
-                                <p>Pomorie is a town and seaside
-                                   resort in
-                                   southeastern Bulgaria, located on
-                                   the
-                                   southern Bulgarian Black Sea Coast.
-                                   It is
-                                   situated in Burgas Province, 20 km
-                                   away from
-                                   the city of Burgas and 18 km from
-                                   the Sunny
-                                   Beach resort.</p>
+                                <h3><a href="/cities#pomorie">{!! trans('home.pomorie_name') !!}</a></h3>
+                                <p>{!! trans('home.pomorie_description') !!}</p>
                                 <a class="btn btn-common btn-rm"
-                                   href="/cities#pomorie">Read More</a>
+                                   href="/cities#pomorie">{!! trans('home.read_more') !!}</a>
                             </div>
                         </div>
                     </div>
@@ -336,18 +326,10 @@
                                  src="img/blog/sn-blog.jpg"
                                  alt="">
                             <div class="about-text">
-                                <h3><a href="#">Sinemorets</a></h3>
-                                <p>Sinemorets is a village and seaside
-                                   resort on
-                                   the Black Sea coast of Bulgaria,
-                                   located in
-                                   the very southeast of the country
-                                   close to
-                                   the border with Turkey</p>
-                                </br>
+                                <h3><a href="/cities#sinemorets">{!! trans('home.sinemorets_name') !!}</a></h3>
+                                <p>{!! trans('home.sinemorets_description') !!}</p>
                                 <a class="btn btn-common btn-rm"
-                                   href="/cities#sinemorets">Read
-                                            More</a>
+                                   href="/cities#sinemorets">{!! trans('home.read_more') !!}</a>
                             </div>
                         </div>
                     </div>
@@ -357,21 +339,10 @@
                                  src="img/blog/po-blog.jpg"
                                  alt="">
                             <div class="about-text">
-                                <h3><a href="#">Primorsko</a></h3>
-                                <p>Primorsko is a town and seaside
-                                   resort in
-                                   southeastern Bulgaria, part of
-                                   Burgas
-                                   Province. A well-known resort on
-                                   the
-                                   Bulgarian Black Sea Coast, it is
-                                   located on a
-                                   gore 52 km south of Burgas and has
-                                   a beach
-                                   strip of about 1 km².</p>
+                                <h3><a href="/cities#primorsko">{!! trans('home.primorsko_name') !!}</a></h3>
+                                <p>{!! trans('home.primorsko_description') !!}</p>
                                 <a class="btn btn-common btn-rm"
-                                   href="cities#primorsko">Read
-                                            More</a>
+                                   href="cities#primorsko">{!! trans('home.read_more') !!}</a>
                             </div>
                         </div>
                     </div>
@@ -403,7 +374,7 @@
                             <div class="icon"><i
                                     class="lni-timer"></i></div>
                                     <p>@lang('home.pink_field2')</p>
-                                    <span>@lang('home.step2')</span>        
+                                    <span>@lang('home.step2')</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
@@ -414,7 +385,7 @@
                             <div class="icon"><i
                                 class="lni-laptop-phone"></i></div>
                                 <p>@lang('home.pink_field3')</p>
-                                <span>@lang('home.step3')</span>    
+                                <span>@lang('home.step3')</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
@@ -435,7 +406,7 @@
         <!-- Counter Area End-->
 
 
-        
+
 
         <!-- Schedule Section Start -->
         <section id="schedules" class="schedule section-padding">
