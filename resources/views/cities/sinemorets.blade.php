@@ -36,19 +36,40 @@
 
     <div class="col-lg-3  col-md-3 col-sm-12">
         <div class="well">
-            <h3>Appartments in Pomorie</h3>
+            <h3>{!! trans('home.sinemorets_appartments') !!}</h3>
             <div>
-                <div class="row"><a href="#">
+                <div class="row"><a
+                        data-toggle="modal"
+                        data-target="#sinemoretsModal"
+                        onclick="showSlides(1, 'sinemorets')"
+                        class="lightbox" href="#gallery">
                         <img data-src="holder.js/64x64"
                              class="media-object"
                              alt="64x64"
                              width='100%'
                              height='auto'
-                             src="{{ asset('../img/blog/pm_house.jpg') }}"
+                             src="{{ asset('../img/blog/sinemorets_house.jpg') }}"
                              data-holder-rendered="true"> </a></div>
                 <div class="row" style="text-align: center; display: block;">
-                    <h4 class="media-heading">Guest House More</h4>
-                    In the centre of Pomorie and only 50 metres away from the beach.
+                    <h4 class="media-heading">{!! trans('home.sinemorets_house_name') !!}</h4>
+                    {{--{!! trans('home.sinemorets_house_name') !!}--}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sinemoretsModal"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog"
+             style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
+             role="document">
+            <div class="modal-content"
+                 style="min-height: 800px;">
+                <div class="modal-body">
+                    @include('apartments.sinemorec')
                 </div>
             </div>
         </div>

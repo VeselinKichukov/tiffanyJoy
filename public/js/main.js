@@ -82,7 +82,3 @@
 
   });
 }(jQuery));
-
-function loadFirstPic(name) {  
-  document.getElementById(name+"-appartment-modal-content").style.display = 'block';
-}

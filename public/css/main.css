@@ -2247,7 +2247,6 @@ body {
     height: 750px;
     position: relative;
     /*Instead of height we will use padding*/
-    padding-top: 645px; /*That helps bring the labels down*/
     float: left;
 
     overflow-x: scroll;

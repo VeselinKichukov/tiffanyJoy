@@ -23,32 +23,32 @@
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
                 <li class="nav-item active">
                     <a class="nav-link"
-                       href="#header-wrap">
+                       href="/#header-wrap">
                         @lang('home.home')
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">
+                    <a class="nav-link" href="/#about">
                         @lang('home.about_cities')
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#schedules">
+                    <a class="nav-link" href="/#schedules">
                         @lang('home.rules')
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#gallery">
+                    <a class="nav-link" href="/#gallery">
                         @lang('home.appartments')
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#faq">
+                    <a class="nav-link" href="/#faq">
                         @lang('home.faq')
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#pricing">
+                    <a class="nav-link" href="/#pricing">
                         @lang('home.pricing')
                     </a>
                 </li>

@@ -10,7 +10,7 @@ var slideIndex = 1;
 
     function showSlides(n, city) {
         var i;
-        var slides = document.getElementsByClassName("mySlides " + city);
+        var slides = document.getElementsByClassName("mySlides " + city + '_content');
         var dots = document.getElementsByClassName("demo " + city);
         if (n > slides.length) {slideIndex = 1}
         if (n < 1) {slideIndex = slides.length}
