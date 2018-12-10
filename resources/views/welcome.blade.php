@@ -3020,7 +3020,7 @@
         <script src="js/contact-form-script.min.js"></script>
         <script src="js/map.js"></script>
         <script type="text/javascript"
-                src="//maps.googleapis.com/maps/api/js?key=AIzaSyBW1SG6YPFqZAoTEJRnFL-U0cyJWANQ9oA&callback=initMap"></script>
+                src="//maps.googleapis.com/maps/api/js?key=AIzaSyDS7ifsp9xmR4lQlZbvFuEY8881JSTJm8c&callback=initMap"></script>
 
     </body>
 </html>
