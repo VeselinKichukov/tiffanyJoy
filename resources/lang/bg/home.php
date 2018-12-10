@@ -10,6 +10,8 @@ return [
     'language' => 'Език',
     'pricing' => 'Цени',
     'about_cities' => 'Градове',
+		'about_the_cities' => 'За Градовете',
+		'about_the_cities_information' => 'Любопитна информация за градовете, в които предлагаме нашите услуги',
 		'read_more' => 'Още',
 
     // Names

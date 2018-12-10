@@ -296,13 +296,9 @@
                     <div class="col-12">
                         <div class="section-title-header text-center">
                             <h1 class="section-title wow fadeInUp"
-                                data-wow-delay="0.2s">About The
-                                                      Cities</h1>
+                                data-wow-delay="0.2s">{!! trans('home.about_the_cities') !!}</h1>
                             <p class="wow fadeInDown"
-                               data-wow-delay="0.2s">
-                                Usefull information of cities where
-                                our hotels
-                                reside</p>
+                               data-wow-delay="0.2s">{!! trans('home.about_the_cities_information') !!}</p>
                         </div>
                     </div>
                 </div>
@@ -2460,7 +2456,7 @@
                                 <p>{!! trans('home.pomorie_prices_start_from') !!}</p>
                             </div>
 
-                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo">Read more</button>
+                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo">{!! trans('home.read_more') !!}</button>
 
                             <div id="demo" class="collapse">
                                 <div class="pricing-list">
@@ -2518,7 +2514,7 @@
                                 <p>{!! trans('home.sinemorets_prices_start_from') !!}</p>
                                 <!-- <p>452 Tickets Available</p> -->
                             </div>
-                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo1">Read more</button>
+                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo1">{!! trans('home.read_more') !!}</button>
                             <!-- <p> <br/> </p> -->
                             <br/>
 
@@ -2566,7 +2562,7 @@
                                 <!-- <p>452 Tickets Available</p> -->
                             </div>
 
-                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo2">Read more</button>
+                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo2">{!! trans('home.read_more') !!}</button>
 
                             <div id="demo2" class="collapse">
                                 <div class="pricing-list">

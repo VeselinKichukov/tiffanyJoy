@@ -9,6 +9,8 @@ return [
     'language' => 'Language',
     'pricing' => 'Pricing',
     'about_cities' => 'Cities',
+    'about_the_cities' => 'About The Cities',
+    'about_the_cities_information' => 'Usefull information of cities where our hotels reside',
     'read_more' => 'Read More',
 
     // Names
