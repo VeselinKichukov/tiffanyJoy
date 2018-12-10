@@ -10,8 +10,8 @@
 
 
     <div class="col-lg-9 col-md-9 col-sm-12">
-        <a class="weatherwidget-io" href="https://forecast7.com/en/42d2727d75/primorsko/" data-label_1="Primorsko"
-           data-label_2="Bulgaria" data-theme="original">PRIMORSKO WEATHER</a>
+        <a class="weatherwidget-io" href="{!! trans('home.primorsko_weather_link') !!}" data-label_1="{!! trans('home.primorsko_name') !!}"
+           data-label_2="{!! trans('home.country') !!}" data-theme="original">PRIMORSKO WEATHER</a>
         <script>
             !function (d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
