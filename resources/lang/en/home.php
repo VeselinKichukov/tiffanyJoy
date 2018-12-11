@@ -9,17 +9,22 @@ return [
     'language' => 'Language',
     'pricing' => 'Pricing',
     'about_cities' => 'Cities',
+    'about_the_cities' => 'About The Cities',
+    'about_the_cities_information' => 'Usefull information of cities where our hotels reside',
+    'read_more' => 'Read More',
 
     // Names
     'pomorie_name' => 'Pomorie',
     'pomorie_house_name' => 'Guest House More',
+
     'primorsko_name' => 'Primorsko',
     'primorsko_house_name' => 'Tiffany Joy Apartments',
+
     'sinemorets_name' => 'Sinemorets',
     'sinemorets_house_name' => 'Casa Di Angel',
 
     //Random words
-    'cities' => 'Cities :',
+    'cities' => 'Cities:',
 
     //Titles, labels and messages
     'offer_title' => 'What we offer ?',
@@ -165,9 +170,8 @@ return [
     We speak your language!',
 
     // Primorsko (cities)
-
+    'primorsko_description' => 'Primorsko is a town and seaside resort in southeastern Bulgaria, part of Burgas Province. A well-known resort on the Bulgarian Black Sea Coast, it is located on a gore 52 km south of Burgas and has a beach strip of about 1 km².',
     'primorsko_appartments' => 'Appartments in Primorsko',
-
     'primorsko_temperature' => '29°С Average Summer Temperature |',
     'primorsko_water_temperature' => '27°С Average Water Temperature |',
     'primorsko_beach' => '1 km Long Beach|',
@@ -203,6 +207,7 @@ return [
 
     // Pomorie (cities)
     'country' => 'Bulgaria',
+    'pomorie_description' => 'Pomorie is a town and seaside resort in southeastern Bulgaria, located on the southern Bulgarian Black Sea Coast. It is situated in Burgas Province, 20 km away from the city of Burgas and 18 km from the Sunny Beach resort.',
     'pomorie_appartments' => 'Aparments in Pomorie',
     'pomorie_house_desc' => 'In the centre of Pomorie and only 50 metres away from the beach.',
     'pomorie_weather_link' => 'https://forecast7.com/en/42d5727d62/pomorie/',
@@ -216,6 +221,8 @@ return [
     'pomorie_four' => 'Moreover, the region has been famous for the medicinal qualities of the mud extracted during the production of salt in Pomorie Lake ever since ancient times. The healing powers of the mineral water in the town are also well-known. The slow cooling of the sea water is very typical for the region. In the morning before sunrise the air is rich in ozone, negative ions, ultraviolet rays and iodine released in gas form by seaweed.',
     'pomorie_five' => 'Pomorie is a popular tourist destination and it provides its guests with many accommodation opportunities. There are also plenty of venues and restaurants in the town. Thanks to the medicinal qualities of its mud, Pomorie has become a popular balneological and SPA resort visited during winter and summer. Nesebar and Sozopol which are famous for their archaeological discoveries and ancient histories are not far away. Slanchev bryag Resort (Sunny Beach Resort) is also close to Pomorie. It provides various forms of entertainment 24 hours a day.',
 
+    // sinemorets_cities
+    'sinemorets_description' => 'Sinemorets is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey',
     'sinemorets_weather_link' => 'https://forecast7.com/en/42d0627d98/sinemorets/',
     'sinemorets_appartments' => 'Apartments in Sinemorets',
     'sinemorets_text_paragraph_1' => 'Sinemorets (Bulgarian: Синеморец; also Sinemorec, Sinemoretz, "place on the blue sea") is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey, where the river Veleka flows into the sea. The seaside resort Ahtopol is 6 km north of Sinemorets, and Rezovo is 11 km to the south.',
