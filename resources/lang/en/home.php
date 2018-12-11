@@ -233,4 +233,23 @@ return [
     'sinemorets_text_paragraph_6' => 'The Veleka River is well-stocked and attracts many interested in fishing its waters. At the river’s mouth it is possible to catch both freshwater and saltwater fish, since fish from the Black Sea venture up the river in search of food.',
     'sinemorets_text_paragraph_7' => 'Though the village is small, Sinemorets offers a variety of accommodations – luxury complexes, hotels, and guesthouses. The village’s eating establishments serve both seafood and Bulgarian national cuisine.',
 
+
+    //Contact form
+    'first_name' => 'First Name',
+    'last_name' => 'Last Name',
+    'email' => 'Email',
+    'telephone' => 'Phone Number',
+    'subject' => 'Subject',
+    'send_us_now' => 'Send Us Now',
+    'first_name_message' => 'Please enter your name',
+    'last_name_message' => 'Please enter your Last Name',
+    'email_message' => 'Please enter your Email',
+    'subject_message' => 'Please enter your message subject',
+    'drop_message' => 'Drop A Message',
+    'form_message' => 'Fill in the form',
+
+
+
+
+
 ];

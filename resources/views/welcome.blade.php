@@ -2809,12 +2809,10 @@
                     <div class="col-12">
                         <div class="section-title-header text-center">
                             <h1 class="section-title wow fadeInUp"
-                                data-wow-delay="0.2s">Drop A
-                                                      Message</h1>
+                                data-wow-delay="0.2s">@lang('home.drop_message')</h1>
                             <p class="wow fadeInDown"
                                data-wow-delay="0.2s">
-                                Global Grand Event on Digital
-                                Design</p>
+                                @lang('home.form_message')  </p>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12 col-xs-12">
@@ -2834,9 +2832,9 @@
                                                        class="form-control"
                                                        id="firstName"
                                                        name="firstName"
-                                                       placeholder="First Name"
+                                                       placeholder="@lang('home.first_name')"
                                                        required
-                                                       data-error="Please enter your name">
+                                                       data-error="@lang('home.first_name_message')">
                                                 <div
                                                     class="help-block with-errors"></div>
                                             </div>
@@ -2848,9 +2846,9 @@
                                                        class="form-control"
                                                        id="lastName"
                                                        name="lastName"
-                                                       placeholder="Last Name"
+                                                       placeholder="@lang('home.last_name')"
                                                        required
-                                                       data-error="Please enter your Last Name">
+                                                       data-error="@lang('home.last_name_message')">
                                                 <div
                                                     class="help-block with-errors"></div>
                                             </div>
@@ -2862,9 +2860,9 @@
                                                        class="form-control"
                                                        id="email"
                                                        name="email"
-                                                       placeholder="Email"
+                                                       placeholder="@lang('home.email')"
                                                        required
-                                                       data-error="Please enter your Email">
+                                                       data-error="@lang('home.email_message')">
                                                 <div
                                                     class="help-block with-errors"></div>
                                             </div>
@@ -2876,8 +2874,8 @@
                                                        class="form-control"
                                                        id="phoneNumber"
                                                        name="phoneNumber"
-                                                       placeholder="Phone Number"
-                                                       data-error="Please enter your Email">
+                                                       placeholder="@lang('home.telephone')"
+                                                       data-error="@lang('home.email_message')">
                                                 <div
                                                     class="help-block with-errors"></div>
                                             </div>
@@ -2889,9 +2887,9 @@
                                                        class="form-control"
                                                        id="msg_subject"
                                                        name="subject"
-                                                       placeholder="Subject"
+                                                       placeholder="@lang('home.subject')"
                                                        required
-                                                       data-error="Please enter your message subject">
+                                                       data-error="@lang('home.subject_message')">
                                                 <div
                                                     class="help-block with-errors"></div>
                                             </div>
@@ -2913,7 +2911,7 @@
                                                     <i
                                                         class="fa fa-paper-plane"
                                                         aria-hidden="true"></i>
-                                                    Send Us Now
+                                                    @lang('home.send_us_now')
                                                 </button>
                                                 @if(session()->has('msgSubmit'))
                                                     <div
