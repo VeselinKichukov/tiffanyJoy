@@ -248,6 +248,13 @@ return [
     'drop_message' => 'Drop A Message',
     'form_message' => 'Fill in the form',
 
+    //Countdown area
+    'number_properties' => 'Properties',
+    'number_appartment' => 'Appartments',
+    'number_studios' => 'Studios',
+    'number_rooms' => 'Rooms',
+    'checkoutmore_button' => 'Check out more',
+
 
 
 

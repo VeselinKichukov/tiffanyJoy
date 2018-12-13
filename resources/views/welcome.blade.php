@@ -155,11 +155,14 @@
                             class="row time-countdown justify-content-center wow fadeInUp"
                             data-wow-delay="0.2s">
                             <div id="clock" class="time-count"></div>
+                            <div class="time-entry days"><span>3</span> @lang('home.number_properties')</div>
+                            <div class="time-entry hours"><span> 24 </span> @lang('home.number_appartment')</div>
+                            <div class="time-entry minutes"><span>37</span> @lang('home.number_studios')</div>
+                            <div class="time-entry seconds"><span>56</span> @lang('home.number_rooms')</div>
                         </div>
-                        <a href="pricing.html"
+                        <a href="/#gallery"
                            class="btn btn-common wow fadeInUp"
-                           data-wow-delay="0.3s">Add to My
-                                                 Calender</a>
+                           data-wow-delay="0.3s">@lang('home.checkoutmore_button')</a>
                     </div>
                 </div>
             </div>

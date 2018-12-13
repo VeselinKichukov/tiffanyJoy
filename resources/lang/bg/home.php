@@ -241,7 +241,14 @@ return [
         'email_message' => 'Моля въведете вашия Имейл',
         'subject_message' => 'Моля въведете темата на съобщението',
         'drop_message' => 'Оставете Ни Съобщение',
-    'form_message' => 'Попълнете формата',
+        'form_message' => 'Попълнете формата',
+
+    //Countdown area
+    'number_properties' => 'Имота',
+    'number_appartment' => 'Апартамента',
+    'number_studios' => 'Студия',
+    'number_rooms' => 'Стаи',
+    'checkoutmore_button' => 'Научи повече',
 
 
 
