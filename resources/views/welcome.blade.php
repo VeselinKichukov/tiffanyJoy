@@ -2620,9 +2620,9 @@
         @include('components.footer')
 
         <!-- Go to Top Link -->
-        <a href="#" class="back-to-top">
-            <i class="lni-chevron-up"></i>
-        </a>
+        {{--<a href="#" class="back-to-top">--}}
+            {{--<i class="lni-chevron-up"></i>--}}
+        {{--</a>--}}
 
         <div id="preloader">
             <div class="sk-circle">
@@ -2659,6 +2659,8 @@
         <script src="js/map.js"></script>
         <script type="text/javascript"
                 src="//maps.googleapis.com/maps/api/js?key=AIzaSyDS7ifsp9xmR4lQlZbvFuEY8881JSTJm8c&callback=initMap"></script>
+
+        <script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="af937cbe-136a-4e63-9c30-fa4a1acf3d41";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>
 
     </body>
 </html>
