@@ -222,7 +222,7 @@ return [
     'pomorie_five' => 'Pomorie is a popular tourist destination and it provides its guests with many accommodation opportunities. There are also plenty of venues and restaurants in the town. Thanks to the medicinal qualities of its mud, Pomorie has become a popular balneological and SPA resort visited during winter and summer. Nesebar and Sozopol which are famous for their archaeological discoveries and ancient histories are not far away. Slanchev bryag Resort (Sunny Beach Resort) is also close to Pomorie. It provides various forms of entertainment 24 hours a day.',
 
     // sinemorets_cities
-    'sinemorets_description' => 'Sinemorets is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey',
+    'sinemorets_description' => 'Sinemorets is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey <br> <br/>' ,
     'sinemorets_weather_link' => 'https://forecast7.com/en/42d0627d98/sinemorets/',
     'sinemorets_appartments' => 'Apartments in Sinemorets',
     'sinemorets_text_paragraph_1' => 'Sinemorets (Bulgarian: Синеморец; also Sinemorec, Sinemoretz, "place on the blue sea") is a village and seaside resort on the Black Sea coast of Bulgaria, located in the very southeast of the country close to the border with Turkey, where the river Veleka flows into the sea. The seaside resort Ahtopol is 6 km north of Sinemorets, and Rezovo is 11 km to the south.',
