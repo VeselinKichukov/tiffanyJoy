@@ -23,6 +23,24 @@ return [
     'sinemorets_name' => 'Sinemorets',
     'sinemorets_house_name' => 'Casa Di Angel',
 
+    // services
+		'wifi_services' => 'WiFi is available and is free of charge!',
+
+    'air_condition_title_services' => 'Air Condition',
+    'air_condition_services' => 'All of our appartments are equiped with air conditioning, so you could avoid the heat during the summer.',
+
+    'beach_title_service' => 'Beach Nearby',
+    'beach_nearby_service' => 'Our appartments are located in walking distance to the beach.',
+
+    'rating_title_serivce' => '8.7 Rating',
+    'rating_service' => 'On average, our customers have graded us with high location rating, based from Booking.com',
+
+    'room_title_services' => 'Various Rooms',
+    'room_services' => 'We offer rooms of various sizes with up to 3 beds per room, where 5 people could easily fit.',
+
+    'restaurant_title_services' => 'Restaurants Nearby',
+    'restaurant_services' => 'There are plenty of various restaurant nearby our locations.',
+
     //Random words
     'cities' => 'Cities:',
 
