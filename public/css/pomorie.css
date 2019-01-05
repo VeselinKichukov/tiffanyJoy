@@ -84,7 +84,7 @@ section {
 }
 
 .well {
-    width: 350px;
+    width: 115%;
     margin-bottom: 10%;
 }
 
@@ -95,7 +95,7 @@ section {
 .image-desc {
     height: auto;
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 2% 0 2% 0;
     object-fit: contain;
 }
 
