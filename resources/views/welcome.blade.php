@@ -59,9 +59,9 @@
         <!-- Header Area wrapper Starts -->
         <header id="header-wrap">
 
-            @include('components.nav-bar')
+        @include('components.nav-bar')
 
-            <!-- Main Carousel Section Start -->
+        <!-- Main Carousel Section Start -->
             <div id="main-slide" class="carousel slide">
                 <ol class="carousel-indicators">
                     <li data-target="#main-slide" data-slide-to="0"
@@ -357,8 +357,8 @@
                              data-wow-delay="0.6s">
                             <div class="icon"><i
                                     class="lni-timer"></i></div>
-                                    <p>@lang('home.pink_field2')</p>
-                                    <span>@lang('home.step2')</span>
+                            <p>@lang('home.pink_field2')</p>
+                            <span>@lang('home.step2')</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
@@ -367,9 +367,9 @@
                         <div class="counter wow fadeInRight"
                              data-wow-delay="0.9s">
                             <div class="icon"><i
-                                class="lni-laptop-phone"></i></div>
-                                <p>@lang('home.pink_field3')</p>
-                                <span>@lang('home.step3')</span>
+                                    class="lni-laptop-phone"></i></div>
+                            <p>@lang('home.pink_field3')</p>
+                            <span>@lang('home.step3')</span>
                         </div>
                     </div>
                     <!-- Counter Item -->
@@ -378,7 +378,7 @@
                         <div class="counter wow fadeInRight"
                              data-wow-delay="1.2s">
                             <div class="icon"><i
-                                class="lni-heart"></i>
+                                    class="lni-heart"></i>
                             </div>
                             <p>@lang('home.pink_field4')</p>
                             <span>@lang('home.step4')</span>
@@ -388,8 +388,6 @@
             </div>
         </section>
         <!-- Counter Area End-->
-
-
 
 
         <!-- Schedule Section Start -->
@@ -500,7 +498,7 @@
                                              data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <!-- <div class="location">
+                                            <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
@@ -708,7 +706,7 @@
                                              data-parent="#accordion2">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <!-- <div class="location">
+                                            <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
@@ -916,7 +914,7 @@
                                              data-parent="#accordion3">
                                             <div class="card-body">
                                                 <p>@lang('home.checkin_checkout_message')</p>
-                                                <!-- <div class="location">
+                                            <!-- <div class="location">
                                                     <span>@lang('home.important')</span>
                                                     Hall 1 , Building
                                                     A, Golden
@@ -1290,19 +1288,20 @@
                                                                  Warner</h5>
                                             </div>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                             data-parent="#accordion">
                                             <div class="card-body">
                                                 <p>Consectetur
-                                                    adipisicing elit.
-                                                    Quod distinctio
-                                                    impedit sint
-                                                    accusantium ducimus
-                                                    lites
-                                                    consequuntur
-                                                    innobisl dolores
-                                                    saepe.Proin
-                                                    sit amet turpis
-                                                    lobortis.</p>
+                                                   adipisicing elit.
+                                                   Quod distinctio
+                                                   impedit sint
+                                                   accusantium ducimus
+                                                   lites
+                                                   consequuntur
+                                                   innobisl dolores
+                                                   saepe.Proin
+                                                   sit amet turpis
+                                                   lobortis.</p>
                                                 <div class="location">
                                                     <span>Location:</span>
                                                     Hall
@@ -1665,7 +1664,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.tripple_room') </font>
-                                            &nbsp;
+                                        &nbsp;
                                         <span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
@@ -1678,7 +1677,7 @@
                                      aria-labelledby="headingOne"
                                      data-parent="#question">
                                     <div class="card-body">
-                                    {!! trans('home.tripple_room_pomorie_beds') !!}
+                                        {!! trans('home.tripple_room_pomorie_beds') !!}
                                     </div>
                                 </div>
                             </div>
@@ -1693,7 +1692,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.double_room') </font>
-                                            &nbsp;
+                                        &nbsp;
                                         <span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
@@ -1719,7 +1718,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.four_room') </font>
-                                            &nbsp;
+                                        &nbsp;
                                         <span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
@@ -1750,7 +1749,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.five_room') </font>
-                                            &nbsp;
+                                        &nbsp;
                                         <span
                                             class="glyphicon glyphicon-user"></span>
                                         X 5 </span>
@@ -1781,7 +1780,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.studio_balcony') </font>
-                                            &nbsp;<span
+                                        &nbsp;<span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
                                             class="glyphicon glyphicon-user"></span>
@@ -1811,7 +1810,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.double_room_balcony') </font>
-                                            &nbsp;<span
+                                        &nbsp;<span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
                                             class="glyphicon glyphicon-user"></span> </span>
@@ -1837,7 +1836,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.tripple_room_balcony') </font>
-                                            &nbsp;<span
+                                        &nbsp;<span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
                                             class="glyphicon glyphicon-user"></span>
@@ -1925,7 +1924,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.studio_appartment_primorsko') </font>
-                                            &nbsp;
+                                        &nbsp;
                                         <span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
@@ -1977,7 +1976,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.standard_double_room_sinemorets') </font>
-                                            &nbsp; <span
+                                        &nbsp; <span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
                                             class="glyphicon glyphicon-user"></span> </span>
@@ -2002,8 +2001,8 @@
                                          aria-controls="questionTwo">
                                         <i class="lni-home"></i>
                                         <font
-                                                color="#E91E63">@lang('home.deluxe_double_room_sinemorets') </font>
-                                            &nbsp; <span
+                                            color="#E91E63">@lang('home.deluxe_double_room_sinemorets') </font>
+                                        &nbsp; <span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
                                             class="glyphicon glyphicon-user"></span> </span>
@@ -2033,8 +2032,8 @@
                                          aria-controls="collapseOne">
                                         <i class="lni-home"></i>
                                         <font
-                                                color="#E91E63">@lang('home.tripple_room_sinemorets') </font>
-                                            &nbsp;<span
+                                            color="#E91E63">@lang('home.tripple_room_sinemorets') </font>
+                                        &nbsp;<span
                                             class="glyphicon glyphicon-user"></span>
                                         <span
                                             class="glyphicon glyphicon-user"></span>
@@ -2062,7 +2061,7 @@
                                         <i class="lni-home"></i>
                                         <font
                                             color="#E91E63">@lang('home.five_room') </font>
-                                            &nbsp;
+                                        &nbsp;
                                         <span
                                             class="glyphicon glyphicon-user"></span>
                                         X 5 </span>
@@ -2077,7 +2076,7 @@
                                     </div>
                                 </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
 
 
@@ -2085,7 +2084,6 @@
             </div>
         </section>
         <!-- Property Sinemorets End -->
-
 
 
         <!-- Ticket Pricing Area Start -->
@@ -2117,7 +2115,8 @@
                                 <p>{!! trans('home.pomorie_prices_start_from') !!}</p>
                             </div>
 
-                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo">{!! trans('home.read_more') !!}</button>
+                            <button class="btn btn-common" data-toggle="collapse"
+                                    data-target="#demo">{!! trans('home.read_more') !!}</button>
 
                             <div id="demo" class="collapse">
                                 <div class="pricing-list">
@@ -2126,7 +2125,7 @@
                                             <i class="lni-check-mark-circle"></i><span class="text">
                                                 {!! trans('home.five_room') !!}
                                                 {!! trans('home.pomorie_five_room_price') !!}</span>
-                                            </li>
+                                        </li>
                                         <li>
                                             <i class="lni-check-mark-circle"></i><span class="text">{!!
                                                 trans('home.double_room') !!}
@@ -2175,34 +2174,35 @@
                                 <p>{!! trans('home.sinemorets_prices_start_from') !!}</p>
                                 <!-- <p>452 Tickets Available</p> -->
                             </div>
-                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo1">{!! trans('home.read_more') !!}</button>
+                            <button class="btn btn-common" data-toggle="collapse"
+                                    data-target="#demo1">{!! trans('home.read_more') !!}</button>
                             <!-- <p> <br/> </p> -->
                             <br/>
 
                             <div id="demo1" class="collapse">
                                 <div class="pricing-list">
-                                        <ul>
-                                                <li>
-                                                    <i class="lni-check-mark-circle"></i><span class="text"> {!!
+                                    <ul>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text"> {!!
                                                         trans('home.standard_double_room_sinemorets') !!}
-                                                        {!!trans('home.sinemorets_standard_double_room_price') !!}</span>
-                                                    </li>
-                                                <li>
-                                                    <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                {!!trans('home.sinemorets_standard_double_room_price') !!}</span>
+                                        </li>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text">{!!
                                                         trans('home.deluxe_double_room_sinemorets') !!}
-                                                        {!!trans('home.sinemorets_deluxe_double_room_price') !!}</span>
-                                                </li>
-                                                <li>
-                                                    <i class="lni-check-mark-circle"></i><span class="text">{!!
+                                                {!!trans('home.sinemorets_deluxe_double_room_price') !!}</span>
+                                        </li>
+                                        <li>
+                                            <i class="lni-check-mark-circle"></i><span class="text">{!!
                                                         trans('home.tripple_room_sinemorets') !!}
-                                                        {!!trans('home.sinemorets_tripple_room_price') !!}</span>
-                                                </li>
-                                                <li><i class="lni-check-mark-circle"></i><span class="text">
+                                                {!!trans('home.sinemorets_tripple_room_price') !!}</span>
+                                        </li>
+                                        <li><i class="lni-check-mark-circle"></i><span class="text">
                                                         {!! trans('home.five_room') !!}
-                                                        {!!trans('home.sinemorets_five_room_price') !!}</span>
-                                                </li>
+                                                {!!trans('home.sinemorets_five_room_price') !!}</span>
+                                        </li>
 
-                                            </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -2223,7 +2223,8 @@
                                 <!-- <p>452 Tickets Available</p> -->
                             </div>
 
-                            <button class="btn btn-common" data-toggle="collapse" data-target="#demo2">{!! trans('home.read_more') !!}</button>
+                            <button class="btn btn-common" data-toggle="collapse"
+                                    data-target="#demo2">{!! trans('home.read_more') !!}</button>
 
                             <div id="demo2" class="collapse">
                                 <div class="pricing-list">
@@ -2235,11 +2236,11 @@
                                                </span>
                                         </li>
                                         <li>
-                                                <i class="lni-check-mark-circle"></i><span class="text">
+                                            <i class="lni-check-mark-circle"></i><span class="text">
                                                     {!! trans('home.studio_appartment_primorsko') !!}
-                                                    {!! trans('home.primorsko_studio_appartment_price') !!}
+                                                {!! trans('home.primorsko_studio_appartment_price') !!}
                                                    </span>
-                                            </li>
+                                        </li>
 
                                     </ul>
                                 </div>
@@ -2605,11 +2606,11 @@
         </section>
         <!-- Map Section End -->
 
-        @include('components.footer')
+    @include('components.footer')
 
-        <!-- Go to Top Link -->
+    <!-- Go to Top Link -->
         {{--<a href="#" class="back-to-top">--}}
-            {{--<i class="lni-chevron-up"></i>--}}
+        {{--<i class="lni-chevron-up"></i>--}}
         {{--</a>--}}
 
         <div id="preloader">
@@ -2648,7 +2649,15 @@
         <script type="text/javascript"
                 src="//maps.googleapis.com/maps/api/js?key=AIzaSyDS7ifsp9xmR4lQlZbvFuEY8881JSTJm8c&callback=initMap"></script>
 
-        <script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="af937cbe-136a-4e63-9c30-fa4a1acf3d41";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+        <script type="text/javascript"> window.$crisp = [];
+            window.CRISP_WEBSITE_ID = "af937cbe-136a-4e63-9c30-fa4a1acf3d41";
+            (function () {
+                d = document;
+                s = d.createElement("script");
+                s.src = "https://client.crisp.chat/l.js";
+                s.async = 1;
+                d.getElementsByTagName("head")[0].appendChild(s);
+            })(); </script>
 
     </body>
 </html>
