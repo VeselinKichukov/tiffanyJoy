@@ -28,9 +28,9 @@
         <div class="image-block1 ">
             <img src="../img/blog/pm-cover1.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
         </div>
-        <p>{!! trans('home.pomorie_three') !!}</p>
-        <p>{!! trans('home.pomorie_four') !!}</p>
-        <p>{!! trans('home.pomorie_five') !!}</p>
+        <p>{!! trans('home.pomorie_three') !!}</p> <br />
+        <p>{!! trans('home.pomorie_four') !!}</p> <br />
+        <p>{!! trans('home.pomorie_five') !!}</p> <br />
 
 
         <div class="image-block1">
