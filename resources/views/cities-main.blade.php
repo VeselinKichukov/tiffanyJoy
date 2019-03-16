@@ -76,8 +76,7 @@
                data-toggle="dropdown"
                role="button"
                aria-expanded="false"
-               style="float: right; margin-top: 17px; text-transform: uppercase; color: white;">
-                @lang('home.language'):
+               style="float: right; margin: 25px; text-transform: uppercase; color: white;">
                 <img id="imgNavSel"
                      class="img-thumbnail icon-small"
                      style="background-color: transparent; border: none;">  
