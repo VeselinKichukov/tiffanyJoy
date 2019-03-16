@@ -32,9 +32,10 @@ section {
 
 .post-title-block h1 {
     color: #ffffff;
-    font-size: 85px;
+    font-size: 420%;
     font-weight: bold;
     text-transform: capitalize;
+    margin-bottom: 5%
 }
 
 .post-title-block li {
@@ -84,8 +85,14 @@ section {
 }
 
 .well {
-    width: 350px;
+    display: flow-root;
+    width: inherit;
     margin-bottom: 10%;
+    padding: 10%;
+}
+
+.row{
+    display: block;
 }
 
 .weatherwidget-io {
@@ -95,7 +102,7 @@ section {
 .image-desc {
     height: auto;
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 2% 0 2% 0;
     object-fit: contain;
 }
 

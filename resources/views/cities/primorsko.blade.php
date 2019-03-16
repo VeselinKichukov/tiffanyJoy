@@ -25,18 +25,18 @@
         </script>
 
         <p class="lead">{!! trans('home.primorsko_one') !!}</p>
-        <p>{!! trans('home.primorsko_two') !!}</p>
+        <p>{!! trans('home.primorsko_two') !!}</p><br />
 
 
         <img src="../img/blog/primorsko-cover1.jpg" class="image-desc"/>
 
 
-        <p>{!! trans('home.primorsko_three') !!}</p>
+        <p>{!! trans('home.primorsko_three') !!}</p><br />
 
 
         <img src="../img/blog/primorsko-cover2.jpg" class="image-desc"/>
 
-        <p>{!! trans('home.primorsko_four') !!}</p>
+        <p>{!! trans('home.primorsko_four') !!}</p><br />
     </div>
 
     <div class="col-lg-3  col-md-3 col-sm-12">

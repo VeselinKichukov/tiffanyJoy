@@ -5307,7 +5307,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .list-group-item {
     position: relative;
     display: block;
-    padding: .75rem 1.25rem;
+    padding: 3% 5%;
     margin-bottom: -1px;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, .125)

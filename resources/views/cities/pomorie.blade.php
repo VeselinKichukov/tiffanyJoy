@@ -24,18 +24,13 @@
             }(document, 'script', 'weatherwidget-io-js');
         </script>
         <p class="lead">{!! trans('home.pomorie_one') !!}</p>
-        <p>{!! trans('home.pomorie_two') !!}</p>
-        <div class="image-block1 ">
-            <img src="../img/blog/pm-cover1.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
-        </div>
-        <p>{!! trans('home.pomorie_three') !!}</p>
-        <p>{!! trans('home.pomorie_four') !!}</p>
-        <p>{!! trans('home.pomorie_five') !!}</p>
+        <p>{!! trans('home.pomorie_two') !!}</p><br />
+        <img src="../img/blog/pm-cover1.jpg" class="image-desc"/> <br />
+        <p>{!! trans('home.pomorie_three') !!}</p> <br />
+        <p>{!! trans('home.pomorie_four') !!}</p> <br />
+        <p>{!! trans('home.pomorie_five') !!}</p> <br />
 
-
-        <div class="image-block1">
-            <img src="../img/blog/pm-cover2.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
-        </div>
+        <img src="../img/blog/pm-cover2.jpg" class="image-desc"/> <br /> <br />
     </div>
     <div class="col-lg-3  col-md-3 col-sm-12">
         <div class="well">

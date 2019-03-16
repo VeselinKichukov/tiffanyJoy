@@ -22,9 +22,7 @@
             }(document, 'script', 'weatherwidget-io-js');
         </script>
         <p class="lead">{!! trans('home.sinemorets_text_paragraph_1') !!}</p>
-         <div class="image-block1 ">
-            <img src="../img/about/sinemorets1.jpg" style="height: 100%; width: 100%; margin-right: 20px; object-fit: contain"/>
-        </div>
+        <img src="../img/about/sinemorets1.jpg" class="image-desc"/> <br />
         <br/>
         <p>{!! trans('home.sinemorets_text_paragraph_2') !!}</p> <br/>
         <p>{!! trans('home.sinemorets_text_paragraph_3') !!}</p> <br/>

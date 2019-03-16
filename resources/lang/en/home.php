@@ -3,7 +3,7 @@
 return [
     //tabs
     'home' => 'Home',
-    'appartments' => 'Appartments',
+    'appartments' => 'Apartments',
     'contacts' => 'Contacts',
     'faq' => 'FAQ',
     'language' => 'Language',
@@ -27,10 +27,10 @@ return [
 		'wifi_services' => 'WiFi is available and is free of charge!',
 
     'air_condition_title_services' => 'Air Condition',
-    'air_condition_services' => 'All of our appartments are equiped with air conditioning, so you could avoid the heat during the summer.',
+    'air_condition_services' => 'All of our apartments are equiped with air conditioning, so you could avoid the heat during the summer.',
 
     'beach_title_service' => 'Beach Nearby',
-    'beach_nearby_service' => 'Our appartments are located in walking distance to the beach.',
+    'beach_nearby_service' => 'Our apartments are located in walking distance to the beach.',
 
     'rating_title_serivce' => '8.7 Rating',
     'rating_service' => 'On average, our customers have graded us with high location rating, based from Booking.com',
@@ -101,7 +101,7 @@ return [
     'step2' => 'Step 2',
     'step3' => 'Step 3',
     'step4' => 'Step 4',
-    'description_motiv8_footer' => 'TiffanyAppart is developed by Motiv8Soft. For more information and details you can go to our website: <a href="http://motiv8soft.com">motiv8soft.com</a>',
+    'description_motiv8_footer' => 'TiffanyApart is developed by Motiv8Soft. For more information and details you can go to our website: <a href="http://motiv8soft.com">motiv8soft.com</a>',
     'useful_link1_footer' => '<a href="http://bulgariatravel.org/en">bulgariatravel.org</a>',
     'useful_link2_footer' => '<a href="https://www.tripadvisor.com/">tripadvisor.com</a>',
     'send_message_footer_text' => 'LEAVE US A MESSAGE:',
@@ -189,7 +189,7 @@ return [
 
     // Primorsko (cities)
     'primorsko_description' => 'Primorsko is a town and seaside resort in southeastern Bulgaria, part of Burgas Province. A well-known resort on the Bulgarian Black Sea Coast, it is located on a gore 52 km south of Burgas and has a beach strip of about 1 km².',
-    'primorsko_appartments' => 'Appartments in Primorsko',
+    'primorsko_appartments' => 'Apartments in Primorsko',
     'primorsko_temperature' => '29°С Average Summer Temperature |',
     'primorsko_water_temperature' => '27°С Average Water Temperature |',
     'primorsko_beach' => '1 km Long Beach|',
@@ -198,8 +198,8 @@ return [
     'primorsko_two' => 'It is situated at a distance of 50 kilometers from Burgas and 450 kilometers from the capital city Sofia. The population of the town is 2,800 people and in the summer season the number of people increases several times due to the numerous tourists, choosing Primorsko for their summer vacation. The climate in Primorsko is temperate-continental with Black Sea and Mediterranean influence, with mild, short winters and long summers. The average temperature in July is 23-24° С.',
     'primorsko_three' => 'There are four sanctuaries found near Primorsko, as well as 12 dolmens and 10 mound necropolises. The most interesting for tourists is the sanctuary Beglik Tash, which embodies the cult of the sun. The rock sanctuary near Primorsko is one of the greatest discoveries of the Thracian civilization at the Southern Black Sea coast and Strandzha. It is located in the central highest part of Beglik Tash peak, with a height of 128 meters above sea level, and covers an area of about 6 decares. Its central part is best studied – there, on a large rock terrace, slightly elevated above the surrounding terrain, in a circle with diameter of 56 meters of the ritual space, are laid separate rock elements. It was built in the middle of the second millennium BC and was demolished in the early fourth century AD. <br />  <br />
     Ropotamo reserve is located near Primorsko. There are many interesting and unique natural sites on the reserve territory, such as the firth of the Ropotamo river, the Arkutino swamp, dense forests, which are very rare at this attitude, various rock formations, wetlands, marshlands, etc. The reserve is a part of the larger protected area Ramsarsko Place, Ropotamo. The firth of Ropotamo is one of the main tourist attractions in the reserve. The site also offers attractive boat trips along the river.',
-    'primorsko_four' => 'The Arkutino reserve, also known as Mecheshko Blato (Bear’s Swamp), in Primorsko municipality is famous for its pure nature and rare plants. The reserve is home to the sand lily and offers a clean and long coastline. <br />
-    North of Primorsko, in the area between the Stamopolu lagoon and the seashore is located one of the best – preserved dune complexes at the Black Sea shore. Some dunes reach up to 19 meters of height and are an exceptional view for visitors. This is the natural landmark Sand Dunes – Perla. <br />
+    'primorsko_four' => 'The Arkutino reserve, also known as Mecheshko Blato (Bear’s Swamp), in Primorsko municipality is famous for its pure nature and rare plants. The reserve is home to the sand lily and offers a clean and long coastline. <br /> <br />
+    North of Primorsko, in the area between the Stamopolu lagoon and the seashore is located one of the best – preserved dune complexes at the Black Sea shore. Some dunes reach up to 19 meters of height and are an exceptional view for visitors. This is the natural landmark Sand Dunes – Perla. <br /> <br />
     The town of Primorsko is a preferred destination due to its favorable climate, its wonderful nature, its historical and cultural monuments, the hospitable people and the various attractions, offered in the town. There are 4 beaches near the town – north, central, southern and Perla, which offer various attractions – a volleyball playground, gym, water ski, pedal boats, surfing, boat trips, scooters and children’s facilities.
     There are many accommodation options in Primorsko – from private apartments, villas, family hotels and hotel complexes. The restaurants in the town serve traditional Bulgarian meals, fish dishes. Many of them offer live music.',
     'primorsko_short' => 'In the centre of Primorsko and only 40 metres away from the beach.',
@@ -268,7 +268,7 @@ return [
 
     //Countdown area
     'number_properties' => 'Properties',
-    'number_appartment' => 'Appartments',
+    'number_appartment' => 'Apartments',
     'number_studios' => 'Studios',
     'number_rooms' => 'Rooms',
     'checkoutmore_button' => 'Check out more',
