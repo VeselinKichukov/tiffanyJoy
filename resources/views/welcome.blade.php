@@ -172,12 +172,7 @@
                     <div class="col-12">
                         <div class="section-title-header text-center">
                             <h1 class="section-title wow fadeInUp"
-                                data-wow-delay="0.2s">Why You Choose
-                                                      Us?</h1>
-                            <p class="wow fadeInDown"
-                               data-wow-delay="0.2s">
-                                Global Grand Event on Digital
-                                Design</p>
+                                data-wow-delay="0.2s">{!! trans('home.services_heading') !!}</h1>
                         </div>
                     </div>
                 </div>
@@ -191,7 +186,7 @@
                                 <i class="fas fa-wifi"></i>
                             </div>
                             <div class="services-content">
-                                <h3><a href="#">WiFi</a></h3>
+                                <h3>WiFi</h3>
                                 <p>{!! trans('home.wifi_services') !!}</p>
                             </div>
                         </div>
@@ -205,7 +200,7 @@
                                 <i class="far fa-snowflake"></i>
                             </div>
                             <div class="services-content">
-                                <h3><a href="#">{!! trans('home.air_condition_title_services') !!}</a></h3>
+                                <h3>{!! trans('home.air_condition_title_services') !!}</h3>
                                 <p>{!! trans('home.air_condition_services') !!}</p>
                             </div>
                         </div>
@@ -219,7 +214,7 @@
                                 <i class="fas fa-umbrella-beach"></i>
                             </div>
                             <div class="services-content">
-                                <h3><a href="#">{!! trans('home.beach_title_service') !!}</a></h3>
+                                <h3>{!! trans('home.beach_title_service') !!}</h3>
                                 <p>{!! trans('home.beach_nearby_service') !!}</p>
                             </div>
                         </div>
@@ -233,7 +228,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="services-content">
-                                <h3><a href="#">{!! trans('home.rating_title_serivce') !!}</a></h3>
+                                <h3>{!! trans('home.rating_title_serivce') !!}</h3>
                                 <p>{!! trans('home.rating_service') !!} </p>
                             </div>
                         </div>
@@ -247,7 +242,7 @@
                                 <i class="fas fa-door-open"></i>
                             </div>
                             <div class="services-content">
-                                <h3><a href="#">{!! trans('home.room_title_services') !!}</a></h3>
+                                <h3>{!! trans('home.room_title_services') !!}</h3>
                                 <p>{!! trans('home.room_services') !!}</p>
                             </div>
                         </div>
@@ -261,8 +256,7 @@
                                 <i class="fas fa-utensils"></i>
                             </div>
                             <div class="services-content">
-                                <h3><a href="#">{!! trans('home.restaurant_title_services') !!}</a>
-                                </h3>
+                                <h3>{!! trans('home.restaurant_title_services') !!}</h3>
                                 <p>{!! trans('home.restaurant_services') !!}</p>
                             </div>
                         </div>
