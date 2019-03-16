@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    var engImgLink = "img/en.png";
-    var bgImgLink = "img/bg.png";
+    var engImgLink = "https://i.ibb.co/q5GvJxv/en.png";
+    var bgImgLink = "https://i.ibb.co/XFBNrhb/bg.png";
 
     var imgBtnSel = $('#imgBtnSel');
     var imgBtnEng = $('#imgBtnEng');
@@ -29,21 +29,21 @@ $(document).ready(function(){
     if (currentId == "navEng") {
         localStorage.setItem('currentId', 'navEng');
         imgNavSel.attr("src",engImgLink);
-        spanNavSel.text("ENG");
+        spanNavSel.text("English");
     } else if (currentId == "navBg") {
         localStorage.setItem('currentId', 'navBg');
         imgNavSel.attr("src",bgImgLink);
-        spanNavSel.text("BUL");
+        spanNavSel.text("Български");
     }
 
     if (currentId == "btnEng") {
         localStorage.setItem('currentId', 'btnEng');
         imgBtnSel.attr("src",engImgLink);
-        spanBtnSel.text("ENG");
+        spanBtnSel.text("English");
     } else if (currentId == "btnBg") {
         localStorage.setItem('currentId', 'btnBg');
         imgBtnSel.attr("src",bgImgLink);
-        spanBtnSel.text("BUL");
+        spanBtnSel.text("Български");
     }
 
     $( ".language" ).on( "click", function( event ) {
@@ -52,22 +52,24 @@ $(document).ready(function(){
         if (currentId == "navEng") {
             localStorage.setItem('currentId', 'navEng');
             imgNavSel.attr("src",engImgLink);
-            spanNavSel.text("ENG");
+            spanNavSel.text("English");
         } else if (currentId == "navBg") {
             localStorage.setItem('currentId', 'navBg');
             imgNavSel.attr("src",bgImgLink);
-            spanNavSel.text("BUL");
+            spanNavSel.text("Български");
         }
 
         if (currentId == "btnEng") {
             localStorage.setItem('currentId', 'btnEng');
             imgBtnSel.attr("src",engImgLink);
-            spanBtnSel.text("ENG");
+            spanBtnSel.text("English");
         } else if (currentId == "btnBg") {
             localStorage.setItem('currentId', 'btnBg');
             imgBtnSel.attr("src",bgImgLink);
-            spanBtnSel.text("BUL");
+            spanBtnSel.text("Български");
         }
 
     });
 });
+
+
