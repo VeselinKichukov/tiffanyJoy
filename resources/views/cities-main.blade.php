@@ -57,7 +57,11 @@
               href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
               integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
               crossorigin="anonymous">
-
+        <style type="text/css" media="screen">
+            .navbar-nav > li > a {
+                padding-top: 0px !important;
+            }
+        </style>
         <!-- blog template -->
         <link rel="stylesheet" type="text/css" href="css/pomorie.css">
         <!------ Include the above in your HEAD tag ---------->
@@ -157,5 +161,15 @@
         <script src="js/map.js"></script>
         <script type="text/javascript"
                 src="//maps.googleapis.com/maps/api/js?key=AIzaSyDS7ifsp9xmR4lQlZbvFuEY8881JSTJm8c&callback=initMap"></script>
+
+        <script type="text/javascript"> window.$crisp = [];
+            window.CRISP_WEBSITE_ID = "af937cbe-136a-4e63-9c30-fa4a1acf3d41";
+            (function () {
+                d = document;
+                s = d.createElement("script");
+                s.src = "https://client.crisp.chat/l.js";
+                s.async = 1;
+                d.getElementsByTagName("head")[0].appendChild(s);
+            })(); </script>
     </body>
 </html>
