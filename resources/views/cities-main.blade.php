@@ -68,9 +68,49 @@
     </head>
     <body>
 
-        @include('components.nav-bar')
+        {{--@include('components.nav-bar')--}}
 
-        <section class="banner-section"></section>
+        <section class="banner-section">
+            <a href="/">
+                <i class="lni-chevron-left" style="color: white; font-size: 3em; line-height: 2 !important;"></i>
+            </a>
+
+            <a href="javascript:void(0)" id="lngItem"
+               class="dropdown-toggle"
+               data-toggle="dropdown"
+               role="button"
+               aria-expanded="false"
+               style="float: right; margin: 25px; text-transform: uppercase; color: white;">
+                <img id="imgNavSel"
+                     class="img-thumbnail icon-small"
+                     style="background-color: transparent; border: none;">  
+                <span id="lanNavSel"
+                      style="color: white;">English</span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <a id="navBg" href="locale/bg"
+                       target="_self"
+                       class="language">
+                        <img id="imgNavBg"
+                             class="img-thumbnail icon-small"
+                             style="background-color: transparent; border: none;">  
+                        <span id="lanNavBg">Български</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="navEng"
+                       href="locale/en"
+                       target="_self"
+                       class="language">
+                        <img id="imgNavEng"
+                             class="img-thumbnail icon-small"
+                             style="background-color: transparent; border: none;">  
+                        <span id="lanNavEng">English</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
 
         <section id="main-content" class="post-content-section">
             <div class="container">

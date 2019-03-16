@@ -19,8 +19,8 @@
                     src="img/logo.png" alt=""></a>
         </div>
         <div class="collapse navbar-collapse"
-             id="main-navbar">
-            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+             id="main-navbar" style="position: fixed; right: 10em;">
+            <ul class="navbar-nav w-100 justify-content-end">
                 <li class="nav-item active">
                     <a class="nav-link"
                        href="/#header-wrap">
@@ -64,13 +64,12 @@
                        data-toggle="dropdown"
                        role="button"
                        aria-expanded="false"
-                       style="position: fixed; margin-top: 1.1%; text-transform: uppercase; color: white;">
-                        @lang('home.language'):
+                       style="position: fixed; margin-top: 17px; text-transform: uppercase; color: white;">
                         <img id="imgNavSel"
                              class="img-thumbnail icon-small"
                              style="background-color: transparent; border: none;">  
                         <span id="lanNavSel"
-                              style="color: white;">ENG</span>
+                              style="color: white;">@lang('home.language')</span>
                     </a>
                     <ul class="dropdown-menu" role="menu">
                         <li>
@@ -80,7 +79,7 @@
                                 <img id="imgNavBg"
                                      class="img-thumbnail icon-small"
                                      style="background-color: transparent; border: none;">  
-                                <span id="lanNavBg">Bulgarian</span>
+                                <span id="lanNavBg">Български</span>
                             </a>
                         </li>
                         <li>
@@ -103,37 +102,73 @@
     <!-- Mobile Menu Start -->
     <ul class="mobile-menu">
         <li>
-            <a class="page-scrool" href="#header-wrap">Home</a>
+            <a class="page-scrool" href="#header-wrap">@lang('home.home')</a>
         </li>
         <li>
-            <a class="page-scrool" href="#about">About</a>
+            <a class="page-scrool" href="#about">@lang('home.about_cities')</a>
         </li>
         <li>
-            <a class="page-scroll" href="#schedules">schedules</a>
-        </li>
-        <!-- <li>
-          <a class="page-scroll" href="#team">Speakers</a>
-        </li> -->
-        <li>
-            <a class="page-scroll"
-               href="#gallery">Gallery</a>
-        </li>
-        <li>
-            <a class="page-scroll" href="#faq">Faq</a>
-        </li>
-        <!-- <li>
-          <a class="page-scroll" href="#sponsors">Sponsors</a>
-        </li> -->
-        <li>
-            <a class="page-scroll"
-               href="#pricing">pricing</a>
+            <a class="page-scroll" href="#schedules">@lang('home.rules')</a>
         </li>
         <li>
             <a class="page-scroll"
-               href="#google-map-area">Contact</a>
+               href="#gallery">@lang('home.appartments')</a>
+        </li>
+        <li>
+            <a class="page-scroll" href="#faq">@lang('home.faq')</a>
+        </li>
+        <li>
+            <a class="page-scroll"
+               href="#pricing">@lang('home.pricing')</a>
+        </li>
+        <li>
+            <a class="page-scroll"
+               href="#google-map-area">@lang('home.contacts')</a>
+        </li>
+        <li>
+            <a href="javascript:void(0)" id="lngItem"
+               class="page-scroll"
+               data-toggle="dropdown"
+               role="button"
+               aria-expanded="false">
+                <img id="imgNavSel"
+                     class="img-thumbnail icon-small"
+                     style="background-color: transparent; border: none;">  
+                <span id="lanNavSel">@lang('home.language')</span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <a id="navBg" href="locale/bg"
+                       target="_self"
+                       class="language">
+                        <img id="imgNavBg"
+                             class="img-thumbnail icon-small"
+                             style="background-color: transparent; border: none;"
+                             src="https://i.ibb.co/XFBNrhb/bg.png">  
+                        <span id="lanNavBg">Български</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="navEng"
+                       href="locale/en"
+                       target="_self"
+                       class="language">
+                        <img id="imgNavEng"
+                             class="img-thumbnail icon-small"
+                             style="background-color: transparent; border: none;"
+                             src="https://i.ibb.co/q5GvJxv/en.png">  
+                        <span id="lanNavEng">English</span>
+                    </a>
+                </li>
+            </ul>
         </li>
     </ul>
     <!-- Mobile Menu End -->
 
 </nav>
 <!-- Navbar End -->
+<style>
+    .slicknav_nav .slicknav_arrow {
+        display: none !important;
+    }
+</style>
