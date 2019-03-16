@@ -25,6 +25,7 @@ return [
     'sinemorets_house_name' => 'Casa Di Angel',
 
 		// services
+        'services_heading' => 'Защо да изберете нас?',
 		'wifi_services' => 'Безплатен WiFi!',
 
 		'air_condition_title_services' => 'Климатик',

@@ -24,7 +24,8 @@ return [
     'sinemorets_house_name' => 'Casa Di Angel',
 
     // services
-		'wifi_services' => 'WiFi is available and is free of charge!',
+    'services_heading' => 'Why You Choose Us?',
+	'wifi_services' => 'WiFi is available and is free of charge!',
 
     'air_condition_title_services' => 'Air Condition',
     'air_condition_services' => 'All of our apartments are equiped with air conditioning, so you could avoid the heat during the summer.',
