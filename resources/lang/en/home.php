@@ -113,7 +113,7 @@ return [
     'button2' => 'Check Out More',
     'button3' => 'Check Out More',
     'slide1_header1' => 'Pomorie',
-    'slide1_header2' => 'Book you great holyday now !',
+    'slide1_header2' => 'Book your great holyday now !',
     'slide2_header1' => 'Sinemorets',
     'slide2_header2' => 'Forget about reality !',
     'slide3_header1' => 'Primoprsko',

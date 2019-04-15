@@ -70,14 +70,14 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100 main-image"
-                             src="img/slider/slide1.jpg"
+                             {{--src="img/slider/slide1test1.jpg"--}}
+                             src="img/slider/slede1test.jpg"
                              alt="First slide">
                         <div class="carousel-caption d-md-block">
-                            <p class="fadeInUp wow"
-
-                               data-wow-delay=".6s"> @lang('home.slide1_header1')</p>
+                            {{--<p class="fadeInUp wow"--}}
+                               {{--data-wow-delay=".6s"> @lang('home.slide1_header1')</p>--}}
                             <h1 class="wow fadeInDown heading"
-                                data-wow-delay=".4s">@lang('home.slide1_header2')</h1>
+                                data-wow-delay=".4s"><font color="#E91E63">@lang('home.slide1_header2') </font></h1>
                             <a href="#about"
                                class="fadeInLeft wow btn btn-common btn-lg"
                                data-wow-delay=".6s">@lang('home.button1')</a>
