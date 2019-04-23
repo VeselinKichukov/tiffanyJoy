@@ -148,6 +148,11 @@ return [
     'primorsko_studio_appartment_price' => '50€',
 
 
+    //Appartments section
+
+    'back_button' => '< Back',
+
+
     //Sinemorets
     'sinemorets' => 'This property is 5 minutes walk from the beach. Located in Sinemorets, Casa Di Angel provides a seasonal outdoor swimming pool and fitness centre. 1.2 km from Veleka Beach, the hotel features a garden and a terrace. Guests can have a cocktail at the bar.&nbsp;<br/>
     <br/>&nbsp;
