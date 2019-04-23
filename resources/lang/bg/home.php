@@ -151,7 +151,12 @@ return [
     'primorsko_studio_appartment_price' => '100 лв.',
 
 
-    // Sinemorets
+    //Appartments section
+
+    'back_button' => '< Назад',
+
+
+    // Sinemorets Appartments section
     'sinemorets' => ' Каса Ди Ангел се намира в Синеморец и предлага сезонен открит басейн и фитнес център. Хотелът се намира на 1,2
     километра от плажа Велека и предлага градина и тераса. В хотела има бар.&nbsp;<br/>
     <br/>&nbsp;
@@ -166,7 +171,7 @@ return [
     &nbsp;<br/>
     <br/>&nbsp;',
 
-    // Primorsko
+    // Primorsko Appartments section
     'primorsko' => 'Това място за настаняване е на 5 минути пеша от плажа. Апартаменти „Тифани Джой"
     се намират в Приморско. Предлагат помещения с безплатен WiFi и кът за
     сядане..<br/>

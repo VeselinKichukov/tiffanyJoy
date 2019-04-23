@@ -9,7 +9,7 @@
         <title>Tiffany Apart</title>
 
         <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -1255,9 +1255,131 @@
                         </div>
                     </div>
                 </div>
+
+
+                <script src="js/hover.js"></script>
+
+
+
+
+                {{--<script>--}}
+                    {{--$(window).scroll(function() {--}}
+                        {{--var hT = $('#scroll-to').offset().top,--}}
+                            {{--hH = $('#scroll-to').outerHeight(),--}}
+                            {{--wH = $(window).height(),--}}
+                            {{--wS = $(this).scrollTop();--}}
+
+
+                        {{--var hT1 = $('#scroll-to1').offset().top,--}}
+                            {{--hH1 = $('#scroll-to1').outerHeight(),--}}
+                            {{--wH1 = $(window).height(),--}}
+                            {{--wS1 = $(this).scrollTop();--}}
+
+                        {{--var hT2 = $('#scroll-to2').offset().top,--}}
+                            {{--hH2 = $('#scroll-to2').outerHeight(),--}}
+                            {{--wH2 = $(window).height(),--}}
+                            {{--wS2 = $(this).scrollTop();--}}
+
+
+                        {{--if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){--}}
+                            {{--// console.log('you have scrolled to the div');--}}
+                            {{--// alert('you have scrolled to the h1!');--}}
+
+                            {{--// turn on--}}
+                             {{--document.getElementById('scroll-to').className = 'gallery-box1';--}}
+
+                             {{--//turn off the others--}}
+                             {{--document.getElementById('scroll-to1').className = 'gallery-box';--}}
+                             {{--document.getElementById('scroll-to2').className = 'gallery-box';--}}
+
+                        {{--}--}}
+                        {{--else if(wS1 > (hT1+hH1-wH1) && (hT1 > wS1) && (wS1+wH1 > hT1+hH1))--}}
+                        {{--{--}}
+                            {{--//turn off the others--}}
+                            {{--document.getElementById('scroll-to').className = 'gallery-box';--}}
+                            {{--document.getElementById('scroll-to2').className = 'gallery-box';--}}
+
+                            {{--// turn on--}}
+                            {{--document.getElementById('scroll-to1').className = 'gallery-box1';--}}
+                        {{--}--}}
+                        {{--else if(wS2 > (hT2+hH2-wH2) && (hT2 > wS2) && (wS2+wH2 > hT2+hH2))--}}
+                        {{--{--}}
+                            {{--//turn off the others--}}
+                            {{--document.getElementById('scroll-to').className = 'gallery-box';--}}
+                            {{--document.getElementById('scroll-to1').className = 'gallery-box';--}}
+
+                            {{--document.getElementById('scroll-to2').className = 'gallery-box1';--}}
+                        {{--}--}}
+                        {{--else {--}}
+                            {{--//turn off the others--}}
+                            {{--document.getElementById('scroll-to').className = 'gallery-box';--}}
+                            {{--document.getElementById('scroll-to1').className = 'gallery-box';--}}
+                            {{--document.getElementById('scroll-to2').className = 'gallery-box';--}}
+                        {{--}--}}
+                    {{--});--}}
+                {{--</script>--}}
+
+
+
+
+                {{--<div class="row">--}}
+                    {{--<div class="col-md-6 col-sm-6 col-lg-4">--}}
+                        {{--<div id="scroll-to" class="gallery-box">--}}
+                            {{--<div class="img-thumb">--}}
+                                {{--<img id="imgid" class="img-fluid"--}}
+                                     {{--src="img/apartments/primorsko/primsko.jpg"--}}
+                                     {{--alt="">--}}
+                            {{--</div>--}}
+
+                            {{--<div class="onAppear">--}}
+
+                            {{--<div id="trigger" class="overlay-box text-center">--}}
+                                {{--<a id="my-link" data-toggle="modal"--}}
+                                   {{--data-target="#primorskoModal"--}}
+                                   {{--onclick="showSlides(1, 'primorsko')"--}}
+                                   {{--class="lightbox" href="#gallery">--}}
+                                    {{--<h4 style="color: white; margin-left: -2.5em; text-transform: uppercase;">--}}
+                                        {{--<strong>@lang('home.primorsko_name')</strong>--}}
+                                    {{--</h4>--}}
+                                {{--</a>--}}
+                            {{--</div>--}}
+
+                            {{--</div>--}}
+
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<div class="modal fade" id="primorskoModal"--}}
+                         {{--tabindex="-1"--}}
+                         {{--role="dialog"--}}
+                         {{--aria-labelledby="exampleModalLabel"--}}
+                         {{--aria-hidden="true">--}}
+                        {{--<div class="modal-dialog"--}}
+                             {{--style="max-width: 100% !important; height: auto !important; margin-top: 5em;"--}}
+                             {{--role="document">--}}
+                            {{--<div class="modal-content"--}}
+                                 {{--style="min-height: 800px;">--}}
+
+                                {{--<div class="modal-header">--}}
+                                    {{--<h3> <button type="button" class="close" data-dismiss="modal">Back</button> </h3>--}}
+                                    {{--<button type="button" class="close" data-dismiss="modal">×</button>--}}
+                                {{--</div>--}}
+
+                                {{--<div class="modal-body">--}}
+                                    {{--@include('apartments.test')--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+
+
+
+
+
+
+
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-lg-4">
-                        <div class="gallery-box">
+                        <div id="scroll-to" class="gallery-box">
                             <div class="img-thumb">
                                 <img class="img-fluid"
                                      src="img/apartments/primorsko/primsko.jpg"
@@ -1281,7 +1403,7 @@
                          aria-labelledby="exampleModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog"
-                             style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
+                             style="max-width: 100% !important; height: auto !important; margin-top: 5em;"
                              role="document">
                             <div class="modal-content"
                                  style="min-height: 800px;">
@@ -1292,7 +1414,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-4">
-                        <div class="gallery-box">
+                        <div id="scroll-to1" class="gallery-box">
                             <div class="img-thumb">
                                 <img class="img-fluid"
                                      src="img/apartments/pomorie/pomorie.jpg"
@@ -1317,7 +1439,7 @@
                          aria-labelledby="exampleModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog"
-                             style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
+                             style="max-width: 100% !important; height: auto !important; margin-top: 5em;"
                              role="document">
                             <div class="modal-content"
                                  style="min-height: 800px;">
@@ -1328,7 +1450,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-4">
-                        <div class="gallery-box">
+                        <div id="scroll-to2" class="gallery-box">
                             <div class="img-thumb">
                                 <img class="img-fluid"
                                      src="img/apartments/sinemorec/38.jpg"
@@ -1352,7 +1474,7 @@
                          aria-labelledby="exampleModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog"
-                             style="max-width: 80% !important; height: auto !important; margin-top: 5em;"
+                             style="max-width: 100% !important; height: auto !important; margin-top: 5em;"
                              role="document">
                             <div class="modal-content"
                                  style="min-height: 800px;">
