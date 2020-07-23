@@ -141,11 +141,11 @@ return [
     'sinemorets_five_room_price' => '33€',
 
     //prices primorsko
-    'primorsko_prices_start_from' => 'Prices starts from : 50€',
+    'primorsko_prices_start_from' => 'Prices starts from : 45€',
     'primorsko_house_name_price' => 'Tiffany Joy <br/> Apartments',
 
-    'primorsko_appartment_price' => '60€',
-    'primorsko_studio_appartment_price' => '50€',
+    'primorsko_appartment_price' => '70€',
+    'primorsko_studio_appartment_price' => '45€',
 
 
     //Appartments section
