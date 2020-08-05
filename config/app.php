@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'env' => 'rCNs6f2rO8+UCdP9NpohRd8go7zmB2EAUSvhkjKUjM8=',
+    'env' => 'base64:rCNs6f2rO8+UCdP9NpohRd8go7zmB2EAUSvhkjKUjM8=',
 
     /*
     |--------------------------------------------------------------------------
