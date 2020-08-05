@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+    'env' => 'rCNs6f2rO8+UCdP9NpohRd8go7zmB2EAUSvhkjKUjM8=',
 
     /*
     |--------------------------------------------------------------------------
