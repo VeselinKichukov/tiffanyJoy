@@ -15,7 +15,7 @@ return [
 
     // Names
     'pomorie_name' => 'Pomorie',
-    'pomorie_house_name' => 'Guest House More',
+    'pomorie_house_name' => 'Tiffany Boutique Suits',
 
     'primorsko_name' => 'Primorsko',
     'primorsko_house_name' => 'Tiffany Joy Apartments',
@@ -121,7 +121,7 @@ return [
 
     //prices pomorie
     'pomorie_prices_start_from' => 'Prices starts from : 19€',
-    'pomorie_house_name_price' => 'Guest House <br/> More',
+    'pomorie_house_name_price' => 'Tiffany Boutique <br/> Suits',
 
     'pomorie_five_room_price' => '49€',
     'pomorie_double_room_price' => '19€',
@@ -212,7 +212,7 @@ return [
 
 
     // Pomorie
-    'pomorie' => 'This property is 2 minutes walk from the beach. Guest House More is set in a 3-floor building in the centre of Pomorie and only 50 m away from the beach. Free WiFi is available throughout the property.<br/>
+    'pomorie' => 'This property is 2 minutes walk from the beach. Tiffany Boutique Suits is set in a 3-floor building in the centre of Pomorie and only 50 m away from the beach. Free WiFi is available throughout the property.<br/>
     <br/>
 
     Certain units include a seating area where you can relax. You will find a kettle in the room. Each room includes a private bathroom. A TV is provided.<br>
@@ -221,7 +221,7 @@ return [
     You will find a tour desk at the property.<br>
     <br/>
 
-    Burgas City is 16 km from Guest House More, while Obzor is 35 km from the property. The nearest airport is Burgas Airport, 11 km from Guest House More.<br>
+    Burgas City is 16 km from Tiffany Boutique Suits, while Obzor is 35 km from the property. The nearest airport is Burgas Airport, 11 km from Tiffany Boutique Suits.<br>
     <br/>
 
     This is our guests favourite part of Pomorie, according to independent reviews.<br>

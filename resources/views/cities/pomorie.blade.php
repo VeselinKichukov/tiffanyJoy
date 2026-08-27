@@ -46,10 +46,10 @@
                              alt="64x64"
                              width='100%'
                              height='auto'
-                             src="{{ asset('../img/blog/pm_house.jpg') }}"
+                             src="{{ asset('../img/apartments/pomorie/pomorie-new-4.jpeg') }}"
                              data-holder-rendered="true"> </a></div>
                 <div class="row" style="text-align: center; display: block;">
-                    <h4 class="media-heading">Guest House More</h4>
+                    <h4 class="media-heading">Tiffany Boutique Suits</h4>
                     {!! trans('home.pomorie_house_desc') !!}
                 </div>
             </div>

@@ -16,7 +16,7 @@ return [
 
     // Names
     'pomorie_name' => 'Поморие',
-    'pomorie_house_name' => 'Guest House More',
+    'pomorie_house_name' => 'Tiffany Boutique Suits',
 
     'primorsko_name' => 'Приморско',
     'primorsko_house_name' => 'Tiffany Joy Apartments',
@@ -124,7 +124,7 @@ return [
 
     //prices pomorie
     'pomorie_prices_start_from' => 'Цените започват от : &nbsp; 36 лв.',
-    'pomorie_house_name_price' => 'Guest House <br/> More',
+    'pomorie_house_name_price' => 'Tiffany Boutique <br/> Suits',
 
     'pomorie_five_room_price' => '96 лв.',
     'pomorie_double_room_price' => '36 лв.',

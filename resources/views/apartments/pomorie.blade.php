@@ -6,10 +6,10 @@
 </div>
 
 <div id="pomorie-appartment-modal-1" class="col-md-6 slider">
-    @for($i=1; $i<22; $i++)
+    @for($i=1; $i<=20; $i++)
         <div class="mySlides pomorie_content">
-            <div class="numbertext">{{ $i }} / 22</div>
-            <img src="img/apartments/pomorie/{{ $i }}.jpg" >
+            <div class="numbertext">{{ $i }} / 20</div>
+            <img src="img/apartments/pomorie/pomorie-new-{{ $i }}.jpeg" >
         </div>
     @endfor
 
@@ -18,9 +18,9 @@
 
 
   <div class="row">
-    @for($i=1; $i<22; $i++)
+    @for($i=1; $i<=20; $i++)
     <div class="column">
-      <img class="demo cursor pomorie" src="img/apartments/pomorie/{{ $i }}.jpg"  onclick="currentSlide({{ $i }}, 'pomorie')" alt="Guest House More">
+      <img class="demo cursor pomorie" src="img/apartments/pomorie/pomorie-new-{{ $i }}.jpeg"  onclick="currentSlide({{ $i }}, 'pomorie')" alt="Tiffany Boutique Suits">
     </div>
     @endfor
   </div>

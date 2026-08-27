@@ -1960,7 +1960,7 @@
                     <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
                         <div class="price-block-wrapper wow fadeInLeft" data-wow-delay="0.2s">
                             <div class="icon">
-                                <img src="../img/blog/pm_house.jpg" width="200" height="200">
+                                <img src="../img/apartments/pomorie/pomorie-new-4.jpeg" width="200" height="200">
                             </div>
 
                             <div class="colmun-title">
